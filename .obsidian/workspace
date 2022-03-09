@@ -4,7 +4,7 @@
     "type": "split",
     "children": [
       {
-        "id": "bd052e2f61e3a0df",
+        "id": "6a2608303a2dca72",
         "type": "leaf",
         "state": {
           "type": "empty",
@@ -138,17 +138,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "bd052e2f61e3a0df",
+  "active": "6a2608303a2dca72",
   "lastOpenFiles": [
-    "Field theory/tensor_field_theory.md",
-    "Field theory/tensor_field_Lagrangian_symmetry.md",
+    "LICENSE.md",
+    "README.md",
     "Representation theory/!to-do.md",
+    "Field theory/tensor_field_Lagrangian_symmetry.md",
+    "Field theory/tensor_field_theory.md",
     "Field theory/!to-do.md",
     "[tensor_field_theory.md",
-    "README.md",
     "Field theory/Untitled.md",
     "Templates/!to-do.md",
-    "Templates/kanban.md",
-    "Excalidraw/Drawing 2022-03-09 00.44.31.excalidraw.md"
+    "Templates/kanban.md"
   ]
 }
