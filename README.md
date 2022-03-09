@@ -1,8 +1,8 @@
 # Scientific Notes
 
-### Notes on physics and mathematics
+## Notes on physics and mathematics
 
-Notes on topics in physics and mathematics, that I find myself returning to frequently. 
+Notes on topics in physics and mathematics, that I find myself returning to frequently.
 
 This repository is an [Obsidian](https://obsidian.md/) vault.
 
@@ -15,7 +15,7 @@ This repository is an [Obsidian](https://obsidian.md/) vault.
 ```
 cd <parent_directory>
 
-git clone https://github.com/Booodaness/Scientific_Notes 
+git clone https://github.com/Booodaness/Scientific_Notes
 ```
 
 3. Open ```<parent_directory>/Scientific_Notes``` as a new Obsidian vault.
@@ -24,9 +24,9 @@ git clone https://github.com/Booodaness/Scientific_Notes
 
 ## Obsidian plugins used
 
-To use the Obsidian [community plugins](https://obsidian.md/plugins) used in this vault, 
+To use the Obsidian [community plugins](https://obsidian.md/plugins) used in this vault,
 
-1. Go to ```Options``` --> ```Community plugins``` --> disable ```Safe mode```. 
+1. Go to ```Options``` --> ```Community plugins``` --> disable ```Safe mode```.
 
 2. Install the following plugins by going to ```Browse``` or by clicking the links below:
 
@@ -40,7 +40,7 @@ Enable the above plugins in ```Community plugins```.
 
 ## A related project
 
-The main reason to make the notes in this repository is to assimilate various ideas in physics and mathematics, and ultimately be able to use and share the concepts learned. 
+The main reason to make the notes in this repository is to assimilate various ideas in physics and mathematics, and ultimately be able to use and share the concepts learned.
 
 To post my thoughts, I maintain the blog [Tempus Spatium](https://booodaness.github.io/tempus_spatium/), dedicated to physics, mathematics and philosophy. Many posts on the site are notes from this repository, but converted into a more readable and less personal format. So, feel free to visit the blog!
 
