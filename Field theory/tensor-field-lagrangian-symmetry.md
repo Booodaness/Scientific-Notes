@@ -10,7 +10,7 @@ $$
 T^{\rho \sigma} = \pi^{\rho \phantom{M} N}_{\phantom{\rho} M} \nabla^\sigma \phi^M_{\phantom{M} N} - \eta^{\rho \sigma} \mathcal{L}
 $$
 
-The above tensor is a conserved current,
+The above tensor is a [[tensor-field-theory#Noether's theorem|conserved current]],
 
 $$\nabla_\rho T^{\rho \sigma} = 0$$
 

@@ -8,7 +8,7 @@ To make the tensor notation a little less messy, let us use the tuple index nota
 
 ## Euler-Lagrange equations
 
-Let us work in flat spacetime characterized by the Minkowski metric $\eta_{\alpha \beta}$ . Assume the Lagrangian density $\mathcal{L}$ of a field depends explicitly on only the field $\phi^M_{\phantom{M} N}$ and its first covariant derivatives $\nabla_\rho \phi^M_{\phantom{M} N}$ .
+Let us work in flat spacetime characterized by the Minkowski metric $\eta_{\alpha \beta}$ . Assume the Lagrangian density $\mathcal{L}$ of a field depends explicitly on only the [[tensors|tensor]] field $\phi^M_{\phantom{M} N}$ and its first covariant derivatives $\nabla_\rho \phi^M_{\phantom{M} N}$ .
 
 Now, the action for the field can be written as,
 
@@ -176,11 +176,11 @@ $J^{\rho}_{\phantom{\rho} \sigma} \left( \psi^\lambda \right) = \psi^\lambda B^\
 $$
 \therefore X^\rho = \psi^\lambda B^\rho_{\phantom{\rho} \lambda \sigma}
 $$
-By the definition of tensors as multilinear maps, $B^\rho_{\phantom{\rho} \lambda \sigma}​$ are the components of a bilinear product, i.e.,
+By the definition of tensors as multilinear maps, $B^\rho_{\phantom{\rho} \lambda \sigma}​$ are the components of a [[bilinear-products|bilinear product]], i.e.,
 
 $\pmb{\mathcal{B}} \left( \pmb{e}_\lambda , \pmb{e}_\sigma \right) = B^\rho_{\phantom{\rho} \lambda \sigma} \pmb{e}_\rho$
 
-The ordered pair $\left( \pmb{\mathcal{B}}, \pmb{\psi} \right)$ where $\pmb{\psi}$ is a variable parameterizing a vector space, generates an algebra on the vector space.
+The ordered pair $\left( \pmb{\mathcal{B}}, \pmb{\psi} \right)$ where $\pmb{\psi}$ is a variable parameterizing a vector space, generates an [[algebras|algebra]] on the vector space.
 
 We also have the reverse scenario where an algebra over a vector space corresponds to a generator, yielding the Noether current:
 $$

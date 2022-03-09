@@ -10,6 +10,7 @@ kanban-plugin: basic
 
 ## In progress
 
+- [ ] gamma matrices
 
 
 ## Done
