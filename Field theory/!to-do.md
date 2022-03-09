@@ -6,6 +6,7 @@ kanban-plugin: basic
 
 ## To do
 
+- [ ] Klein-Gordon Equation
 - [ ] Stress-energy tensor for particles
 - [ ] Generators and Algebras
 
