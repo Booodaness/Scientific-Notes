@@ -82,7 +82,7 @@ $\Phi^K_{\phantom{K} L} B^{L \phantom{K} J \phantom{I} I^\prime}_{\phantom{L} K 
 
 ### Implicit relationships
 
-If two of the three objects that can be used to characterize an algebra have a multilinear relationship of their own (an '_implicit relationship_'), then one necessarily needs only _one_ object to characterize the algebra, as the other two can be obtained from the [usual multilinear relationship](#multilinear_relationship) and the implicit relationship.
+If two of the three objects that can be used to characterize an algebra have a multilinear relationship of their own (an '_implicit relationship_'), then one necessarily needs only _one_ object to characterize the algebra, as the other two can be obtained from the [[bilinear-products#Bilinear products as linear maps|usual multilinear relationship]] and the implicit relationship.
 
 ## Degrees of freedom
 
@@ -105,7 +105,7 @@ _Representation theory_ is a discipline in which algebra is studied by represent
 
 We will represent $\pmb{J}$ as a tensor in an implicit basis. Our little 'magic trick' will be to identify the degrees of freedom in $J^{I^\prime \phantom{I} J}_{\phantom{I^\prime} I \phantom{J} J^\prime}$ with a vector space parameterized by $\Phi^K_{\phantom{K} L}$ . All remaining components of $\pmb{J}$ will be some function of some component(s) of $\pmb{\Phi}$ .
 
-Thus, we are establishing an [implicit relationship](#implicit_relationships) between $\pmb{J}$ and $\pmb{\Phi}$  , thereby reducing the characterization of algebra to only one object of the three we have seen.
+Thus, we are establishing an implicit relationship between $\pmb{J}$ and $\pmb{\Phi}$  , thereby reducing the characterization of algebra to only one object of the three we have seen.
 
 ### The Jacobian
 

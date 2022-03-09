@@ -186,5 +186,3 @@ We also have the reverse scenario where an algebra over a vector space correspon
 $$
 j^\rho_{\phantom{\rho} \sigma} = \psi^\lambda \left( B^\xi_{\phantom{\xi} \lambda \sigma} \pi^{\rho \phantom{M} N}_{\phantom{\rho} M} \nabla_\xi \phi^M_{\phantom{M} N} - B^\rho_{\phantom{\rho} \lambda \sigma} \mathcal{L} \right)
 $$
-
-

@@ -6,11 +6,11 @@ kanban-plugin: basic
 
 ## To do
 
+- [ ] gamma matrices
 
 
 ## In progress
 
-- [ ] gamma matrices
 
 
 ## Done
