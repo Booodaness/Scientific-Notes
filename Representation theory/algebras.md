@@ -4,7 +4,7 @@
 
 ### Definition
 
-In the [[tensors#Components|component representation of bilinear products as linear maps]], we have a product of Jacobian components on the right hand side:
+In the [[bilinear-products#Components|component representation of bilinear products as linear maps]], we have a product of Jacobian components on the right hand side:
 
 $\Lambda^{I^\prime}_{\phantom{I^\prime} I} \Lambda^{J}_{\phantom{L} J^\prime} = \Lambda^{i_1^\prime}_{\phantom{i_1^\prime} i_1} \dots \Lambda^{i_p^\prime}_{\phantom{i_p^\prime} i_p} \Lambda^{j_1}_{\phantom{j_1} j_1^\prime} \dots \Lambda^{j_q}_{\phantom{j_q} j_q^\prime}$
 

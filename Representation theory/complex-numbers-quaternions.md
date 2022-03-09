@@ -125,7 +125,7 @@ $\Lambda^{i^\prime}_{\phantom{i^\prime} i} = \begin{pmatrix} a & -b & -c & -d \\
 
 ### Algebra
 
-Just as before, we want to characterize the above Jacobian using its degrees of freedom, as,
+Just as before, we want to characterize the above Jacobian using its [[algebras#Degrees of freedom|degrees of freedom]], as,
 
 $\phi^k = \begin{pmatrix} a \\ b \\ c \\ d \end{pmatrix}$
 

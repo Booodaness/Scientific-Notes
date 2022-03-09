@@ -2,7 +2,7 @@
 
 ## Definition
 
-Given a vector space $V$ , its dual space $V^\text{*}$ and rank $\left( p, q \right)$ tensors $\pmb{\Phi}$ and $\pmb{T}$ , a _bilinear product_ $\mathcal{B}$ is a bilinear map,
+Given a vector space $V$ , its dual space $V^\text{*}$ and rank $\left( p, q \right)$ [[tensors]] $\pmb{\Phi}$ and $\pmb{T}$ , a _bilinear product_ $\mathcal{B}$ is a bilinear map,
 
 $\mathcal{B} \left( \pmb{\Phi}, \pmb{T} \right) \in \underset{i=1}{\overset{p}{\bigotimes}} V \underset{j=1}{\overset{q}{\bigotimes}} V^\text{*}$
 
