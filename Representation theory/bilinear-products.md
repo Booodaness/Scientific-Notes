@@ -1,4 +1,5 @@
 # Bilinear Products
+#bilinear-products #tensors 
 
 ## Definition
 

@@ -1,5 +1,7 @@
 # Complex numbers and quaternions
 
+#algebras #bilinear-products 
+
 ## Complex numbers
 
 ### 2-dimensional orthogonal group

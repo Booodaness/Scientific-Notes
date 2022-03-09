@@ -1,6 +1,6 @@
 # Tensor field Lagrangian from symmetry considerations
 
-#tensor-field-theory #energy-momentum-tensor 
+#tensor-field-theory #energy-momentum-tensor #tensors
 
 ## Energy-momentum tensor
 
