@@ -154,7 +154,7 @@ $$
 
 where $\nabla^\sigma = g^{\sigma \lambda} \nabla_\lambda$ .
 
-We will derive the general form of a 'realistic' Lagrangian in [[tensor_field_Lagrangian_symmetry|Tensor field Lagrangian from symmetry considerations]].
+We will derive the general form of a 'realistic' Lagrangian in [[tensor-field-lagrangian-symmetry|Tensor field Lagrangian from symmetry considerations]].
 
 ## Generators and algebras
 

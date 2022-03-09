@@ -15,7 +15,7 @@ This repository is an [Obsidian](https://obsidian.md/) vault.
 ```
 cd <parent_directory>
 
-git clone https://github.com/Booodaness/Scientific_Notes
+git clone https://github.com/Booodaness/Scientific-Notes
 ```
 
 3. Open ```<parent_directory>/Scientific_Notes``` as a new Obsidian vault.

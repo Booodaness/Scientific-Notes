@@ -4,7 +4,7 @@
 
 ## Energy-momentum tensor
 
-From [[tensor_field_theory#Energy-momentum tensor]], we have,
+From [[tensor-field-theory#Energy-momentum tensor]], we have,
 
 $$
 T^{\rho \sigma} = \pi^{\rho \phantom{M} N}_{\phantom{\rho} M} \nabla^\sigma \phi^M_{\phantom{M} N} - \eta^{\rho \sigma} \mathcal{L}
@@ -37,7 +37,7 @@ For this to be true in general, we must have,
 
 $$\pi^{\rho \phantom{M} N}_{\phantom{\rho} M} = \nabla^\rho \phi^{\phantom{M} N}_{M}$$
 
-Recalling the [[tensor_field_theory#Canonical momentum tensor|definition of the canonical momentum tensor]],
+Recalling the [[tensor-field-theory#Canonical momentum tensor|definition of the canonical momentum tensor]],
 
 $\frac{\partial \mathcal{L}}{\partial \left( \nabla_\rho \phi^M_{\phantom{M} N} \right)} = \nabla^\rho \phi^{\phantom{M} N}_{M}$
 
