@@ -10,33 +10,7 @@ $\pmb{\gamma}_k = B^{i^\prime}_{\phantom{i^\prime} k i} \: \pmb{\theta}^i \otime
 
 Note that even though the gamma matrices above look like Jacobians, they transform like dual vectors. In the above equation, a gamma matrix (or more appropriately, [[tensors|tensor]]) has only one free index, downstairs.
 
-## Examples
-
-### Complex numbers
-
-For [[complex-numbers-quaternions#Complex numbers|complex numbers]], the components of the dual gamma matrices are found to be:
-
-$$
-\begin{align}
-\pmb{\gamma}_0 & = \begin{pmatrix} 1 & 0 \\ 0 & 1 \end{pmatrix} \\
-\pmb{\gamma}_1 & = \begin{pmatrix} 0 & -1 \\ 1 & 0 \end{pmatrix}
-\end{align}
-$$
-
-### Quaternions
-
-For [[complex-numbers-quaternions#Quaternions|quaternions]], using the [[complex-numbers-quaternions#Algebra|components]] of $B^{i^\prime}_{\phantom{i^\prime} k i}$ and the definition of the gamma matrices, we find,
-
-$$
-\begin{align}
-\pmb{\gamma}_0 & = \begin{pmatrix} 1 & 0 & 0 & 0 \\ 0 & 1 & 0 & 0 \\ 0 & 0 & 1 & 0 \\ 0 & 0 & 0 & 1 \end{pmatrix} \\
-\pmb{\gamma}_1 & = \begin{pmatrix} 0 & -1 & 0 & 0 \\ 1 & 0 & 0 & 0 \\ 0 & 0 & 0 & 1 \\ 0 & 0 & -1 & 0 \end{pmatrix} \\
-\pmb{\gamma}_2 & = \begin{pmatrix} 0 & 0 & -1 & 0 \\ 0 & 0 & 0 & -1 \\ 1 & 0 & 0 & 0 \\ 0 & 1 & 0 & 0 \end{pmatrix} \\
-\pmb{\gamma}_3 & = \begin{pmatrix} 0 & 0 & 0 & -1 \\ 0 & 0 & 1 & 0 \\ 0 & 1 & 0 & 0 \\ -1 & 0 & 0 & 0 \end{pmatrix} \\
-\end{align}
-$$
-
-## For any parameterized Jacobian
+## From a parameterized Jacobian
 
 Given a Jacobian parameterized by a vector space as $\Lambda^{i^\prime}_{\phantom{i^\prime} i} \left( \phi^k \right)$ , we have,
 
@@ -64,3 +38,8 @@ $$
 \gamma_{k \phantom{i^\prime} i}^{\phantom{k} i^\prime} & = \Lambda^{i^\prime}_{\phantom{i^\prime} i} \left( \delta^j_{\phantom{j} k} \right)
 \end{align}
 $$
+
+## Examples
+
+![[complex-numbers-quaternions#Gamma matrices]]
+

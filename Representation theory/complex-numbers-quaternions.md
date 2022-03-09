@@ -176,3 +176,29 @@ j & j & - k & - 1 & i \\
 k & k & j & - i & - 1
 \end{matrix}
 $$
+
+## Gamma matrices
+
+### Complex numbers
+
+For complex numbers, the components of the dual gamma matrices are found to be:
+
+$$
+\begin{align}
+\pmb{\gamma}_0 & = \begin{pmatrix} 1 & 0 \\ 0 & 1 \end{pmatrix} \\
+\pmb{\gamma}_1 & = \begin{pmatrix} 0 & -1 \\ 1 & 0 \end{pmatrix}
+\end{align}
+$$
+
+### Quaternions
+
+For quaternions, using the components of $B^{i^\prime}_{\phantom{i^\prime} k i}$ and the definition of the gamma matrices, we find,
+
+$$
+\begin{align}
+\pmb{\gamma}_0 & = \begin{pmatrix} 1 & 0 & 0 & 0 \\ 0 & 1 & 0 & 0 \\ 0 & 0 & 1 & 0 \\ 0 & 0 & 0 & 1 \end{pmatrix} \\
+\pmb{\gamma}_1 & = \begin{pmatrix} 0 & -1 & 0 & 0 \\ 1 & 0 & 0 & 0 \\ 0 & 0 & 0 & 1 \\ 0 & 0 & -1 & 0 \end{pmatrix} \\
+\pmb{\gamma}_2 & = \begin{pmatrix} 0 & 0 & -1 & 0 \\ 0 & 0 & 0 & -1 \\ 1 & 0 & 0 & 0 \\ 0 & 1 & 0 & 0 \end{pmatrix} \\
+\pmb{\gamma}_3 & = \begin{pmatrix} 0 & 0 & 0 & -1 \\ 0 & 0 & 1 & 0 \\ 0 & 1 & 0 & 0 \\ -1 & 0 & 0 & 0 \end{pmatrix} \\
+\end{align}
+$$
