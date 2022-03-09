@@ -33,12 +33,17 @@
       "size": 0,
       "tags": 0,
       "links": 0
+    },
+    "LICENSE.md": {
+      "size": 15280,
+      "tags": 0,
+      "links": 0
     }
   },
   "commitTypes": {
     "/": {
       "Refactor": 36,
-      "Create": 18,
+      "Create": 19,
       "Link": 6,
       "Expand": 2
     }
@@ -64,7 +69,7 @@
       "16": 0,
       "17": 0,
       "18": 3,
-      "19": 0,
+      "19": 1,
       "20": 17,
       "21": 6,
       "22": 19,
@@ -75,7 +80,7 @@
     "/": {
       "Mon": 0,
       "Tue": 45,
-      "Wed": 17,
+      "Wed": 18,
       "Thu": 0,
       "Fri": 0,
       "Sat": 0,
@@ -106,7 +111,8 @@
         "<a class=\"internal-link\" href=\"Untitled.md\"> Untitled </a>",
         "<a class=\"internal-link\" href=\"[tensor_field_theory.md\"> [tensor_field_theory </a>",
         "<a class=\"internal-link\" href=\"README.md\"> README </a>",
-        "<a class=\"internal-link\" href=\"Untitled.md\"> Untitled </a>"
+        "<a class=\"internal-link\" href=\"Untitled.md\"> Untitled </a>",
+        "<a class=\"internal-link\" href=\"LICENSE.md\"> LICENSE </a>"
       ],
       "Renamed": [
         "<a class=\"internal-link\" href=\"Field Theory/tensor_field_theory.md\"> tensor_field_theory </a>",
