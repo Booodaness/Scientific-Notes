@@ -18,7 +18,7 @@ cd <parent_directory>
 git clone https://github.com/Booodaness/Scientific-Notes
 ```
 
-3. Open ```<parent_directory>/Scientific_Notes``` as a new Obsidian vault.
+3. Open ```<parent_directory>/Scientific-Notes``` as a new Obsidian vault.
 
 4. Optionally, install the following Obsidian plugins that were used to make this project.
 
