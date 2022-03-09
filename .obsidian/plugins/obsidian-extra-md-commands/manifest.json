@@ -1,0 +1,10 @@
+{
+	"id": "obsidian-extra-md-commands",
+	"name": "Extra Markdown Commands",
+	"version": "0.11",
+	"minAppVersion": "0.12.0",
+	"description": "Adds various commands, e.g. for underscore-bold or <cite>.",
+	"author": "pseudometa",
+	"authorUrl": "https://chris-grieser.de/",
+	"isDesktopOnly": false
+}

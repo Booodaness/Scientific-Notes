@@ -1,0 +1,10 @@
+{
+  "showVaultName": true,
+  "showCurrentFileName": true,
+  "showPopups": false,
+  "customVaultName": "",
+  "showFileExtension": false,
+  "useLoadedTime": true,
+  "connectOnStart": true,
+  "autoHideStatusBar": true
+}

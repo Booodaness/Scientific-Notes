@@ -1,0 +1,154 @@
+{
+  "main": {
+    "id": "dd96e95c79536ea7",
+    "type": "split",
+    "children": [
+      {
+        "id": "5b3ee397445f3792",
+        "type": "leaf",
+        "state": {
+          "type": "empty",
+          "state": {}
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "c41706ae56fc3e83",
+    "type": "split",
+    "children": [
+      {
+        "id": "189eddc432692468",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "7bc96e96051686b6",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "09f461aa015e7987",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "40d09a0b05d63d70",
+            "type": "leaf",
+            "state": {
+              "type": "recent-files",
+              "state": {}
+            }
+          },
+          {
+            "id": "d91bd56eb0bb6675",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "horizontal",
+    "width": 224
+  },
+  "right": {
+    "id": "4e7996890feebbad",
+    "type": "split",
+    "children": [
+      {
+        "id": "3f3753c38f819e61",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "9ae6f09cd267ca5b",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "a7771f1770f3e2c3",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "7fe8602fec933e54",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {}
+            }
+          },
+          {
+            "id": "6ca9fc538e5c53f8",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": false
+              }
+            }
+          },
+          {
+            "id": "50afaf39314c568a",
+            "type": "leaf",
+            "state": {
+              "type": "advanced-tables-toolbar",
+              "state": {}
+            }
+          }
+        ],
+        "currentTab": 3
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "active": "5b3ee397445f3792",
+  "lastOpenFiles": [
+    "Field theory/tensor_field_theory.md",
+    "Field theory/tensor_field_Lagrangian_symmetry.md",
+    "Field theory/!to-do.md",
+    "Representation theory/!to-do.md",
+    "[tensor_field_theory.md",
+    "README.md",
+    "Field theory/Untitled.md",
+    "Templates/!to-do.md",
+    "Templates/kanban.md",
+    "Excalidraw/Drawing 2022-03-09 00.44.31.excalidraw.md"
+  ]
+}

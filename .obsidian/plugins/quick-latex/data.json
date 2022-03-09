@@ -1,0 +1,19 @@
+{
+  "moveIntoMath_toggle": true,
+  "autoCloseMath_toggle": true,
+  "autoCloseRound_toggle": true,
+  "autoCloseSquare_toggle": true,
+  "autoCloseCurly_toggle": true,
+  "addAlignBlock_toggle": true,
+  "addAlignBlock_parameter": "align*",
+  "addMatrixBlock_toggle": true,
+  "addMatrixBlock_parameter": "pmatrix",
+  "autoFraction_toggle": true,
+  "autoLargeBracket_toggle": true,
+  "autoSumLimit_toggle": true,
+  "autoEncloseSup_toggle": false,
+  "autoEncloseSub_toggle": false,
+  "encloseSelection_toggle": true,
+  "customShorthand_toggle": true,
+  "customShorthand_parameter": "sq:\\sqrt{}, bb:\\mathbb{}, bf:\\mathbf{}, te:\\text{}, inf:\\infty, cd:\\cdot, qu:\\quad, ti:\\times, al:\\alpha, be:\\beta, ga:\\gamma, Ga:\\Gamma, de:\\delta, De:\\Delta, ep:\\epsilon, ze:\\zeta, et:\\eta, th:\\theta, Th:\\Theta, io:\\iota, ka:\\kappa, la:\\lambda, La:\\Lambda, mu:\\mu, nu:\\nu, xi:\\xi, Xi:\\Xi, pi:\\pi, Pi:\\Pi, rh:\\rho, si:\\sigma, Si:\\Sigma, ta:\\tau, up:\\upsilon, Up:\\Upsilon, ph:\\phi, Ph:\\Phi, ch:\\chi, ps:\\psi, Ps:\\Psi, om:\\omega, Om:\\Omega"
+}

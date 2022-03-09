@@ -1,0 +1,169 @@
+{
+  "initialized": true,
+  "trackedProjects": [
+    "/"
+  ],
+  "filesCheckpoint": {
+    "Field theory/tensor_field_Lagrangian_symmetry.md": {
+      "size": 2832,
+      "tags": 2,
+      "links": 2
+    },
+    "Field theory/tensor_field_theory.md": {
+      "size": 10245,
+      "tags": 5,
+      "links": 1
+    },
+    "Field theory/!to-do.md": {
+      "size": 0,
+      "tags": 0,
+      "links": 0
+    },
+    "Representation theory/!to-do.md": {
+      "size": 350,
+      "tags": 0,
+      "links": 0
+    },
+    "Templates/!to-do.md": {
+      "size": 143,
+      "tags": 0,
+      "links": 0
+    }
+  },
+  "commitTypes": {
+    "/": {
+      "Refactor": 35,
+      "Create": 16,
+      "Link": 6,
+      "Expand": 2
+    }
+  },
+  "dailyCommits": {
+    "/": {
+      "0": 4,
+      "1": 6,
+      "2": 4,
+      "3": 0,
+      "4": 0,
+      "5": 0,
+      "6": 0,
+      "7": 0,
+      "8": 0,
+      "9": 0,
+      "10": 0,
+      "11": 0,
+      "12": 0,
+      "13": 0,
+      "14": 0,
+      "15": 0,
+      "16": 0,
+      "17": 0,
+      "18": 0,
+      "19": 0,
+      "20": 17,
+      "21": 6,
+      "22": 19,
+      "23": 3
+    }
+  },
+  "weeklyCommits": {
+    "/": {
+      "Mon": 0,
+      "Tue": 45,
+      "Wed": 14,
+      "Thu": 0,
+      "Fri": 0,
+      "Sat": 0,
+      "Sun": 0
+    }
+  },
+  "recentCommits": {
+    "/": {
+      "Expanded": [
+        "<a class=\"internal-link\" href=\"Field theory/tensor_field_Lagrangian_symmetry.md\"> tensor_field_Lagrangian_symmetry </a>",
+        "<a class=\"internal-link\" href=\"Field theory/tensor_field_Lagrangian_symmetry.md\"> tensor_field_Lagrangian_symmetry </a>"
+      ],
+      "Created": [
+        "<a class=\"internal-link\" href=\"tensor_field_theory/Untitled Kanban.md\"> Untitled Kanban </a>",
+        "<a class=\"internal-link\" href=\"Field theory/Untitled.md\"> Untitled </a>",
+        "<a class=\"internal-link\" href=\"Field theory/Untitled.md\"> Untitled </a>",
+        "<a class=\"internal-link\" href=\"Field theory/Untitled.md\"> Untitled </a>",
+        "<a class=\"internal-link\" href=\"Untitled Kanban.md\"> Untitled Kanban </a>",
+        "<a class=\"internal-link\" href=\"fff.md\"> fff </a>",
+        "<a class=\"internal-link\" href=\"Field theory/Untitled.md\"> Untitled </a>",
+        "<a class=\"internal-link\" href=\"Field theory/!to-do 1.md\"> !to-do 1 </a>",
+        "<a class=\"internal-link\" href=\"Representation theory/Untitled.md\"> Untitled </a>",
+        "<a class=\"internal-link\" href=\"Drawing 2022-03-08 23.00.42.excalidraw.md\"> Drawing 2022-03-08 23.00.42.excalidraw </a>",
+        "<a class=\"internal-link\" href=\"Excalidraw/Drawing 2022-03-09 00.44.31.excalidraw.md\"> Drawing 2022-03-09 00.44.31.excalidraw </a>",
+        "<a class=\"internal-link\" href=\"Templates/Untitled.md\"> Untitled </a>",
+        "<a class=\"internal-link\" href=\"Templates/Kanban.md\"> Kanban </a>",
+        "<a class=\"internal-link\" href=\"Field theory/Untitled.md\"> Untitled </a>",
+        "<a class=\"internal-link\" href=\"Untitled.md\"> Untitled </a>",
+        "<a class=\"internal-link\" href=\"[tensor_field_theory.md\"> [tensor_field_theory </a>"
+      ],
+      "Renamed": [
+        "<a class=\"internal-link\" href=\"Field Theory/tensor_field_theory.md\"> tensor_field_theory </a>",
+        "<a class=\"internal-link\" href=\"Field Theory/Tensor field theory.md\"> Tensor field theory </a>",
+        "<a class=\"internal-link\" href=\"Field theory/Tensor field theory.md\"> Tensor field theory </a>",
+        "<a class=\"internal-link\" href=\"Field theory/Scalar field theory Lagrangian from symmetry considerations.md\"> Scalar field theory Lagrangian from symmetry considerations </a>",
+        "<a class=\"internal-link\" href=\"Field theory/Scalar field theory.md\"> Scalar field theory </a>",
+        "<a class=\"internal-link\" href=\"Field theory/Scalar field theory Lagran.md\"> Scalar field theory Lagran </a>",
+        "<a class=\"internal-link\" href=\"Field theory/Scalar field theory Lagrangian.md\"> Scalar field theory Lagrangian </a>",
+        "<a class=\"internal-link\" href=\"Field theory/tensor_field_Lagrangian_symmetry_considerations.md\"> tensor_field_Lagrangian_symmetry_considerations </a>",
+        "<a class=\"internal-link\" href=\"Field theory/tensor_field_theory.md\"> tensor_field_theory </a>",
+        "<a class=\"internal-link\" href=\"Field theory/tensor_field_Lagrangian_symmetry.md\"> tensor_field_Lagrangian_symmetry </a>",
+        "<a class=\"internal-link\" href=\"Field theory/Projects.md\"> Projects </a>",
+        "<a class=\"internal-link\" href=\"Field theory/tensor_field_theory_1.md\"> tensor_field_theory_1 </a>",
+        "<a class=\"internal-link\" href=\"Field theory/tensor_field_theory.md\"> tensor_field_theory </a>",
+        "<a class=\"internal-link\" href=\"Field theory/!Projects.md\"> !Projects </a>",
+        "<a class=\"internal-link\" href=\"Field theory/!To-do.md\"> !To-do </a>",
+        "<a class=\"internal-link\" href=\"Field theory/!to_do.md\"> !to_do </a>",
+        "<a class=\"internal-link\" href=\"Field theory/!todos.md\"> !todos </a>",
+        "<a class=\"internal-link\" href=\"Field theory/to-do.md\"> to-do </a>",
+        "<a class=\"internal-link\" href=\"Field theory/!to-do.md\"> !to-do </a>",
+        "<a class=\"internal-link\" href=\"Representation theory/!to-do 1.md\"> !to-do 1 </a>",
+        "<a class=\"internal-link\" href=\"Representation theory/!to-do.md\"> !to-do </a>",
+        "<a class=\"internal-link\" href=\"Templates/!to-do.md\"> !to-do </a>"
+      ],
+      "Tagged": [
+        "<a class=\"internal-link\" href=\"Field theory/tensor_field_theory.md\"> tensor_field_theory </a>",
+        "<a class=\"internal-link\" href=\"Field theory/tensor_field_Lagrangian_symmetry.md\"> tensor_field_Lagrangian_symmetry </a>"
+      ],
+      "Refactored": [],
+      "Deleted": [
+        "<a class=\"internal-link\" href=\"tensor_field_theory/Untitled Kanban.md\"> Untitled Kanban </a>",
+        "<a class=\"internal-link\" href=\"Field theory/Scalar field theory Lagrangian.md\"> Scalar field theory Lagrangian </a>",
+        "<a class=\"internal-link\" href=\"Field theory/Scalar field theory Lagrangian.md\"> Scalar field theory Lagrangian </a>",
+        "<a class=\"internal-link\" href=\"fff.md\"> fff </a>",
+        "<a class=\"internal-link\" href=\"Field theory/generators_algebras.md\"> generators_algebras </a>",
+        "<a class=\"internal-link\" href=\"Drawing 2022-03-08 23.00.42.excalidraw.md\"> Drawing 2022-03-08 23.00.42.excalidraw </a>",
+        "<a class=\"internal-link\" href=\"Representation theory/Untitled.md\"> Untitled </a>",
+        "<a class=\"internal-link\" href=\"Excalidraw/Drawing 2022-03-09 00.44.31.excalidraw.md\"> Drawing 2022-03-09 00.44.31.excalidraw </a>",
+        "<a class=\"internal-link\" href=\"Templates/kanban.md\"> kanban </a>",
+        "<a class=\"internal-link\" href=\"Field theory/Untitled.md\"> Untitled </a>",
+        "<a class=\"internal-link\" href=\"README.md\"> README </a>",
+        "<a class=\"internal-link\" href=\"[tensor_field_theory.md\"> [tensor_field_theory </a>"
+      ],
+      "Linked": [
+        "<a class=\"internal-link\" href=\"Field theory/tensor_field_theory.md\"> tensor_field_theory </a>",
+        "<a class=\"internal-link\" href=\"Field theory/tensor_field_Lagrangian_symmetry.md\"> tensor_field_Lagrangian_symmetry </a>",
+        "<a class=\"internal-link\" href=\"Field theory/tensor_field_Lagrangian_symmetry.md\"> tensor_field_Lagrangian_symmetry </a>",
+        "<a class=\"internal-link\" href=\"Field theory/tensor_field_Lagrangian_symmetry.md\"> tensor_field_Lagrangian_symmetry </a>"
+      ],
+      "Removed Tags from": [],
+      "Removed Links from": [
+        "<a class=\"internal-link\" href=\"Field theory/tensor_field_Lagrangian_symmetry.md\"> tensor_field_Lagrangian_symmetry </a>"
+      ]
+    }
+  },
+  "ignoreList": [],
+  "divWidth": 50,
+  "divHeight": 400,
+  "divAlign": "left",
+  "topCommits": 2,
+  "commitThreshold": 2000,
+  "commitPerc": 15,
+  "fillColor": "rgba(51, 153, 204, 0.4)",
+  "borderColor": "rgba(51, 153, 204, 1)",
+  "gridColor": "grey"
+}
