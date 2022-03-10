@@ -8,7 +8,7 @@ This repository is an [Obsidian](https://obsidian.md/) vault.
 
 ## To view locally
 
-1. [Download Obsidian](https://obsidian.md/download). (You could alternatively use Markdown processors such as [StackEdit](https://stackedit.io/) or [Dillinger](https://dillinger.io/), but some features of the vault such as wikilinks, kanbans, advanced tables etc. may be unavailable).
+1. [Download Obsidian](https://obsidian.md/download). (You could alternatively use Markdown processors such as [StackEdit](https://stackedit.io/) or [Dillinger](https://dillinger.io/), but some features such as wikilinks, kanbans, advanced tables etc. may be unavailable).
 
 2. Make sure you have [Git](https://git-scm.com/), then open Git bash/cmd and clone this repository into your system:
 
