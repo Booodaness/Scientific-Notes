@@ -8,9 +8,9 @@ This repository is an [Obsidian](https://obsidian.md/) vault.
 
 ## To view locally
 
-1. [Download Obsidian](https://obsidian.md/download). (You could alternatively use Markdown processors such as [StackEdit](https://stackedit.io/) or [Dillinger](https://dillinger.io/), but some features such as wikilinks, kanbans, advanced tables etc. may be unavailable).
+1. [Download Obsidian](https://obsidian.md/download). (You could alternatively use Markdown processors such as [StackEdit](https://stackedit.io/) or [Dillinger](https://dillinger.io/), but some features such as wikilinks, extended markdown etc. may be unavailable).
 
-2. Make sure you have [Git](https://git-scm.com/), then open Git bash/cmd and clone this repository into your system:
+2. Make sure you have [Git](https://git-scm.com/), then open Git bash and clone this repository into your system:
 
 ```
 cd <parent_directory>
@@ -30,10 +30,10 @@ To use the Obsidian [community plugins](https://obsidian.md/plugins) used in thi
 
 2. Install the following plugins by going to ```Browse``` or by clicking the links below:
 
-- [Kanban](https://obsidian.md/plugins?search=Kanban#)
 - [Table Extended](https://obsidian.md/plugins?search=table%20exte#)
 - [Extra Markdown Commands](https://obsidian.md/plugins?search=extra%20mark#)
 - [Image Caption](https://obsidian.md/plugins?search=image%20caption#)
+- [Kanban](https://obsidian.md/plugins?search=Kanban#)
 
 Enable the above plugins in ```Community plugins```.
 
