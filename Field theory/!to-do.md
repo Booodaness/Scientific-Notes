@@ -6,6 +6,7 @@ kanban-plugin: basic
 
 ## To do
 
+- [ ] Harmonic Oscillators
 - [ ] Dirac equation
 - [ ] Klein-Gordon equation
 - [ ] Generators and algebras

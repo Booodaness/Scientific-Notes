@@ -6,11 +6,12 @@ kanban-plugin: basic
 
 ## To do
 
+- [ ] Gamma matrices
+- [ ] Spacetime algebra
 
 
 ## In progress
 
-- [ ] Gamma matrices
 
 
 ## Done

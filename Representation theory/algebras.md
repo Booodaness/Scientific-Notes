@@ -144,3 +144,7 @@ Now that we know one of the three usual objects will be required to characterize
 An algebra is described by its underlying Jacobian. Therefore, the form of the Jacobian is a sensible parameter for an algebraic structure. Due to the whole [[algebras#Degrees of freedom|degrees of freedom]] jargon, the form of the vector space representing the Jacobian comes for free. This means that to complete our description of an algebra, we must find the bilinear product from the Jacobian.
 
 We will explore the above procedure in [[complex-numbers-quaternions]] and [[gamma-matrices]].
+
+## Examples
+
+![[complex-numbers-quaternions]]
