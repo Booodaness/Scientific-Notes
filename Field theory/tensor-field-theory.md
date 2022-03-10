@@ -158,9 +158,13 @@ We will derive the general form of a 'realistic' Lagrangian in [[tensor-field-la
 
 ## Generators and algebras
 
+### Noether current
+
 Suppose a transformation of spacetime is represented by a Jacobian $J^{\rho}_{\phantom{\rho} \sigma}$ , parameterized by a vector $\psi^\lambda$ . An infinitesimal transformation can then be constructed as,
 
-$x^\rho \to x^\rho + J^{\rho}_{\phantom{\rho} \sigma} \left( \epsilon \: \psi^\lambda \right)$
+$x^\rho \pmb{e}_\rho \to x^\rho \pmb{e}_\rho + J^{\rho}_{\phantom{\rho} \sigma} \left( \epsilon \: \psi^\lambda \right) \pmb{e}_\rho$
+
+$\implies x^\rho \to x^\rho + J^{\rho}_{\phantom{\rho} \sigma} \left( \epsilon \: \psi^\lambda \right)$
 
 Assuming $\psi^\lambda$ is constrained to contain the components of $J^{\rho}_{\phantom{\rho} \sigma}$ , we can use the fact that scaling the components $\psi^\lambda$ also scales $J^{\rho}_{\phantom{\rho} \sigma}$ to assert,
 
@@ -183,6 +187,17 @@ $\pmb{\mathcal{B}} \left( \pmb{e}_\lambda , \pmb{e}_\sigma \right) = B^\rho_{\ph
 The ordered pair $\left( \pmb{\mathcal{B}}, \pmb{\psi} \right)$ where $\pmb{\psi}$ is a variable parameterizing a vector space, generates an [[algebras|algebra]] on the vector space.
 
 We also have the reverse scenario where an algebra over a vector space corresponds to a generator, yielding the Noether current:
+
 $$
 j^\rho_{\phantom{\rho} \sigma} = \psi^\lambda \left( B^\xi_{\phantom{\xi} \lambda \sigma} \pi^{\rho \phantom{M} N}_{\phantom{\rho} M} \nabla_\xi \phi^M_{\phantom{M} N} - B^\rho_{\phantom{\rho} \lambda \sigma} \mathcal{L} \right)
 $$
+
+If the action $S$ is symmetric under $J^{\rho}_{\phantom{\rho} \sigma} \left( \psi^\lambda \right)$ for all $\psi^\lambda \in V$ where $V$ is some vector space, we must have,
+
+$$j^\rho_{\phantom{\rho} \sigma} = B^\xi_{\phantom{\xi} \lambda \sigma} \pi^{\rho \phantom{M} N}_{\phantom{\rho} M} \nabla_\xi \phi^M_{\phantom{M} N} - B^\rho_{\phantom{\rho} \lambda \sigma} \mathcal{L}$$
+
+### Gamma matrices
+
+From the [[gamma-matrices#Definition|definition of the gamma matrices]],
+
+$$j^\rho_{\phantom{\rho} \sigma} = \pi^{\rho \phantom{M} N}_{\phantom{\rho} M} \gamma_{\sigma \phantom{\xi} \lambda}^{\phantom{\sigma} \xi} \nabla_\xi \phi^M_{\phantom{M} N} - \gamma_{\sigma \phantom{\rho} \lambda}^{\phantom{\sigma} \rho} \mathcal{L}$$
