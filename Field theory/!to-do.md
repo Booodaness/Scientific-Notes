@@ -6,9 +6,10 @@ kanban-plugin: basic
 
 ## To do
 
-- [ ] Klein-Gordon Equation
+- [ ] Dirac equation
+- [ ] Klein-Gordon equation
+- [ ] Generators and algebras
 - [ ] Stress-energy tensor for particles
-- [ ] Generators and Algebras
 
 
 ## In progress
@@ -18,8 +19,8 @@ kanban-plugin: basic
 ## Done
 
 **Complete**
-- [x] Tensor field Lagrangian from symmetry considerations
 - [x] Tensor field theory
+- [x] Tensor field Lagrangian from symmetry considerations
 
 
 

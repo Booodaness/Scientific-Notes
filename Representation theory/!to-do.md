@@ -6,16 +6,22 @@ kanban-plugin: basic
 
 ## To do
 
-- [ ] gamma matrices
 
 
 ## In progress
 
+- [ ] Gamma matrices
 
 
 ## Done
 
 **Complete**
+- [x] Notation
+- [x] Tensors
+- [x] Bilinear products
+- [x] Algebras
+- [x] Complex numbers and quaternions
+- [x] Gamma matrices
 
 
 
