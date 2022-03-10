@@ -8,7 +8,7 @@ This repository is an [Obsidian](https://obsidian.md/) vault.
 
 ## To view locally
 
-1. [Download Obsidian](https://obsidian.md/download).
+1. [Download Obsidian](https://obsidian.md/download). (You could alternatively use Markdown processors such as [StackEdit](https://stackedit.io/) or [Dillinger](https://dillinger.io/), but some features of the vault such as wikilinks, kanbans, advanced tables etc. may be unavailable).
 
 2. Make sure you have [Git](https://git-scm.com/), then open Git bash/cmd and clone this repository into your system:
 
@@ -31,7 +31,6 @@ To use the Obsidian [community plugins](https://obsidian.md/plugins) used in thi
 2. Install the following plugins by going to ```Browse``` or by clicking the links below:
 
 - [Kanban](https://obsidian.md/plugins?search=Kanban#)
-- [Excalidraw](https://obsidian.md/plugins?search=excalid#)
 - [Table Extended](https://obsidian.md/plugins?search=table%20exte#)
 - [Extra Markdown Commands](https://obsidian.md/plugins?search=extra%20mark#)
 - [Image Caption](https://obsidian.md/plugins?search=image%20caption#)
