@@ -17,19 +17,19 @@ $$\pmb{T} \left( \pmb{\theta}^{i_1}, \cdots, \pmb{\theta}^{i_p}, \pmb{e}_{j_1}, 
 
 The covector basis is defined to act on the vector basis and vice-versa as:
 
-$\pmb{\theta}^i \left( \pmb{e}_j \right) = \pmb{e}_j \left( \pmb{\theta}^i \right) = \delta^i_{\phantom{i}_j}$
+$$\pmb{\theta}^i \left( \pmb{e}_j \right) = \pmb{e}_j \left( \pmb{\theta}^i \right) = \delta^i_{\phantom{i}_j}$$
 
 Assuming that covectors act on vectors only and vice-versa under the tensor product, we can extend the action to multiple copies of basis vectors and covectors so that,
 
-$\underset{a=1}{\overset{p}{\bigotimes}} \pmb{\theta}^{i_a} \underset{b=1}{\overset{q}{\bigotimes}} \pmb{e}_{j_b} : \underset{a=1}{\overset{p}{\bigotimes}} V \underset{b=1}{\overset{q}{\bigotimes}} V^* \mapsto \mathcal{I} \left[ V^{p+q} \right] = \mathcal{I} \left[ \left( V^* \right)^{p+q} \right]$
+$$\underset{a=1}{\overset{p}{\bigotimes}} \pmb{\theta}^{i_a} \underset{b=1}{\overset{q}{\bigotimes}} \pmb{e}_{j_b} : \underset{a=1}{\overset{p}{\bigotimes}} V \underset{b=1}{\overset{q}{\bigotimes}} V^* \mapsto \mathcal{I} \left[ V^{p+q} \right] = \mathcal{I} \left[ \left( V^* \right)^{p+q} \right]$$
 
 where $\mathcal{I}$ is the identity map. Now writing the above explicitly, we get,
 
-$\underset{a=1}{\overset{p}{\bigotimes}} \pmb{\theta}^{i_a} \underset{b=1}{\overset{q}{\bigotimes}} \pmb{e}_{j_b} \left[ \underset{a=1}{\overset{p}{\bigotimes}} \pmb{e}_{k_a} \underset{b=1}{\overset{q}{\bigotimes}} \pmb{\theta}^{l_b} \right] = \prod_{a=1}^p \delta^{i_a}_{\phantom{i_a} k_a} \prod_{b=1}^q \delta^{l_b}_{\phantom{l_b} j_b}$
+$$\underset{a=1}{\overset{p}{\bigotimes}} \pmb{\theta}^{i_a} \underset{b=1}{\overset{q}{\bigotimes}} \pmb{e}_{j_b} \left[ \underset{a=1}{\overset{p}{\bigotimes}} \pmb{e}_{k_a} \underset{b=1}{\overset{q}{\bigotimes}} \pmb{\theta}^{l_b} \right] = \prod_{a=1}^p \delta^{i_a}_{\phantom{i_a} k_a} \prod_{b=1}^q \delta^{l_b}_{\phantom{l_b} j_b}$$
 
 The components of a tensor can now be written as,
 
-$T^{i_1 \dots i_p}_{\phantom{i_1 \dots i_p} j_1 \dots j_q} = \underset{a=1}{\overset{p}{\bigotimes}} \pmb{\theta}^{i_a} \underset{b=1}{\overset{q}{\bigotimes}} \pmb{e}_{j_b} \left[ \pmb{T} \left( \pmb{\theta}^{i_1}, \cdots, \pmb{\theta}^{i_p}, \pmb{e}_{j_1}, \dots, \pmb{e}_{j_q} \right) \right]$
+$$T^{i_1 \dots i_p}_{\phantom{i_1 \dots i_p} j_1 \dots j_q} = \underset{a=1}{\overset{p}{\bigotimes}} \pmb{\theta}^{i_a} \underset{b=1}{\overset{q}{\bigotimes}} \pmb{e}_{j_b} \left[ \pmb{T} \left( \pmb{\theta}^{i_1}, \cdots, \pmb{\theta}^{i_p}, \pmb{e}_{j_1}, \dots, \pmb{e}_{j_q} \right) \right]$$
 
 To simplify our lives, let us represent tuples of indices with their capital letter, e.g. $I \equiv i_1 \dots i_p$ . Also, let us write any multiplication of tensor components, or tensors, with a capital letter, along with tuples for the indices. Lastly, let the tensor product symbol be omitted altogether. Then, the previous set of equations becomes more readable,
 
