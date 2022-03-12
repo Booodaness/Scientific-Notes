@@ -6,7 +6,8 @@ kanban-plugin: basic
 
 ## To do
 
-- [ ] Statistics and Linear Algebra
+- [ ] Statistics with linear algebra
+- [ ] Discrete topology
 
 
 ## In progress
