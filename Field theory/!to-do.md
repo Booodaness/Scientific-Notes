@@ -8,7 +8,6 @@ kanban-plugin: basic
 
 - [ ] Harmonic Oscillators
 - [ ] Dirac equation
-- [ ] Klein-Gordon equation
 - [ ] Generators and algebras
 - [ ] Stress-energy tensor for particles
 
