@@ -192,7 +192,7 @@ $$
 j^\rho_{\phantom{\rho} \sigma} = \psi^\lambda \left( B^\xi_{\phantom{\xi} \lambda \sigma} \pi^{\rho \phantom{M} N}_{\phantom{\rho} M} \nabla_\xi \phi^M_{\phantom{M} N} - B^\rho_{\phantom{\rho} \lambda \sigma} \mathcal{L} \right)
 $$
 
-If the action $S$ is symmetric under $J^{\rho}_{\phantom{\rho} \sigma} \left( \psi^\lambda \right)$ for all $\psi^\lambda \in V$ where $V$ is some vector space, we must have,
+If the action $S$ is symmetric under $J^{\rho}_{\phantom{\rho} \sigma} \left( \psi^\lambda \right)$ for all $\psi^\lambda \in V$ where $V$ is some vector space, we must have the following:
 
 $$j^\rho_{\phantom{\rho} \sigma} = B^\xi_{\phantom{\xi} \lambda \sigma} \pi^{\rho \phantom{M} N}_{\phantom{\rho} M} \nabla_\xi \phi^M_{\phantom{M} N} - B^\rho_{\phantom{\rho} \lambda \sigma} \mathcal{L}$$
 
