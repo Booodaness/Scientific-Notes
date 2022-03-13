@@ -30,10 +30,9 @@ To use the Obsidian [community plugins](https://obsidian.md/plugins) used in thi
 
 2. Install the following plugins by going to ```Browse``` or by clicking the links below:
 
-- [Table Extended](https://obsidian.md/plugins?search=table%20exte#)
-- [Extra Markdown Commands](https://obsidian.md/plugins?search=extra%20mark#)
-- [Image Caption](https://obsidian.md/plugins?search=image%20caption#)
-- [Kanban](https://obsidian.md/plugins?search=Kanban#)
+- [Extra Markdown Commands]([https://obsidian.md/plugins?search=extra%20mark#](https://obsidian.md/plugins?search=extra%20mark#))
+- [Image Caption]([https://obsidian.md/plugins?search=image%20caption#](https://obsidian.md/plugins?search=image%20caption#))
+- [Kanban]([https://obsidian.md/plugins?search=Kanban#](https://obsidian.md/plugins?search=Kanban#))
 
 Enable the above plugins in ```Community plugins```.
 
