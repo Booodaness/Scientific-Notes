@@ -100,4 +100,4 @@ By linear independence of the components of the tensors involved,
 
 $$\Phi^I_{\phantom{I} J} \: B^{J \phantom{I} L \phantom{K} M}_{\phantom{J} I \phantom{L} K \phantom{M} N} = \Lambda^M_{\phantom{M} K} \Lambda^{L}_{\phantom{L} N}$$
 
-In other words, given a basis, a tensor (or more generally, tensor field) and a bilinear product, one can covariantly transform the components of an arbitrary tensor in the same space as the one given. This will be the starting point in [[algebras]].
+In other words, given a basis, a tensor (or more generally, tensor field) and a bilinear product, one can covariantly transform the components of an arbitrary tensor in the same space as the one given. This will be the starting point in [[algebras-over-fields]].

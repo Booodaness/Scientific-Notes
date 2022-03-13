@@ -6,7 +6,7 @@
 
 ### 2-dimensional orthogonal group
 
-Complex numbers are one of the most well-known [[algebras]], in use ever since people tried to solve 'unsolvable' polynomial equations, such as $i^2 = -1$ . But they are now understood from a more fundamental perspective: group theory. It turns out that the complex numbers are much more than the set $\mathbb{C}$ . Coupled with the notions of addition and multiplication, this set forms the additive and multiplicative group of complex numbers, respectively, $\left( \mathbb{C}, + \right)$ and $\left( \mathbb{C}, \times \right)$ . These two groups are isomorphic to the two-dimensional translation group $\text{T} \left( 2 \right)$ and the orthogonal group $\text{O} \left( 2 \right)$ , respectively. The latter itself comprises the group of all scalars and rotations on $\mathbb{R}^2$ , i.e. $\left( \mathbb{R}, \times \right)$ and $\text{SO} \left( 2 \right)$ .
+Complex numbers are one of the most well-known [[algebras-over-fields]], in use ever since people tried to solve 'unsolvable' polynomial equations, such as $i^2 = -1$ . But they are now understood from a more fundamental perspective: group theory. It turns out that the complex numbers are much more than the set $\mathbb{C}$ . Coupled with the notions of addition and multiplication, this set forms the additive and multiplicative group of complex numbers, respectively, $\left( \mathbb{C}, + \right)$ and $\left( \mathbb{C}, \times \right)$ . These two groups are isomorphic to the two-dimensional translation group $\text{T} \left( 2 \right)$ and the orthogonal group $\text{O} \left( 2 \right)$ , respectively. The latter itself comprises the group of all scalars and rotations on $\mathbb{R}^2$ , i.e. $\left( \mathbb{R}, \times \right)$ and $\text{SO} \left( 2 \right)$ .
 
 The algebra of complex numbers deals with their multiplicative group. Under multiplication, the action of complex numbers is that of scaling and rotating $\mathbb{C}$ . As the name 'orthogonal group' suggests, this transformation leaves initially orthogonal elements of $\mathbb{C}$ orthogonal. Two complex numbers $u, v \in \mathbb{C}$ are said to be orthogonal when $\left\langle u, v \right\rangle = \Re \left( u^* v \right) = \Re \left( u v^* \right) = 0$ . Equivalently, for a vector space isomorphic to $\mathbb{C}$ , such as $\mathbb{R}^2$ , orthogonality is defined analogously using the appropriate inner product.
 
@@ -31,7 +31,7 @@ $$
 \end{align}
 $$
 
-As required, the above Jacobian has only $2$ [[algebras#Degrees of freedom|degrees of freedom]], the same as the dimension of the vector space it acts on. Now, the idea is to pack the degrees of freedom $\left( a, b \right)$ into a vector with those coordinates. In other words, every vector in the vector space represented by the variable ordered pair $\left( a, b \right)$ represents the corresponding Jacobian of the form seen above. Here, 'representation' implies a one-to-one map.
+As required, the above Jacobian has only $2$ [[algebras-over-fields#Degrees of freedom|degrees of freedom]], the same as the dimension of the vector space it acts on. Now, the idea is to pack the degrees of freedom $\left( a, b \right)$ into a vector with those coordinates. In other words, every vector in the vector space represented by the variable ordered pair $\left( a, b \right)$ represents the corresponding Jacobian of the form seen above. Here, 'representation' implies a one-to-one map.
 
 $\phi^k = \begin{pmatrix} a \\ b \end{pmatrix}$
 
@@ -127,7 +127,7 @@ $\Lambda^{i^\prime}_{\phantom{i^\prime} i} = \begin{pmatrix} a & -b & -c & -d \\
 
 ### Algebra
 
-Just as before, we want to characterize the above Jacobian using its [[algebras#Degrees of freedom|degrees of freedom]], as,
+Just as before, we want to characterize the above Jacobian using its [[algebras-over-fields#Degrees of freedom|degrees of freedom]], as,
 
 $\phi^k = \begin{pmatrix} a \\ b \\ c \\ d \end{pmatrix}$
 

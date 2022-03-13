@@ -184,7 +184,7 @@ By the definition of tensors as multilinear maps, $B^\rho_{\phantom{\rho} \lambd
 
 $\pmb{\mathcal{B}} \left( \pmb{e}_\lambda , \pmb{e}_\sigma \right) = B^\rho_{\phantom{\rho} \lambda \sigma} \pmb{e}_\rho$
 
-The ordered pair $\left( \pmb{\mathcal{B}}, \pmb{\psi} \right)$ where $\pmb{\psi}$ is a variable parameterizing a vector space, generates an [[algebras|algebra]] on the vector space.
+The ordered pair $\left( \pmb{\mathcal{B}}, \pmb{\psi} \right)$ where $\pmb{\psi}$ is a variable parameterizing a vector space, generates an [[algebras-over-fields|algebra]] on the vector space.
 
 We also have the reverse scenario where an algebra over a vector space corresponds to a generator, yielding the Noether current:
 
