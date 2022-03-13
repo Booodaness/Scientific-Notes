@@ -2,6 +2,8 @@
 
 ## Notes on physics and mathematics
 
+![Graph view](/Assets/Images/graph.png)
+
 Notes on topics in physics and mathematics, that I find myself returning to frequently.
 
 This repository is an [Obsidian](https://obsidian.md/) vault.
