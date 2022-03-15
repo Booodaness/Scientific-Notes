@@ -33,7 +33,10 @@ To use the Obsidian [community plugins](https://obsidian.md/plugins) used in thi
 2. Install the following plugins by going to ```Browse``` or by clicking the links below:
 
 - [Image Caption]([https://obsidian.md/plugins?search=image%20caption#](https://obsidian.md/plugins?search=image%20caption#))
+- [Table Extended](https://obsidian.md/plugins?search=extended#)
 - [Kanban]([https://obsidian.md/plugins?search=Kanban#](https://obsidian.md/plugins?search=Kanban#))
+- [Jupyter plugin](https://obsidian.md/plugins?search=jupyter#)
+- [Gist](https://obsidian.md/plugins?search=gist#)
 
 Enable the above plugins in ```Community plugins```.
 -->
