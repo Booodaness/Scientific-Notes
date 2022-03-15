@@ -1,6 +1,6 @@
 # Tensor field Lagrangian from symmetry considerations
 
-#tensor-field-theory #energy-momentum-tensor #tensors
+#tensor-field-theory #energy-momentum-tensor #tensors 
 
 ## Energy-momentum tensor
 
@@ -23,6 +23,7 @@ The equations so far are telling us that $T^{\rho \sigma}$ is the flux of $\pi^{
 The energy-momentum tensor for particles leads to an important general feature of any energy-momentum tensor, including one from field theory: it must be symmetric in both its indices, i.e.,
 
 $$T^{\rho \sigma} = T^{\sigma \rho}$$
+
 ## Lagrangian
 
 From the symmetry of the energy-momentum tensor, we have,
