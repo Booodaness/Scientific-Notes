@@ -8,6 +8,7 @@ kanban-plugin: basic
 
 - [ ] Statistics with linear algebra
 - [ ] Discrete topology
+- [ ] Lattice classical field theory
 
 
 ## In progress
