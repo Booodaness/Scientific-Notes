@@ -44,6 +44,6 @@ Enable the above plugins in ```Community plugins```.
 
 The main reason to make the notes in this repository is to assimilate various ideas in physics and mathematics, and ultimately be able to use and share the concepts learned.
 
-To post my thoughts, I maintain the blog [Tempus Spatium](https://booodaness.github.io/tempus_spatium/), dedicated to physics, mathematics and philosophy. Many posts on the site are notes from this repository, but converted into a more readable and less personal format. So, feel free to visit the blog!
+To post my thoughts, I maintain the blog [Tempus Spatium](https://booodaness.github.io/tempus-spatium/), dedicated to physics, mathematics and philosophy. Many posts on the site are notes from this repository, but converted into a more readable and less personal format. So, feel free to visit the blog!
 
 Last but not the least, happy reading!
