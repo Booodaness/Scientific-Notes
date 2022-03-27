@@ -93,7 +93,7 @@ But,
 
 $\delta \mathcal{L} = \delta x^\rho \nabla_\rho \mathcal{L}$
 
-= $\epsilon \: X^\rho \nabla_\rho \mathcal{L}$
+$=\epsilon \: X^\rho \nabla_\rho \mathcal{L}$
 
 $= \epsilon \left[ \nabla_\rho \left( X^\rho \mathcal{L} \right) - \mathcal{L} \: \nabla_\rho X^\rho \right]$
 
