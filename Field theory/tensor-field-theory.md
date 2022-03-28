@@ -1,6 +1,6 @@
 # Tensor field theory
 
-#tensor-field-theory #action-principle #Noether-theorem #energy-momentum-tensor #generators #bilinear-products #tensors #algebras
+#tensor-field-theory #action-principle #noether-theorem #energy-momentum-tensor #generators #bilinear-products #tensors #algebras
 
 ## Tuple index notation
 
