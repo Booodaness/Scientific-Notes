@@ -22,24 +22,6 @@ git clone https://github.com/Booodaness/Scientific-Notes
 
 3. Open ```<parent_directory>/Scientific-Notes``` as a new Obsidian vault.
 
-<!--4. Optionally, install the following Obsidian plugins that were used to make this project.
-
-## Obsidian plugins used
-
-To use the Obsidian [community plugins](https://obsidian.md/plugins) used in this vault,
-
-1. Go to ```Options``` -> ```Community plugins``` -> disable ```Safe mode```.
-
-2. Install the following plugins by going to ```Browse``` or by clicking the links below:
-
-- [Image Caption]([https://obsidian.md/plugins?search=image%20caption#](https://obsidian.md/plugins?search=image%20caption#))
-- [Table Extended](https://obsidian.md/plugins?search=extended#)
-- [Kanban]([https://obsidian.md/plugins?search=Kanban#](https://obsidian.md/plugins?search=Kanban#))
-- [Jupyter plugin](https://obsidian.md/plugins?search=jupyter#)
-- [Gist](https://obsidian.md/plugins?search=gist#)
-
-Enable the above plugins in ```Community plugins```.
--->
 ## A related project
 
 The main reason to make the notes in this repository is to assimilate various ideas in physics and mathematics, and ultimately be able to use and share the concepts learned.
