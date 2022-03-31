@@ -6,9 +6,10 @@ kanban-plugin: basic
 
 ## To do
 
+- [ ] Lattice mechanics
 - [ ] Statistics with linear algebra
 - [ ] Discrete topology
-- [ ] Lattice classical field theory
+- [ ] Classical lattice field theory
 
 
 ## In progress
