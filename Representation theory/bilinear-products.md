@@ -7,7 +7,7 @@ Given a vector space $V$ , its dual space $V^\text{*}$ and rank $\left( p, q \ri
 
 $\mathcal{B} \left( \pmb{\Phi}, \pmb{T} \right) \in \underset{i=1}{\overset{p}{\bigotimes}} V \underset{j=1}{\overset{q}{\bigotimes}} V^\text{*}$
 
-Thus, $\mathcal{B}$ linearly maps a pair of tensors belonging to the same tensor space, to another tensor in the same tensor space.
+Thus, $\mathcal{B}$ linearly maps a pair of tensors belonging to tensor spaces of the same rank, to another tensor in a tensor space of, again, the same rank.
 
 As the name suggests, bilinear products are bilinear, i.e. linear in both their arguments,
 
