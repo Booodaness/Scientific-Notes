@@ -1,11 +1,8 @@
 # Complex numbers and quaternions
-
 #algebras #bilinear-products 
 
 ## Complex numbers
-
 ### 2-dimensional orthogonal group
-
 Complex numbers are one of the most well-known [[algebras-over-fields]], in use ever since people tried to solve 'unsolvable' polynomial equations, such as $i^2 = -1$ . But they are now understood from a more fundamental perspective: group theory. It turns out that the complex numbers are much more than the set $\mathbb{C}$ . Coupled with the notions of addition and multiplication, this set forms the additive and multiplicative group of complex numbers, respectively, $\left( \mathbb{C}, + \right)$ and $\left( \mathbb{C}, \times \right)$ . These two groups are isomorphic to the two-dimensional translation group $\text{T} \left( 2 \right)$ and the orthogonal group $\text{O} \left( 2 \right)$ , respectively. The latter itself comprises the group of all scalars and rotations on $\mathbb{R}^2$ , i.e. $\left( \mathbb{R}, \times \right)$ and $\text{SO} \left( 2 \right)$ .
 
 The algebra of complex numbers deals with their multiplicative group. Under multiplication, the action of complex numbers is that of scaling and rotating $\mathbb{C}$ . As the name 'orthogonal group' suggests, this transformation leaves initially orthogonal elements of $\mathbb{C}$ orthogonal. Two complex numbers $u, v \in \mathbb{C}$ are said to be orthogonal when $\left\langle u, v \right\rangle = \Re \left( u^* v \right) = \Re \left( u v^* \right) = 0$ . Equivalently, for a vector space isomorphic to $\mathbb{C}$ , such as $\mathbb{R}^2$ , orthogonality is defined analogously using the appropriate inner product.
@@ -15,7 +12,6 @@ However, the elements of $\text{O} \left( 2 \right)$ can be defined in a manner 
 Now, we will investigate the action of complex numbers on vectors belonging to $\mathbb{R}^2$ .
 
 ### Algebra
-
 In the convenient Cartesian coordinate system, an orthogonal Jacobian $\Lambda^{i^\prime}_{\phantom{i^\prime} i}$ is always of the form,
 
 
@@ -95,9 +91,7 @@ We have therefore derived the algebra of complex numbers purely from their under
 Let us now look at the 4-dimensional extension of complex numbers: quaternions.
 
 ## Quaternions
-
 ### 4-dimensional orthogonal group
-
 Let $\mathbb{H}$ be the set of quaternions. The multiplicative group of quaternions, $\left( \mathbb{H}, \times \right)$ is isomorphic to the 4-dimensional orthogonal group, $\text{O} \left( 4 \right)$ .
 
 Let us generalize [[complex-numbers-quaternions#Algebra|invariant quantity]] with regard to $\text{O} \left( 2 \right)$ . For a member of $\pmb{\Lambda} \in \text{O} \left( 4 \right)$ characterized by some $\pmb{\phi} \in \mathbb{R}^4$ , we have the invariant,
@@ -126,7 +120,6 @@ Expanding each complex entry in the above matrix as $2 \times 2$ matrices, we ge
 $\Lambda^{i^\prime}_{\phantom{i^\prime} i} = \begin{pmatrix} a & -b & -c & -d \\ b & a & d & -c \\ c & d & a & b \\ -d & c & -b & a \end{pmatrix}$
 
 ### Algebra
-
 Just as before, we want to characterize the above Jacobian using its [[algebras-over-fields#Degrees of freedom|degrees of freedom]], as,
 
 $\phi^k = \begin{pmatrix} a \\ b \\ c \\ d \end{pmatrix}$
@@ -178,9 +171,7 @@ k & k & j & - i & - 1
 $$
 
 ## Gamma matrices
-
 ### Complex numbers
-
 For complex numbers, the components of the dual gamma matrices are found to be:
 
 $$
@@ -191,7 +182,6 @@ $$
 $$
 
 ### Quaternions
-
 For quaternions, using the components of $B^{i^\prime}_{\phantom{i^\prime} k i}$ and the definition of the gamma matrices, we find,
 
 $$

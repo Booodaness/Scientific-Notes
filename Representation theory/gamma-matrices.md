@@ -1,9 +1,7 @@
 # Gamma matrices
-
 #gamma-matrices #algebras #bilinear-products #tensors 
 
 ## Definition
-
 From the relation $\phi^k B^{i^\prime}_{\phantom{i^\prime} k i} = \Lambda^{i^\prime}_{\phantom{i^\prime} i}$ , we see that $\left\{ B^{i^\prime}_{\phantom{i^\prime} k i} \right\}_k$ forms a basis for $\Lambda^{i^\prime}_{\phantom{i^\prime} i}$ in the space of $\phi^k$ . This basis may be written as a set of dual vectors, which in the Cartesian basis are represented as the _gamma matrices_:
 
 $\pmb{\gamma}_k = B^{i^\prime}_{\phantom{i^\prime} k i} \: \pmb{\theta}^i \otimes \pmb{e}_{i^\prime}$
@@ -11,7 +9,6 @@ $\pmb{\gamma}_k = B^{i^\prime}_{\phantom{i^\prime} k i} \: \pmb{\theta}^i \otime
 Note that even though the gamma matrices above look like Jacobians, they transform like dual vectors. In the above equation, a gamma matrix (or more appropriately, [[tensors|tensor]]) has only one free index, downstairs.
 
 ## From a parameterized Jacobian
-
 Given a Jacobian parameterized by a vector space as $\Lambda^{i^\prime}_{\phantom{i^\prime} i} \left( \phi^k \right)$ , we have,
 
 $\Lambda^{i^\prime}_{\phantom{i^\prime} i} \left( \phi^k \right) = \phi^k B^{i^\prime}_{\phantom{i^\prime} ki} = \phi^k \gamma_{k \phantom{i^\prime} i}^{\phantom{k} i^\prime}$
@@ -40,6 +37,5 @@ $$
 $$
 
 ## Examples
-
 ![[complex-numbers-quaternions#Gamma matrices]]
 

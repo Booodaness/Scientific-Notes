@@ -1,9 +1,7 @@
 # Tensor field Lagrangian from symmetry considerations
-
 #tensor-field-theory #energy-momentum-tensor #tensors 
 
 ## Energy-momentum tensor
-
 From [[tensor-field-theory#Energy-momentum tensor]], we have,
 
 $$
@@ -25,7 +23,6 @@ The energy-momentum tensor for particles leads to an important general feature o
 $$T^{\rho \sigma} = T^{\sigma \rho}$$
 
 ## Lagrangian
-
 From the symmetry of the energy-momentum tensor, we have,
 
 $\pi^{\rho \phantom{M} N}_{\phantom{\rho} M} \nabla^\sigma \phi^M_{\phantom{M} N} - \eta^{\rho \sigma} \mathcal{L} = \pi^{\sigma \phantom{M} N}_{\phantom{\sigma} M} \nabla^\rho \phi^M_{\phantom{M} N} - \eta^{\sigma \rho} \mathcal{L}$
@@ -46,7 +43,6 @@ A little bit of trial and error, and motivation from the scalar field Lagrangian
 
 $$\mathcal{L} = \frac{1}{2} \nabla^\rho \phi^{\phantom{M} N}_{M} \nabla_\rho \phi^M_{\phantom{M} N} - V \left( \phi^M_{\phantom{M} N} \right)$$
 ## Equations of motion
-
 The tensor field Lagrangian yields the following equations of motion, by substituting for the canonical momentum tensor in the [[tensor-field-theory#Euler-Lagrange equations|Euler-Lagrange equations]] $\nabla_\rho \pi^{\rho \phantom{M} N}_{\phantom{\rho} M} - \frac{\partial \mathcal{L}}{\partial \phi^M_{\phantom{M} N}} = 0$ ,
 
 $$\nabla_\rho \nabla^\rho \phi^{\phantom{M} N}_{M} + \frac{\partial V}{\partial \phi^M_{\phantom{M} N}} = 0$$

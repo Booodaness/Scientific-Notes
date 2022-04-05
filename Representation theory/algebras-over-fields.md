@@ -1,11 +1,8 @@
 # Algebras in brief
-
 #algebras #tensors #bilinear-products
 
 ## J tensor
-
 ### Definition
-
 In the [[bilinear-products#Components|component representation of bilinear products as linear maps]], we have a product of Jacobian components on the right hand side:
 
 $\Lambda^{I^\prime}_{\phantom{I^\prime} I} \Lambda^{J}_{\phantom{L} J^\prime} = \Lambda^{i_1^\prime}_{\phantom{i_1^\prime} i_1} \dots \Lambda^{i_p^\prime}_{\phantom{i_p^\prime} i_p} \Lambda^{j_1}_{\phantom{j_1} j_1^\prime} \dots \Lambda^{j_q}_{\phantom{j_q} j_q^\prime}$
@@ -25,7 +22,6 @@ $J^{I \phantom{J} K}_{\phantom{I} J \phantom{K} L} = \Delta^{I}_{\phantom{I} J} 
 Since an identity map is always invariant, $\pmb{J}$ is a tensor.
 
 ### Basis
-
 We have seen that the basis for a J tensor is of the form $\pmb{E}_{I^\prime J} \pmb{\Theta}^{I J^\prime}$ . However, we can use bilinear products to construct a different basis for J tensors:
 
 $$
@@ -42,7 +38,6 @@ Therefore, in the basis $\pmb{\mathcal{B}} \left( \pmb{E}_K \pmb{\Theta}^L, \pmb
 Note that the basis above is not a covariant one.
 
 ### As a vector space
-
 Since $\pmb{J}$ has a basis $\pmb{\mathcal{B}} \left( \pmb{E}_K \pmb{\Theta}^L, \pmb{E}_I \pmb{\Theta}^J \right) \pmb{E}_J \pmb{\Theta}^I$  , a corresponding vector space can be constructed from the span of the basis. [^1] Elements belonging to the vector space, by definition, can be added with each other and multiplied by scalars:
 
 [^1]: Technically, what we're constructing here is a [vector bundle](https://en.wikipedia.org/wiki/Vector_bundle) $\pmb{J}$ parameterized by the vector space $\pmb{\Phi}$ .
@@ -57,15 +52,12 @@ $$
 The subscript $n$ has been enclosed in brackets to remind us that it labels different J tensors, not any index.
 
 ## Algebra
-
 ### Definition
-
 An _algebra_ $\left( U, \mathcal{B} \right)$ is a vector space $U$ equipped with a bilinear product $\mathcal{B}:U \mapsto U$ .
 
 For our interests, $U$ is the vector space corresponding to $J$ and $\mathcal{B}$ is a bilinear product on the tensors associated with $J$ .
 
 ### Characterization
-
 An algebra is characterized by any two of the following three objects:
 
 1. A vector space parameterized in a basis $\Phi^K_{\phantom{K} L}$ by components $\pmb{E}_K \pmb{\Theta}^L$
@@ -81,13 +73,10 @@ The reason we need only _two_ of the above objects is that the three objects hav
 $\Phi^K_{\phantom{K} L} B^{L \phantom{K} J \phantom{I} I^\prime}_{\phantom{L} K \phantom{J} I \phantom{I^\prime} J^\prime} = \Lambda^{I^\prime}_{\phantom{I^\prime} I} \Lambda^{J}_{\phantom{L} J^\prime} = J^{I^\prime \phantom{I} J}_{\phantom{I^\prime} I \phantom{J} J^\prime}$
 
 ### Implicit relationships
-
 If two of the three objects that can be used to characterize an algebra have a multilinear relationship of their own (an '_implicit relationship_'), then one necessarily needs only _one_ object to characterize the algebra, as the other two can be obtained from the [[bilinear-products#Bilinear products as linear maps|usual multilinear relationship]] and the implicit relationship.
 
 ## Degrees of freedom
-
 ### Definition
-
 The _degrees of freedom_ of a tensor are its independent components. The number of degrees of freedom of a tensor remains the same no matter the basis.
 
 For example, consider (without loss of generality) a rank-2 tensor whose components in some basis are $T^i_{\phantom{i} j} = T^i_{\phantom{i} f \left( i \right)}$ . Since the second index, $j = f \left( i \right)$ is related to $i$  , there is only one independent index. If we transform the coordinates to a primed frame, this fact isn't changed,
@@ -100,7 +89,6 @@ T^{i^\prime}_{\phantom{i^\prime} j^\prime} & = \Lambda^{i^\prime}_{\phantom{i^\p
 $$
 
 ### Representation theory
-
 _Representation theory_ is a discipline in which algebra is studied by representing elements of algebraic structures as multilinear relationships.
 
 We will represent $\pmb{J}$ as a tensor in an implicit basis. Our little 'magic trick' will be to identify the degrees of freedom in $J^{I^\prime \phantom{I} J}_{\phantom{I^\prime} I \phantom{J} J^\prime}$ with a vector space parameterized by $\Phi^K_{\phantom{K} L}$ . All remaining components of $\pmb{J}$ will be some function of some component(s) of $\pmb{\Phi}$ .
@@ -108,7 +96,6 @@ We will represent $\pmb{J}$ as a tensor in an implicit basis. Our little 'magic 
 Thus, we are establishing an implicit relationship between $\pmb{J}$ and $\pmb{\Phi}$  , thereby reducing the characterization of algebra to only one object of the three we have seen.
 
 ### The Jacobian
-
 Geometry is an important aspect of algebra. We will formally define it in the next post, but until then, it is useful to know that the geometry of an algebra is determined by its Jacobian. In representation theory, the degrees of freedom of the Jacobian carry all the information necessary to determine the geometry of an algebra.
 
 It had been said in the previous subsection that we are considering the degrees of freedom of a J tensor. Since it is built using the Jacobian in a reversible manner, the number of degrees of freedom remain the same in both. But the Jacobian, a rank-2 tensor, can have no more than $D^2$ components $\Lambda^{i^\prime}_{\phantom{i^\prime} i}$  , and hence those many degrees of freedom, given a $D$ dimensional vector space.
@@ -118,9 +105,7 @@ This means that to represent $\pmb{\Lambda}$ by $\pmb{\Phi}$ in an implicit basi
 This severe restriction implies that it is useful to only study algebras whose underlying Jacobian in $D$ dimensions has $D$ degrees of freedom. In other words, $\Lambda^{i^\prime}_{\phantom{i^\prime} i}$ must be characterized entirely by some vector $\phi^k$ (or its dual).
 
 ## Vector algebra
-
 ### Structure
-
 As per the restriction of algebra to vectors (or covectors) to reduce redundancy, we will require one of the following elements to characterize a _vector algebra_:
 
 1. A Jacobian $\Lambda^{i^\prime}_{\phantom{i^\prime} i}$ . Since we are dealing with a rank-1 algebra i.e. vector algebra, the Jacobian _is_ the J tensor for the algebra.
@@ -138,7 +123,6 @@ And the action of the linear map above on a vector $x^i$ is,
 $\phi^k B^{i^\prime}_{\phantom{i^\prime} ki} x^i = \Lambda^{i^\prime}_{\phantom{i^\prime} i} x^i = x^{i^\prime}$
 
 ### Characterization
-
 Now that we know one of the three usual objects will be required to characterize a vector algebra, which one do we choose?
 
 An algebra is described by its underlying Jacobian. Therefore, the form of the Jacobian is a sensible parameter for an algebraic structure. Due to the whole [[algebras-over-fields#Degrees of freedom|degrees of freedom]] jargon, the form of the vector space representing the Jacobian comes for free. This means that to complete our description of an algebra, we must find the bilinear product from the Jacobian.
@@ -146,5 +130,4 @@ An algebra is described by its underlying Jacobian. Therefore, the form of the J
 We will explore the above procedure in [[complex-numbers-quaternions]] and [[gamma-matrices]].
 
 ## Examples
-
 ![[complex-numbers-quaternions]]

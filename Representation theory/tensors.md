@@ -2,7 +2,6 @@
 #tensors
 
 ## Definition
-
 Given a vector space $V$ and its dual space $V^\text{*}$ , a rank $\left( p, q \right)$ _tensor_ is a multilinear map $\pmb{T} \in \underset{i=1}{\overset{p}{\bigotimes}} V \underset{j=1}{\overset{q}{\bigotimes}} V^\text{*}$ .
 
 This means that given a covector basis $\left\{ \pmb{\theta}^i \right\}$ and vector basis $\left\{ \pmb{e}_j \right\}$ , if $\chi_{i_1} \pmb{\theta}^{i_1}, \psi_{i_2} \pmb{\theta}^{i_2}, \dots, \omega_{i_p} \pmb{\theta}^{i_p}  \in V^\text{*}$ and $u^{j_1} \pmb{e}_{j_1}, v^{j_2} \pmb{e}_{j_2} , \dots, w^{j_q} \pmb{e}_{j_q} \in V$ ,
@@ -10,7 +9,6 @@ This means that given a covector basis $\left\{ \pmb{\theta}^i \right\}$ and vec
 $\pmb{T} \left( \chi_{i_1} \pmb{\theta}^{i_1}, \psi_{i_2} \pmb{\theta}^{i_2}, \dots, \omega_{i_p} \pmb{\theta}^{i_p}, u^{j_1} \pmb{e}_{j_1}, v^{j_2} \pmb{e}_{j_2}, \dots, w^{j_q} \pmb{e}_{j_q} \right) = \chi_{i_1} \psi_{i_2} \dots \omega_{i_p} \: \pmb{T} \left( \pmb{\theta}^{i_1}, \pmb{\theta}^{i_2}, \dots, \pmb{\theta}^{i_p}, \pmb{e}_{j_1}, \pmb{e}_{j_2}, \dots, \pmb{e}_{j_q} \right) u^{j_1} v^{j_2} \dots w^{j_q}$
 
 ## Components
-
 With respect to the previous section, for a tensor $\pmb{T}$ , its _components_ $T^{i_1 \dots i_p}_{\phantom{i_1 \dots i_p} j_1 \dots j_q}$ are defined in the manner,
 
 $$\pmb{T} \left( \pmb{\theta}^{i_1}, \cdots, \pmb{\theta}^{i_p}, \pmb{e}_{j_1}, \dots, \pmb{e}_{j_q} \right) = T^{i_1 \dots i_p}_{\phantom{i_1 \dots i_p} j_1 \dots j_q} \: \underset{a=1}{\overset{p}{\bigotimes}} \pmb{e}_{i_a} \underset{b=1}{\overset{q}{\bigotimes}} \pmb{\theta}^{j_b}$$
@@ -64,7 +62,6 @@ $$T^{I^\prime}_{\phantom{I^\prime} J^\prime} = \Lambda^{I^\prime}_{\phantom{I^\p
 This is known as the tensor transformation law. Note that the notation for the Jacobian is a slight deviation from the regular tuple notation, in that $\Lambda^{I^\prime}_{\phantom{I^\prime} I}$ is _not_ some tensor $\Lambda^{i_1 \dots i_p}_{\phantom{i_1 \dots i_p} j_1 \dots j_q}$ , but a product of tensor components, $\Lambda^{i_1^\prime}_{\phantom{i_1^\prime} i_1} \dots \Lambda^{i_p^\prime}_{\phantom{i_p^\prime} i_p}$ . This will be the only exception in the tuple notation.
 
 ## Invariance
-
 Under a change of coordinates $\Lambda^{j^\prime}_{\phantom{j^\prime} j}$ , the components of $\pmb{T}$ transform but $\pmb{T}$ itself remains invariant:
 
 $$

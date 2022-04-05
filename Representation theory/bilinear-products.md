@@ -2,7 +2,6 @@
 #bilinear-products #tensors 
 
 ## Definition
-
 Given a vector space $V$ , its dual space $V^\text{*}$ and rank $\left( p, q \right)$ [[tensors]] $\pmb{\Phi}$ and $\pmb{T}$ , a _bilinear product_ $\mathcal{B}$ is a bilinear map,
 
 $\mathcal{B} \left( \pmb{\Phi}, \pmb{T} \right) \in \underset{i=1}{\overset{p}{\bigotimes}} V \underset{j=1}{\overset{q}{\bigotimes}} V^\text{*}$
@@ -21,7 +20,6 @@ $$
 
 
 ## Components
-
 Given the components of two tensors, by bilinearity, their bilinear product can be expressed as,
 
 $$
@@ -59,7 +57,6 @@ $$
 Thus, the components of $\mathcal{B}$ indeed transform like that of a tensor! In fact, given a rank $\left( p, q \right)$ tensor, the said components represent a rank $\left( 2q+p, 2p+q \right)$ tensor.
 
 ## Components: a closer look
-
 We have seen above how $B^{J \phantom{I} L \phantom{K} M}_{\phantom{J} I \phantom{L} K \phantom{M} N}$ transforms like a tensor. It must be noted though, that the bilinear product formed from these components alone is not a tensor. I.e., the following quantity does not transform like a tensor,
 
 $\pmb{\mathcal{B}} \left( \pmb{E}_I \pmb{\Theta}^J, \pmb{E}_K \pmb{\Theta}^L \right) = B^{J \phantom{I} L \phantom{K} M}_{\phantom{J} I \phantom{L} K \phantom{M} N} \: \pmb{E}_M \pmb{\Theta}^N$
@@ -76,7 +73,6 @@ $$
 where $\pmb{E}_{JL} = \pmb{E}_J \otimes \pmb{E}_L$ and $\pmb{\Theta}^{IK} = \pmb{\Theta}^I \otimes \pmb{\Theta}^K$ . Note that the above tensor is labelled as $\pmb{B}$ , which is different from the calligraphic label $\pmb{\mathcal{B}}$ for the tensor generated from two other tensors by a bilinear product.
 
 ## Bilinear products as linear maps
-
 When only one argument is passed to a bilinear product, it acts as a linear map on the vector space parameterized by the other argument,
 
 $$
