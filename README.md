@@ -4,7 +4,7 @@
 
 ![Graph view](/Assets/Images/graph.png)
 
-Regularly updated notes on topics in physics and mathematics, that I find myself returning to frequently.
+Regularly updated notes on some of the topics I explore in physics and mathematics.
 
 This repository is an [Obsidian](https://obsidian.md/) vault.
 
