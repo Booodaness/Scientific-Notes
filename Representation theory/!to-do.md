@@ -6,7 +6,8 @@ kanban-plugin: basic
 
 ## To do
 
-- [ ] Spacetime algebra
+- [ ] Clifford algebras
+- [ ] Lie algebras
 
 
 ## In progress
