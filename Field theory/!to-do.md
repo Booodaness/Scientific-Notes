@@ -6,14 +6,13 @@ kanban-plugin: basic
 
 ## To do
 
-- [ ] Harmonic Oscillators
 - [ ] Dirac equation
 - [ ] Generators and algebras
-- [ ] Stress-energy tensor for particles
 
 
 ## In progress
 
+- [ ] Klein-Gordon Equation
 
 
 ## Done
