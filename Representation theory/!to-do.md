@@ -6,13 +6,13 @@ kanban-plugin: basic
 
 ## To do
 
+- [ ] Determinants
 - [ ] Clifford algebras
 - [ ] Lie algebras
 
 
 ## In progress
 
-- [ ] Gamma matrices
 
 
 ## Done
@@ -23,6 +23,7 @@ kanban-plugin: basic
 - [x] Bilinear products
 - [x] Algebras
 - [x] Complex numbers and quaternions
+- [x] Gamma matrices
 
 
 
