@@ -189,7 +189,7 @@ If the action $S$ is symmetric under $J^{\rho}_{\phantom{\rho} \sigma} \left( \p
 
 $$j^\rho_{\phantom{\rho} \sigma} = B^\xi_{\phantom{\xi} \lambda \sigma} \pi^{\rho \phantom{M} N}_{\phantom{\rho} M} \nabla_\xi \phi^M_{\phantom{M} N} - B^\rho_{\phantom{\rho} \lambda \sigma} \mathcal{L}$$
 
-### Gamma matrices
+### Using gamma matrices
 
 From the [[gamma-matrices#Definition|definition of the gamma matrices]],
 
