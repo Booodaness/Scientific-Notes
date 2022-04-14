@@ -11,5 +11,5 @@ This yields the following equations of motion, the Klein-Gordon equation in a po
 
 $$\nabla_\rho \nabla^\rho \phi^{\phantom{M} N}_{M} + \frac{\partial V}{\partial \phi^M_{\phantom{M} N}} = 0$$
 
-## Equilibria
+
 
