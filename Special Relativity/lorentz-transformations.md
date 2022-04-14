@@ -15,7 +15,8 @@ A 3-rotation $\pmb{R}$ is a transformation which preserves the spacelike part of
 $$\det \left( \pmb{R}^T \pmb{R} \right) = 1$$
 
 ### Lorentz boosts
-A Lorentz boost along a basis vector $\pmb{e}_i$ is a Lorentz transformation from unprimed to primed inertial frames, constrained to move uniformly with respect to each other along the direction of $\pmb{e}_i$. (A general Lorentz transformation is a Lorentz boost along some direction $\pmb{e}_i$, parameterized by the velocity component $v^i$ ; followed by a rotation that makes $\pmb{e}_i$ line up with some $\pmb{e}_j$, some $\pmb{e}_k$ with $\pmb{e}_j$ and so on; followed by a Lorentz boost along $\pmb{e}_j$ ; etcetera.)
+A Lorentz boost $\pmb{\Lambda}$ along a basis vector $\pmb{e}_i$ is a Lorentz transformation from unprimed to primed inertial frames, constrained to move uniformly with respect to each other along the direction of $\pmb{e}_i$. (A general Lorentz transformation is a Lorentz boost along some direction $\pmb{e}_i$, parameterized by the velocity component $v^i$ ; followed by a rotation that makes $\pmb{e}_i$ line up with some $\pmb{e}_j$, some $\pmb{e}_k$ with $\pmb{e}_j$ and so on; followed by a Lorentz boost along $\pmb{e}_j$ parameterized by $v^j$; etcetera.)
+
 
 
 
