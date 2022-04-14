@@ -6,7 +6,6 @@ kanban-plugin: basic
 
 ## To do
 
-- [ ] Postulates
 - [ ] Lorentz transformations
 - [ ] Relativistic effects
 - [ ] Affine parameters
@@ -14,11 +13,13 @@ kanban-plugin: basic
 
 ## In progress
 
+- [ ] Spacetime interval
 
 
 ## Done
 
 **Complete**
+- [x] Postulates
 
 
 
