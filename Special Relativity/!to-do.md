@@ -8,9 +8,9 @@ kanban-plugin: basic
 
 - [ ] Lorentz transformations
 - [ ] Relativistic dynamics
-- [ ] Relativistic effects
 - [ ] Lagrangian formulation
 - [ ] Hamiltonian formulation
+- [ ] Relativistic effects
 
 
 ## In progress
