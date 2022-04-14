@@ -6,9 +6,6 @@ kanban-plugin: basic
 
 ## To do
 
-- [ ] Lorentz transformations
-- [ ] Relativistic effects
-- [ ] Affine parameters
 
 
 ## In progress
