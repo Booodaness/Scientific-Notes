@@ -1,6 +1,6 @@
 # Scientific Notes
 
-## Notes on physics and mathematics
+## Notes for physics and mathematics
 
 ![Graph view](/Assets/Images/graph.png)
 
