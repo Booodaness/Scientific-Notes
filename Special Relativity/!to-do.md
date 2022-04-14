@@ -6,7 +6,6 @@ kanban-plugin: basic
 
 ## To do
 
-- [ ] Lorentz transformations
 - [ ] Relativistic dynamics
 - [ ] Lagrangian formulation
 - [ ] Hamiltonian formulation
@@ -15,13 +14,14 @@ kanban-plugin: basic
 
 ## In progress
 
-- [ ] Spacetime interval
+- [ ] Lorentz transformations
 
 
 ## Done
 
 **Complete**
 - [x] Postulates
+- [x] Spacetime interval
 
 
 
