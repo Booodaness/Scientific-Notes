@@ -2,7 +2,7 @@
 #tensor-field-theory #energy-momentum-tensor #tensors 
 
 ## Energy-momentum tensor
-From [[tensor-field-theory#Energy-momentum tensor]], we have,
+Consider the following [[tensor-field-theory#Energy-momentum tensor|energy-momentum tensor]] for a scalar field,
 
 $$
 T^{\rho \sigma} = \pi^{\rho \phantom{M} N}_{\phantom{\rho} M} \nabla^\sigma \phi^M_{\phantom{M} N} - \eta^{\rho \sigma} \mathcal{L}
