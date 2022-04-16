@@ -46,9 +46,7 @@ It follows(in local coordinates),
 
 $$\begin{align} \eta_{00} & = 1 \\ \eta_{ij} & = - g_{ij} \\ \eta_{i 0} & = \eta_{0 i} = 0 \end{align}$$
 
-where $g_{ij}$ is the spatial metric tensor for the given coordinate system. The last statement demonstrates that in local coordinates, space and time are mutually orthogonal. Since the components of the Minkowski metric were derived from the invariance of the spacetime interval, they are the same in all local coordinates, i.e.,
-
-$$\eta_{\mu^\prime \nu^\prime} = \eta_{\mu \nu}$$
+where $g_{ij}$ is the spatial metric tensor for the given coordinate system. The last statement demonstrates that in local coordinates, space and time are mutually orthogonal. Since this fact is the same in all inertial frames, in local coordinates, the timelike and spacetimelike components of the metric are invariant.
 
 ### Lorentz transformations
 Suppose we switch from an unprimed inertial frame to a primed inertial frame. By the chain rule from multivariable calculus, the infinitesimal displacements $dx^\mu$ transform as,
@@ -171,7 +169,7 @@ Note that $ds^2$ is negative and $ds^2 = - dL^2$. Therefore, the spacetime inter
 Nevertheless, since we are free to use mathematical quantities in themselves, the spacetime interval between two events is often defined as precisely the proper length between two simultaneous events in a frame travelling along a spacelike trajectory.
 
 ### No body can travel faster than light
-Since $ds^2$ is invariant, $ds^2 < 0$ must be true along in the spacelike body's frame. However, in that frame, $v=0$ which gives $ds^2 = c^2 dt^2 >0$. The second condition is strong, as it follows from the [[postulates|principle of relativity]] that no matter the speed of a body in different frames (be it lesser than $c$ or greater), in its own frame, there must be no way of telling if the body is moving. Therefore, in the body's frame, if $ds^2 > 0$ for the first case ($v<c$), the same must apply in the latter case ($v>c$).
+Since $ds^2$ is invariant, $ds^2 < 0$ must be true along in the spacelike body's frame. However, in that frame, $v=0$ which gives $ds^2 = c^2 dt^2 >0$. The second condition is strong, as it follows from the [[postulates|principle of relativity]] that no matter the speed of a body in different inertial frames (be it lesser than $c$ or greater), in its own frame, there must be no way of telling if the body is moving. Therefore, in the body's frame, if $ds^2 > 0$ for the first case ($v<c$), the same must apply in the latter case ($v>c$). Moreover, this is true for non-uniform motion as it can be broken down into a series of instantaneously uniform motions.
 
 This leaves us with only one possible resolution for the paradox: the initial assumption that there exists a body with $v>c$ in some frame, is simply false!
 
