@@ -18,7 +18,7 @@ $$c^2 dt^2 - dx_i dx^i = c^2 d{t^\prime}^2 - dx_{i^\prime} dx^{i^\prime} = 0$$
 
 Trajectories $x^i \left( t \right)$ obeying the above condition are called null (as the quantity above equals $0$) or lightlike trajectories. From their definition, it follows that a lightlike trajectory is lightlike in all inertial frames. The above quantity is also written as $ds^2 = c dt^2 = dx_i dx^i$. 
 
-The element $ds$ is called the infinitesimal spacetime interval. Here, we are following the 'particle physicist's convention' for the choice of signature of $ds$, i.e. $\left( +, -, -, - \right)$. The opposite choice is called the 'relativist's convention'. I am fond of the latter convention, but have used the former as it allows us to tie the names 'timelike' and 'spacelike' to the spacetime interval (which we are already familiar with) instead of proper time, as we shall see later.
+The element $ds$ is called the infinitesimal spacetime interval. Here, we are following the particle physicist's sign convention for $ds$ i.e. $\left( +, -, -, - \right)$. The opposite choice is called the relativist's sign convention.
 
 Integrating the infinitesimal spacetime interval between two events gives the spacetime interval between them,
 
