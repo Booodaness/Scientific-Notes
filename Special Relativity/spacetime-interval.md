@@ -1,7 +1,7 @@
 # Spacetime interval
 #spacetime-interval #Minkowski-metric #Lorentz-transformations
 
-## Null trajectories
+## Null world lines
 Let us work in local coordinates $x^\mu = \left( ct, x^i \right)$ where $c$ is the speed of light in vacuum. Suppose we were to track the motion of a pulse of light, in some inertial frame. By the second [[postulates|postulate]] of SR, this speed would be the same in all inertial frames.
 
 Let the 3-position of a pointlike pulse of light be $x^i$. Then, its speed squared is,
@@ -16,7 +16,7 @@ As $c$ is invariant,
 
 $$c^2 dt^2 - dx_i dx^i = c^2 d{t^\prime}^2 - dx_{i^\prime} dx^{i^\prime} = 0$$
 
-Trajectories $x^i \left( t \right)$ obeying the above condition are called null (as the quantity above equals $0$) or lightlike trajectories. From their definition, it follows that a lightlike trajectory is lightlike in all inertial frames. The above quantity is also written as $ds^2 = c dt^2 = dx_i dx^i$. 
+A world line is a trajectory of the form $x^i \left( x^0 \right) = x^i \left( ct \right)$. World lines obeying the above condition are called null (as the quantity above equals $0$) or lightlike. From their definition, it follows that a lightlike world line is lightlike in all inertial frames. The above quantity is also written as $ds^2 = c dt^2 = dx_i dx^i$. 
 
 The element $ds$ is called the infinitesimal spacetime interval. Here, we are following the particle physicist's sign convention for $ds$ i.e. $\left( +, -, -, - \right)$. The opposite choice is called the relativist's sign convention.
 
@@ -83,7 +83,7 @@ $$\det \left( \pmb{\Lambda}^T \pmb{\Lambda} \right) = 1$$
 
 Transformations obeying the above condition are called Lorentz transformations.
 
-## Timelike trajectories
+## Timelike world lines
 ### Spacetime interval
 As $\pmb{\eta}$ is tensor (an invariant), it follows that $ds^2 = dx^\mu \eta_{\mu \nu} dx^\nu$ is a scalar invariant even if $ds^2 \neq 0$. Thus,
 
@@ -97,10 +97,10 @@ And so,
 
 $ds^2 = c^2 dt^2 - v^2 dt^2 = \left( c^2 - v^2 \right) dt^2 > 0$
 
-Since $ds^2$ is invariant, we must have $ds^2 > 0$ in every frame. As it is positive, the timelike part of $ds^2$ is greater than the spacelike part. Therefore, trajectories obeying this condition are called timelike.
+Since $ds^2$ is invariant, we must have $ds^2 > 0$ in every frame. As it is positive, the timelike part of $ds^2$ is greater than the spacelike part. Therefore, world lines obeying this condition are called timelike.
 
 ### Proper time
-Recall that throughout, we are using the coordinates $x^\mu$ to track an object (such as a pulse of light in the case of null trajectories). In the object's frame, if two events occur at the same position, then $dx_i dx^i = 0$, giving,
+Recall that throughout, we are using the coordinates $x^\mu$ to track an object (such as a pulse of light in the case of null world lines). In the object's frame, if two events occur at the same position, then $dx_i dx^i = 0$, giving,
 
 $ds^2 = c^2 d \tau^2 > 0$
 
@@ -124,7 +124,7 @@ $$dt = \gamma d \tau$$
 This is the phenomenon of time dilation. The word 'dilation' comes from the fact that for $v<c$, $\gamma \geq 1$, meaning $d \tau \geq dt$. As this strictly holds for all time elements, integrating over them does not change the inequality. Thus, in general, an event with a certain duration in some object's frame is measured to have a longer time duration when switching to a different frame.
 
 ### Length contraction
-Suppose we are tracking a rigid body with length $l$ along its direction of motion. As the direction of motion and speed can change through its trajectory, it is more useful to consider the length element $dl$ along the instantaneous direction of motion. It is obvious that in the object's frame,
+Suppose we are tracking a rigid body with length $l$ along its direction of motion. As the direction of motion and speed can change through its world line, it is more useful to consider the length element $dl$ along the instantaneous direction of motion. It is obvious that in the object's frame,
 
 $dL = v d \tau$
 
@@ -141,7 +141,7 @@ $$dl = \gamma^{-1} dL$$
 Along the same lines as time '[[spacetime-interval#Time dilation|dilation]]', the above phenomenon is called length contraction.
 
 ### Proper length
-Note that the spacetime interval in the body's frame is given as $ds^2 = c^2 d \tau^2 - dL^2$. Given two simultaneous events in the same frame, we have $d \tau = 0$, hence, $ds^2 = - dL^2$. Simplifying this yields $ds = - dL$. This tells us that the spacetime interval between two events is the negative of the length between them in a frame where they are simultaneous. The latter quantity, i.e. the length between two simultaneous events in a moving body's trajectory, is called the proper length associated with that trajectory.
+Note that the spacetime interval in the body's frame is given as $ds^2 = c^2 d \tau^2 - dL^2$. Given two simultaneous events in the same frame, we have $d \tau = 0$, hence, $ds^2 = - dL^2$. Simplifying this yields $ds = - dL$. This tells us that the spacetime interval between two events is the negative of the length between them in a frame where they are simultaneous. The latter quantity, i.e. the length between two simultaneous events in a moving body's world line, is called the proper length associated with that world line.
 
 Like proper time, proper length is an invariant (it must be one as both $ds^2$ and $d \tau^2$ are invariant).
 
@@ -156,17 +156,17 @@ and,
 
 it follows that given two events which have a finite duration of time $\Delta t$ between them, it is possible to choose a frame where the events are simultaneous, and vice-versa. This is the famous phenomenon of relativity of simulteinity.
 
-## Spacelike trajectories
+## Spacelike world lines
 ### Spacetime interval
-Suppose a body is travelling with $v>c$ in some reference frame. For such trajectories, $ds^2 < 0$,
+Suppose a body is travelling with $v>c$ in some reference frame. For such world lines, $ds^2 < 0$,
 
 $ds^2 = \left( c^2 - v^2 \right) dt^2 <0$
 
-Since the spacelike part of the spacetime interval is greater than the timelike part above, such trajectories are said to be spacelike.
+Since the spacelike part of the spacetime interval is greater than the timelike part above, such world lines are said to be spacelike.
 
-Note that $ds^2$ is negative and $ds^2 = - dL^2$. Therefore, the spacetime interval is numerically equal to $dL$, even though the scenario $ds^2 < 0$ is physically nonsensical (and so is measuring $+dL$, which requires an observer to travel along a spacelike trajectory). 
+Note that $ds^2$ is negative and $ds^2 = - dL^2$. Therefore, the spacetime interval is numerically equal to $dL$, even though the scenario $ds^2 < 0$ is physically nonsensical (and so is measuring $+dL$, which requires an observer to travel along a spacelike world line). 
 
-Nevertheless, since we are free to use mathematical quantities in themselves, the spacetime interval between two events is often defined as precisely the proper length between two simultaneous events in a frame travelling along a spacelike trajectory.
+Nevertheless, since we are free to use mathematical quantities in themselves, the spacetime interval between two events is often defined as precisely the proper length between two simultaneous events in a frame travelling along a spacelike world line.
 
 ### No body can travel faster than light
 Since $ds^2$ is invariant, $ds^2 < 0$ must be true along in the spacelike body's frame. However, in that frame, $v=0$ which gives $ds^2 = c^2 dt^2 >0$. The second condition is strong, as it follows from the [[postulates|principle of relativity]] that no matter the speed of a body in different inertial frames (be it lesser than $c$ or greater), in its own frame, there must be no way of telling if the body is moving. Therefore, in the body's frame, if $ds^2 > 0$ for the first case ($v<c$), the same must apply in the latter case ($v>c$). Moreover, this is true for non-uniform motion as it can be broken down into a series of instantaneously uniform motions.
