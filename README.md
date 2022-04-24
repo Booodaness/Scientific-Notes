@@ -23,7 +23,7 @@ git clone https://github.com/Booodaness/Scientific-Notes
 ## Pools
 Each contributor can directly edit content in root directories called pools. There are two kinds of pools  — individual pools, and the common pool. Each author maintains one individual pool with the same name as their GitHub username. The common pool is a directory named `!Common` , with fully collaborative notes. Thus, each contributor can freely edit their own individual pools, and the common pool.
 
-When collaborators want to suggest edits to other authors' pools, they must [fork the project](https://github.com/Booodaness/Scientific-Notes/fork) , modify accordingly and start a pull request. After optional discussion in the request's review page, the changed pool's author (or an admin) may merge the pull request (or decline to do so).
+When contributors want to suggest edits to other authors' pools, they must [fork the project](https://github.com/Booodaness/Scientific-Notes/fork) , modify accordingly and start a pull request. After optional discussion in the request's review page, the changed pool's author (or an admin) may merge the pull request (or decline to do so).
 
 Each pool has the following layout:
 
