@@ -10,7 +10,7 @@ kanban-plugin: basic
 - [ ] Statistics with linear algebra
 - [ ] Discrete topology
 - [ ] Classical lattice field theory
-
+- [ ] Play amogus
 
 ## In progress
 
