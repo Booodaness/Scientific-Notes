@@ -77,7 +77,7 @@ Firstly, [fork this repository](https://github.com/Booodaness/Scientific-Notes/f
 1. Edit your fork as desired.
 2. Verify that the structure of the common pool has not been altered.
 3. Start a pull request.
-4. Document the changes in the review page of the pull request.
+4. Document your edits in the review page of the pull request.
 
 For both the cases above, your contributions will be considered and added to the project if approved.
 
