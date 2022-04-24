@@ -28,6 +28,7 @@ When contributors want to suggest edits to other authors' pools, they must [fork
 Each pool has the following layout:
 
 ```
+.
 └── <Pool_name> 
     │
     ├── !Assets         (Non-markdown files)
@@ -53,6 +54,7 @@ The exclamation marks before folder/file names indicate that they are contextual
 The complete repository has the structure:
 
 ```
+.
 │
 ├── !Common    (Common pool)
 │
