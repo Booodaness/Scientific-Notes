@@ -20,8 +20,7 @@ git clone https://github.com/Booodaness/Scientific-Notes
 
 3. Open `<parent_directory>/Scientific-Notes` as a new Obsidian vault.
 
-## Directory structure
-### Pools
+## Pools
 Each contributor can directly edit content in root directories called pools. There are two kinds of pools  — individual pools, and the common pool. Each author maintains one individual pool with the same name as their GitHub username. The common pool is a directory named ```!Common``` , with fully collaborative notes. Thus, each contributor can freely edit their own individual pools, and the common pool.
 
 When collaborators want to suggest edits to other authors' pools, they must [fork the project](https://github.com/Booodaness/Scientific-Notes/fork) , modify accordingly and start a pull request. After optional discussion in the request's review page, the changed pool's author (or an admin) may merge the pull request (or decline to do so).
@@ -29,22 +28,57 @@ When collaborators want to suggest edits to other authors' pools, they must [for
 Each pool has the following layout:
 
 ```
-├── <author_username/!Common> 
-│   │
-│   ├── !Assets         (Non-markdown files)
-│   │   ├── Excalidraw  (Diagrams made with the same community plugin)
-│   │   ├── Images      (Static images)
-│   │   └── Templates   (Templates made with the same core plugin)
-│   │
-│   ├── <Topic_1>       (e.g. 'Field Theory')
-│   │   ├── !start-here
-│   │   ├── !to-do
+└── <Author/'!Common'> 
+    │
+    ├── !Assets         (Non-markdown files)
+    │   ├── Excalidraw  (Diagrams made with Excalidraw plugin)
+    │   ├── Images      (Static images)
+    │   ├── Templates   (Templates made with Templates plugin)
+    │   └── ...         (Other data collections)
+    │
+    ├── <Topic 1>       (e.g. 'Field Theory')
+    │   ├── !start-here (Ordered list linking to articles on Topic 1)
+    │   ├── !to-do      (Kanban for Topic 1)
+    │   ├── article-1   (e.g. 'principle-of-stationary-action')
+    │   └── ...         (Other articles)
+    │
+    ├── ...             (Other Topics)
+    │
+    └── !to-do          (Kanban for full pool)
 ```
 
+## Directory structure
+The complete repository has the structure:
+
+```
+│
+├── !Common    (Common pool)
+│
+├── <Author_1> (Individual pool for Author_1)
+│
+├── ...        (Other individual pools)
+│
+├── LICENCE.md (Licence statement)
+│
+└── README.md  (Documentation)
+```
 
 ## Contributing
-Firstly, [fork this repository](https://github.com/Booodaness/Scientific-Notes/fork) and follow [these steps](#to-view-locally), but for the fork instead of the original repository. Now,
+Firstly, [fork this repository](https://github.com/Booodaness/Scientific-Notes/fork) and follow the steps for [viewing locally](#viewing-locally), but for the fork instead of the original repository. Now,
 
 ### Adding personal notes
-1. Ensure that the parent directory of your notes has the layout of a [pool](#).
+1. Ensure that the parent directory of your notes has the layout of a [pool](#pool).
+2. Place your pool in the root.
+3. Start a pull request.
+
+### Editing the common pool
+1. Edit your fork as desired.
+2. Verify that the structure of the common pool has not been altered.
+3. Start a pull request.
+4. Document the changes in the review page of the pull request.
+
+For both the cases above, your contributions will be considered and added to the project if approved.
+
+Last but not the least, happy reading/writing! :)
+
 
