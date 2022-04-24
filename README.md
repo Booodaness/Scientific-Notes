@@ -2,7 +2,7 @@
 
 ## Notes for physics and mathematics
 
-![Graph view](/Assets/Images/graph.png)
+![Graph view](graph.png)
 
 Regularly updated notes on some topics in mathematical physics and mathematics.
 
