@@ -12,6 +12,7 @@ kanban-plugin: basic
 
 ## In progress
 
+- [ ] Linearity
 - [ ] Klein-Gordon Equation
 
 
