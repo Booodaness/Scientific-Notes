@@ -33,7 +33,7 @@ Each pool has the following layout:
     │
     ├── !Assets         (Non-markdown files)
     │   ├── Excalidraw  (Diagrams made with Excalidraw plugin)
-    │   ├── Images      (Static images)
+    │   ├── Images      (Images used in articles)
     │   ├── Templates   (Templates made with Templates plugin)
     │   └── ...         (Other data collections)
     │
