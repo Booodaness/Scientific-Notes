@@ -1,5 +1,5 @@
 # Gamma matrices
-#gamma-matrices #algebras #bilinear-products #tensors 
+#gamma-matrices #algebras #bilinear-products
 
 ## Definition
 From the relation $\phi^k B^{i^\prime}_{\phantom{i^\prime} k i} = \Lambda^{i^\prime}_{\phantom{i^\prime} i}$ , we see that $\left\{ B^{i^\prime}_{\phantom{i^\prime} k i} \right\}_k$ forms a basis for $\Lambda^{i^\prime}_{\phantom{i^\prime} i}$ in the space of $\phi^k$ . This basis may be written as a set of dual vectors, which in the Cartesian basis are represented as the _gamma matrices_:

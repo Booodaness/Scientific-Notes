@@ -1,5 +1,5 @@
 # Algebras in brief
-#algebras #tensors #bilinear-products
+#algebras #bilinear-products
 
 ## J tensor
 ### Definition

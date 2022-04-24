@@ -1,5 +1,5 @@
 # Tensor field theory
-#tensor-field-theory #action-principle #noether-theorem #energy-momentum-tensor #generators #bilinear-products #tensors #algebras
+#action-principle #noether-theorem #energy-momentum-tensor #generators #bilinear-products #algebras #tensors
 
 ## Tuple index notation
 To make the tensor notation a little less messy, let us use the [[tensors#Components|tuple index notation]], where tuples of indices are replaced by their capital letter. For example, $\mu_1 \dots \mu_p$ becomes $M$ and $\nu_1 \dots \nu_q$ becomes $N$ .

@@ -1,5 +1,5 @@
 # Klein-Gordon equation
-#tensor-field-theory #tensors 
+#klein-gordon-equation #perturbation-theory
 
 
 ## In a potential

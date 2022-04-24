@@ -1,5 +1,5 @@
 # Bilinear Products
-#bilinear-products #tensors 
+#bilinear-products
 
 ## Definition
 Given a vector space $V$ , its dual space $V^\text{*}$ and rank $\left( p, q \right)$ [[tensors]] $\pmb{\Phi}$ and $\pmb{T}$ , a _bilinear product_ $\mathcal{B}$ is a bilinear map,

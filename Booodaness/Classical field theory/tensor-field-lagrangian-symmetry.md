@@ -1,5 +1,5 @@
 # Tensor field Lagrangian from symmetry considerations
-#tensor-field-theory #energy-momentum-tensor #tensors 
+#symmetry #energy-momentum-tensor
 
 ## Energy-momentum tensor
 Consider the following [[tensor-fields#Energy-momentum tensor|energy-momentum tensor]] for a scalar field,
