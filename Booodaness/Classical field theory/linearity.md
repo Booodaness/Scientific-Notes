@@ -2,7 +2,6 @@
 #linearity
 
 ## Solutions as coordinates
-
 Suppose we have a Lagrangian density $\mathcal{L}$ and a set of rank $\left( p, q \right)$ tensor fields $\left\{ \phi^M_{\phantom{M} N \left( i \right)} \right\}$ which independently obey the Euler-Lagrange equations for the given Lagrangian:
 
 $$\frac{\partial \mathcal{L}}{\partial \phi^M_{\phantom{M} N \left( i \right)}} = \nabla_\mu \frac{\partial \mathcal{L}}{\partial \left( \nabla_\mu \phi^M_{\phantom{M} N \left( i \right)} \right)}$$
@@ -30,7 +29,6 @@ $$\phi^M_{\phantom{M} N} = \sum_i C_{\left( i \right)} \phi^M_{\phantom{M} N \le
 Where $\left\{ C_{\left( i \right)} \right\}$ are constant scalars i.e. $\partial_\mu C_{\left( i \right)} = 0$.
 
 ## The 'solution'
-
 To answer the two questions above, we will, respectively,
 
 1. Expand the Euler-Lagrange equations for the new coordinate $\phi^M_{\phantom{M} N}$ and investigate when it is true.
@@ -40,7 +38,6 @@ To answer the two questions above, we will, respectively,
 The multivariable chain rule from calculus will be used throughout.
 
 ### Expanding the Euler-Lagrange equations
-
 Let us begin by expanding the left hand side of the equations of motion $\frac{\partial \mathcal{L}}{\partial \phi^M_{\phantom{M} N}} = \nabla_\mu \frac{\partial \mathcal{L}}{\partial \left( \nabla_\mu \phi^M_{\phantom{M} N} \right)}$, in terms of the solutions $\left\{ \phi^M_{\phantom{M} N \left( i \right)} \right\}$,
 
 $$\frac{\partial \mathcal{L}}{\partial \phi^M_{\phantom{M} N}} = \sum_i \frac{\partial \mathcal{L}}{\partial \phi^M_{\phantom{M} N \left( i \right)}} \frac{\partial \phi^M_{\phantom{M} N \left( i \right)}}{\partial \phi^M_{\phantom{M} N}}$$
@@ -88,7 +85,6 @@ $$\sum_i \frac{\partial \mathcal{L}}{\partial \left( \nabla_\mu \phi^M_{\phantom
 Only if the above is true, can we say that $\phi^M_{\phantom{M} N}$ is a valid solution.
 
 ## Linearity
-
 In the above constraint, note the appearance of canonical 4-momentum coordinates $\frac{\partial \mathcal{L}}{\partial \left( \nabla_\mu \phi^M_{\phantom{M} N \left( i \right)} \right)}$. In general, these are not zero. One possibility which ensures the constraint always holds good is:
 
 $$\nabla_\mu \frac{\partial \phi^M_{\phantom{M} N \left( i \right)}}{\partial \phi^M_{\phantom{M} N}} = 0$$
@@ -110,9 +106,7 @@ $$\phi^M_{\phantom{M} N} = \sum_i C_{\left( i \right)} \phi^M_{\phantom{M} N \le
 Therefore, if we want our constraint to be true for all solutions, they must be combined only in the above form i.e. as linear combinations.
 
 ## Conclusion
-
 ### Summary
-
 Let us summarize the results by answering the original questions:
 
 1) When does $\phi^M_{\phantom{M} N} \left( \left\{ \phi^M_{\phantom{M} N \left( i \right)} \right\} \right)$ obey the Euler-Lagrange equations? When the following constraint is obeyed:
@@ -124,7 +118,6 @@ $$\sum_i \frac{\partial \mathcal{L}}{\partial \left( \nabla_\mu \phi^M_{\phantom
 In other words, there are _always_ $\phi^M_{\phantom{M} N}$'s which are linear combinations of $\left\{ \phi^M_{\phantom{M} N \left( i \right)} \right\}$ (and an infinite number of them), although there could be other $\phi^M_{\phantom{M} N}$'s which are non-trivial, non-linear combinations of the solutions.
 
 ### New notation for solutions
-
 In the notation for the solutions $\left\{ \phi^M_{\phantom{M} N \left( i \right)} \right\}$, we used parentheses around the index as doing otherwise would make them look dubiously like rank $\left( p, q + \text{dim} \left( i \right) \right)$ tensors. Then, we learnt that the most general way to mix these solutions into new ones is to combine them linearly,
 
 $$\phi^M_{\phantom{M} N} = \sum_i C_{\left( i \right)} \phi^M_{\phantom{M} N \left( i \right)} \: \vert \: \nabla_\mu C_{\left( i \right)} = 0$$
