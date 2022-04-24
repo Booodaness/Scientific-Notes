@@ -69,7 +69,7 @@ The complete repository has the structure:
 Firstly, [fork this repository](https://github.com/Booodaness/Scientific-Notes/fork) and follow the steps for [viewing locally](#viewing-locally), but for the fork instead of the original repository. Now,
 
 ### Adding personal notes
-1. Ensure that the parent directory of your notes has the layout of a [pool](#pool).
+1. Ensure that the parent directory of your notes has the layout of a [pool](#pools).
 2. Place your pool in the root.
 3. Start a pull request.
 
