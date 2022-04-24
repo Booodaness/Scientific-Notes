@@ -44,7 +44,7 @@ Each pool has the following layout:
     │
     ├── ...             (Other Topics)
     │
-    └── !to-do          (Kanban for full pool)
+    └── !to-do          (Kanban for entire pool)
 ```
 
 The exclamation marks before folder/file names indicate that they are contextually different from the main content of the folders/files in their parent directory. For example, `<Pool_name>/<Topic_1>` is primarily for articles related to the topic, so extra files such as `!start-here` and `!to-do` have the `!` prefix.
