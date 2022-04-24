@@ -21,14 +21,14 @@ git clone https://github.com/Booodaness/Scientific-Notes
 3. Open `<parent_directory>/Scientific-Notes` as a new Obsidian vault.
 
 ## Pools
-Each contributor can directly edit content in root directories called pools. There are two kinds of pools  — individual pools, and the common pool. Each author maintains one individual pool with the same name as their GitHub username. The common pool is a directory named ```!Common``` , with fully collaborative notes. Thus, each contributor can freely edit their own individual pools, and the common pool.
+Each contributor can directly edit content in root directories called pools. There are two kinds of pools  — individual pools, and the common pool. Each author maintains one individual pool with the same name as their GitHub username. The common pool is a directory named `!Common` , with fully collaborative notes. Thus, each contributor can freely edit their own individual pools, and the common pool.
 
 When collaborators want to suggest edits to other authors' pools, they must [fork the project](https://github.com/Booodaness/Scientific-Notes/fork) , modify accordingly and start a pull request. After optional discussion in the request's review page, the changed pool's author (or an admin) may merge the pull request (or decline to do so).
 
 Each pool has the following layout:
 
 ```
-└── <Author/'!Common'> 
+└── <Pool_name> 
     │
     ├── !Assets         (Non-markdown files)
     │   ├── Excalidraw  (Diagrams made with Excalidraw plugin)
@@ -39,13 +39,15 @@ Each pool has the following layout:
     ├── <Topic 1>       (e.g. 'Field Theory')
     │   ├── !start-here (Ordered list linking to articles on Topic 1)
     │   ├── !to-do      (Kanban for Topic 1)
-    │   ├── article-1   (e.g. 'principle-of-stationary-action')
+    │   ├── article-1   (e.g. 'principle-of-stationary-action.md')
     │   └── ...         (Other articles)
     │
     ├── ...             (Other Topics)
     │
     └── !to-do          (Kanban for full pool)
 ```
+
+The exclamation marks before folder/file names indicate that they are contextually different from the main content of the folders/files in their parent directory. For example, `<Pool_name>/<Topic_1>` is primarily for articles related to the topic, so extra files such as `!start-here` and `!to-do` have the `!` prefix.
 
 ## Directory structure
 The complete repository has the structure:
