@@ -32,7 +32,6 @@ Each pool has the following layout:
 └── <Pool_name> 
     │
     ├── !Assets           (Non-markdown files)
-    │   ├── Presentations (Exports from Advanced Slides)
     │   ├── Desmos        (Cached Desmos graphs)
     │   ├── Excalidraw    (Diagrams made with Excalidraw plugin)
     │   ├── Images        (Images used in articles)
