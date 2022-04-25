@@ -27,6 +27,7 @@ Workspaces
 Go to `Settings`>`Community plugins`>Disable `Safe mode`. Click `Browse` and install the following plugins. Stars denote plugins crucial for developing `Scientific-Notes`, while the others simply enhance your writing experience.
 
 ```
+*Advanced Slides
 *Desmos
 *Excalidraw
 *Kanban
@@ -61,6 +62,11 @@ Settings Search
 
 ## Preferred settings
 To change a plugin's settings, go to `Settings`>`Plugin options`>`<Plugin_name>`
+
+**Advanced Slides**
+```
+Export Directory: '<Individual_pool_name>/!Assets/Presentations'
+```
 
 **Desmos**
 ```
