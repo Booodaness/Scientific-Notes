@@ -29,7 +29,6 @@ Go to `Settings`>`Community plugins`>Disable `Safe mode`. Click `Browse` and ins
 ```
 *Desmos
 *Excalidraw
-*Extended MathJax
 *Kanban
 *Longform
 *Number headings
@@ -45,6 +44,7 @@ Better Word Count
 Core Search Assistant
 Discord Rich Presence
 Editor Syntax Highlight
+Extended MathJax
 File Explorer Note Count
 Find and replace in selection
 Focus mode
