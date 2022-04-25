@@ -7,7 +7,7 @@ Enable the following core plugins in `Settings`>`Core plugins`
 ```
 *File explorer
 *Search
-Quick switcher (mutually exclusive with Quick switcher++)
+Quick switcher (mutually exclusive with Quick Switcher++)
 *Graph view
 *Backlinks
 *Outgoing links
@@ -30,7 +30,6 @@ Go to `Settings`>`Community plugins`>Disable `Safe mode`. Click `Browse` and ins
 *Desmos
 *Excalidraw
 *Kanban
-*Longform
 *Number headings
 *Obsidian Git
 *Pandoc Plugin
@@ -40,7 +39,7 @@ Go to `Settings`>`Community plugins`>Disable `Safe mode`. Click `Browse` and ins
 *Tag Wrangler
 Advanced Slides
 Advanced Tables
-Better Command Palette
+Better Command Palette (mutually exclusive with Command palette)
 Better Word Count
 Core Search Assistant
 Custom Frames
@@ -51,11 +50,11 @@ File Explorer Note Count
 Find and replace in selection
 Focus mode
 Image caption
-Latex Suite
+Latex Suite (mutually exclusive with Quick Latex for Obsidian)
 Obsidian Tabs
 Obsidian42 - Wordnet Dictionary
-Quick Latex for Obsidian
-Quick Switcher++
+Quick Latex for Obsidian (mutually exclusive with Latex Suite)
+Quick Switcher++ (mutually exclusive with Quick switcher)
 Remember cursor position
 Settings Search
 ```
