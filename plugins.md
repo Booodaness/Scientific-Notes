@@ -27,7 +27,6 @@ Workspaces
 Go to `Settings`>`Community plugins`>Disable `Safe mode`. Click `Browse` and install the following plugins. Stars denote plugins crucial for developing `Scientific-Notes`, while the others simply enhance your writing experience.
 
 ```
-*Custom Frames
 *Desmos
 *Excalidraw
 *Kanban
@@ -43,6 +42,7 @@ Advanced Tables
 Better Command Palette
 Better Word Count
 Core Search Assistant
+Custom Frames
 Discord Rich Presence
 Editor Syntax Highlight
 Extended MathJax
