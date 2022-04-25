@@ -65,6 +65,8 @@ The complete repository has the structure:
 │
 ├── LICENCE.md (Licence statement)
 │
+├── plugins.md (Plugins used)
+│
 └── README.md  (Documentation)
 ```
 
