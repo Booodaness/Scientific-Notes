@@ -12,7 +12,6 @@ kanban-plugin: basic
 
 ## In progress
 
-- [ ] Linearity
 - [ ] Klein-Gordon Equation
 
 
@@ -21,6 +20,7 @@ kanban-plugin: basic
 **Complete**
 - [x] Tensor field theory
 - [x] Tensor field Lagrangian from symmetry considerations
+- [x] Linearity
 
 
 
