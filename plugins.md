@@ -27,6 +27,7 @@ Workspaces
 Go to `Settings`>`Community plugins`>Disable `Safe mode`. Click `Browse` and install the following plugins. Stars denote plugins crucial for developing `Scientific-Notes`, while the others simply enhance your writing experience.
 
 ```
+*Custom Frames
 *Desmos
 *Excalidraw
 *Kanban
@@ -49,6 +50,7 @@ File Explorer Note Count
 Find and replace in selection
 Focus mode
 Image caption
+Latex Suite
 Obsidian Tabs
 Obsidian42 - Wordnet Dictionary
 Quick Latex for Obsidian
