@@ -1,5 +1,4 @@
-1. [[Booodaness/Representation theory/!to-do|To do]]
-2. [[notation|Notation]]
+1. [[notation|Notation]]
 3. [[tensors|Tensors]]
 4. [[bilinear-products|Bilinear products]]
 5. [[algebras-over-fields|Algebras]]
