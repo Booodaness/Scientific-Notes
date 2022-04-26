@@ -24,7 +24,7 @@ Workspaces
 ```
 
 ## Community plugins
-Go to `Settings`>`Community plugins`>Disable `Safe mode`. Click `Browse` and install the following plugins. Stars denote plugins crucial for developing `Scientific-Notes`, while the others simply enhance your writing experience.
+Go to `Settings`>`Community plugins`>Disable `Safe mode`. Click `Browse` and install the following plugins. Stars denote plugins crucial for developing `Scientific-Notes`, while the others simply enhance the writing experience.
 
 ```
 *Desmos
