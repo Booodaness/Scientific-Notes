@@ -49,6 +49,7 @@ Find and replace in selection
 Focus mode
 Image caption
 Latex Suite (mutually exclusive with Quick Latex for Obsidian)
+Media Extended
 Obsidian Tabs
 Pandoc Plugin
 Obsidian42 - Wordnet Dictionary
