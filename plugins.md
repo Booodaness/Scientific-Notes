@@ -32,9 +32,7 @@ Go to `Settings`>`Community plugins`>Disable `Safe mode`. Click `Browse` and ins
 *Kanban
 *Number headings
 *Obsidian Git
-*Pandoc Plugin
 *Related Notes Finder
-*Table Extended
 *Tag Page Preview
 *Tag Wrangler
 Advanced Slides
@@ -52,11 +50,13 @@ Focus mode
 Image caption
 Latex Suite (mutually exclusive with Quick Latex for Obsidian)
 Obsidian Tabs
+Pandoc Plugin
 Obsidian42 - Wordnet Dictionary
 Quick Latex for Obsidian (mutually exclusive with Latex Suite)
 Quick Switcher++ (mutually exclusive with Quick switcher)
 Remember cursor position
 Settings Search
+Table Extended
 ```
 
 ## Preferred settings
