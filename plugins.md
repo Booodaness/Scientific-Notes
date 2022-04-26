@@ -95,15 +95,10 @@ Note folder: '<Individual_pool_name>'
 
 **Obsidian Git**
 ```
-Vault backup interval (minutes): 15
-Option after above: true
-Auto pull interval (minutes): 0
 Sync method: 'Merge'
 Current branch: 'master'
 Pull updates on startup: true
 Pull changes before push: true
-Disable notifications: true
-Show status bar: true
 ```
 
 **Templates**
