@@ -2,21 +2,21 @@
 #noether-theorem #symmetries #bilinear-products #algebras
 
 # Derivation
-Suppose we infinitesimally transform spacetime and consider its variation to first-order,
+Let spacetime be parameterized by an arbitrary scalar $\lambda$. Suppose we infinitesimally transform spacetime and consider its variation to first-order,
 
-$x^\sigma = x^\sigma + \epsilon X^\sigma$
+$x^\sigma = x^\sigma + \epsilon \frac{\delta x^\sigma}{\delta \lambda}$
 
-where $\epsilon$ is an arbitrarily small parameter and $X^\sigma$ is the functional derivative of $x^\sigma$. The variation in the field is,
+where $\epsilon$ is an arbitrarily small parameter and $\frac{\delta x^\sigma}{\delta \lambda}$ is a functional derivative of $x^\sigma$. The variation in the field is,
 
 $\delta \phi^M_{\phantom{M} N} = \left( \nabla_\rho \phi^M_{\phantom{M} N} \right) \delta x^\rho$
 
-$= \epsilon \left( \nabla_\rho \phi^M_{\phantom{M} N} \right) X^\rho$
+$= \epsilon \left( \nabla_\rho \phi^M_{\phantom{M} N} \right) \frac{\delta x^\rho}{\delta \lambda}$
 
 $= \epsilon \: \nabla_{\pmb{X}} \phi^M_{\phantom{M} N}$
 
 The functional derivative of the field is therefore,
 
-$\Phi^M_{\phantom{M} N} = \frac{\delta \phi^M_{\phantom{M} N}}{\epsilon} = \nabla_{\pmb{X}} \phi^M_{\phantom{M} N}$
+$\frac{\delta \phi^M_{\phantom{M} N}}{\delta \lambda} = \frac{\delta \phi^M_{\phantom{M} N}}{\epsilon} = \nabla_{\pmb{X}} \phi^M_{\phantom{M} N}$
 
 Now, the variation in the Lagrangian is,
 
@@ -24,41 +24,41 @@ $\delta \mathcal{L} = \frac{\partial \mathcal{L}}{\partial \phi^M_{\phantom{M} N
 
 Using the Euler-Lagrange equations and the functional derivative of the field,
 
-$\delta \mathcal{L} = \epsilon \left\{ \left( \nabla_\rho \pi^{\rho \phantom{M} N}_{\phantom{\rho} M} \right) \Phi^M_{\phantom{M} N} + \pi^{\rho \phantom{M} N}_{\phantom{\rho} M} \nabla_\rho \Phi^M_{\phantom{M} N} \right\}$
+$\delta \mathcal{L} = \epsilon \left\{ \left( \nabla_\rho \pi^{\rho \phantom{M} N}_{\phantom{\rho} M} \right) \frac{\delta \phi^M_{\phantom{M} N}}{\delta \lambda} + \pi^{\rho \phantom{M} N}_{\phantom{\rho} M} \nabla_\rho \frac{\delta \phi^M_{\phantom{M} N}}{\delta \lambda} \right\}$
 
-$= \epsilon \: \nabla_\rho \left( \pi^{\rho \phantom{M} N}_{\phantom{\rho} M} \Phi^M_{\phantom{M} N} \right)$
+$= \epsilon \: \nabla_\rho \left( \pi^{\rho \phantom{M} N}_{\phantom{\rho} M} \frac{\delta \phi^M_{\phantom{M} N}}{\delta \lambda} \right)$
 
 But,
 
 $\delta \mathcal{L} = \delta x^\rho \nabla_\rho \mathcal{L}$
 
-$=\epsilon \: X^\rho \nabla_\rho \mathcal{L}$
+$=\epsilon \: \frac{\delta x^\rho}{\delta \lambda} \nabla_\rho \mathcal{L}$
 
-$= \epsilon \left[ \nabla_\rho \left( X^\rho \mathcal{L} \right) - \mathcal{L} \: \nabla_\rho X^\rho \right]$
+$= \epsilon \left[ \nabla_\rho \left( \frac{\delta x^\rho}{\delta \lambda} \mathcal{L} \right) - \mathcal{L} \: \nabla_\rho \frac{\delta x^\rho}{\delta \lambda} \right]$
 
 Therefore,
 
-$\nabla_\rho \left( \pi^{\rho \phantom{M} N}_{\phantom{\rho} M} \Phi^M_{\phantom{M} N} \right) - \nabla_\rho \left( X^\rho \mathcal{L} \right) + \mathcal{L} \: \nabla_\rho X^\rho = 0$
+$\nabla_\rho \left( \pi^{\rho \phantom{M} N}_{\phantom{\rho} M} \frac{\delta \phi^M_{\phantom{M} N}}{\delta \lambda} \right) - \nabla_\rho \left( \frac{\delta x^\rho}{\delta \lambda} \mathcal{L} \right) + \mathcal{L} \: \nabla_\rho \frac{\delta x^\rho}{\delta \lambda} = 0$
 
-$\nabla_\rho \left( \pi^{\rho \phantom{M} N}_{\phantom{\rho} M} \Phi^M_{\phantom{M} N} - X^\rho \mathcal{L} \right) + \mathcal{L} \: \nabla_\rho X^\rho = 0$
+$\nabla_\rho \left( \pi^{\rho \phantom{M} N}_{\phantom{\rho} M} \frac{\delta \phi^M_{\phantom{M} N}}{\delta \lambda} - \frac{\delta x^\rho}{\delta \lambda} \mathcal{L} \right) + \mathcal{L} \: \nabla_\rho \frac{\delta x^\rho}{\delta \lambda} = 0$
 
 Let us now integrate the above over a region of spacetime,
 
-$\displaystyle{ \int_V d^4 x \: \left[ \nabla_\rho \left( \pi^{\rho \phantom{M} N}_{\phantom{\rho} M} \Phi^M_{\phantom{M} N} - X^\rho \mathcal{L} \right) \right] + \int_V d^4 x \: \left( \mathcal{L} \: \nabla_\rho X^\rho \right) = 0 }$
+$\displaystyle{ \int_V d^4 x \: \left[ \nabla_\rho \left( \pi^{\rho \phantom{M} N}_{\phantom{\rho} M} \frac{\delta \phi^M_{\phantom{M} N}}{\delta \lambda} - \frac{\delta x^\rho}{\delta \lambda} \mathcal{L} \right) \right] + \int_V d^4 x \: \left( \mathcal{L} \: \nabla_\rho \frac{\delta x^\rho}{\delta \lambda} \right) = 0 }$
 
 By the 4-dimensional divergence theorem, the second term is a constant surface term, and we can set,
 
-$\displaystyle{ \int_V d^4 x \: \left[ \nabla_\rho \left( \pi^{\rho \phantom{M} N}_{\phantom{\rho} M} \Phi^M_{\phantom{M} N} - X^\rho \mathcal{L} \right) \right] = 0 }$
+$\displaystyle{ \int_V d^4 x \: \left[ \nabla_\rho \left( \pi^{\rho \phantom{M} N}_{\phantom{\rho} M} \frac{\delta \phi^M_{\phantom{M} N}}{\delta \lambda} - \frac{\delta x^\rho}{\delta \lambda} \mathcal{L} \right) \right] = 0 }$
 
 Which means,
 
-$\nabla_\rho \left( \pi^{\rho \phantom{M} N}_{\phantom{\rho} M} \Phi^M_{\phantom{M} N} - X^\rho \mathcal{L} \right) = 0$
+$\nabla_\rho \left( \pi^{\rho \phantom{M} N}_{\phantom{\rho} M} \frac{\delta \phi^M_{\phantom{M} N}}{\delta \lambda} - \frac{\delta x^\rho}{\delta \lambda} \mathcal{L} \right) = 0$
 
 We have thus found a conserved current for the transformation concerned:
 $$
-\begin{align} 
-j^\rho & = \pi^{\rho \phantom{M} N}_{\phantom{\rho} M} \Phi^M_{\phantom{M} N} - X^\rho \mathcal{L} \\ 
-\nabla_\rho j^\rho & = 0 
+\begin{align}
+j^\rho & = \pi^{\rho \phantom{M} N}_{\phantom{\rho} M} \frac{\delta \phi^M_{\phantom{M} N}}{\delta \lambda} - \frac{\delta x^\rho}{\delta \lambda} \mathcal{L} \\
+\nabla_\rho j^\rho & = 0
 \end{align}
 $$
 
@@ -73,7 +73,7 @@ $x^\rho \to x^\rho + \epsilon \: \delta^\rho_{\phantom{\rho} \sigma}$
 
 The functional derivative of the field is given by,
 
-$\Phi^M_{\phantom{M} N} = \nabla_{\pmb{e}_\sigma} \phi^M_{\phantom{M} N}$
+$\frac{\delta \phi^M_{\phantom{M} N}}{\delta \lambda} = \nabla_{\pmb{e}_\sigma} \phi^M_{\phantom{M} N}$
 
 $= \nabla_\sigma \phi^M_{\phantom{M} N}$
 
@@ -106,13 +106,13 @@ $x^\rho \to x^\rho + \epsilon \: J^{\rho}_{\phantom{\rho} \sigma} \left( \psi^\l
 
 Therefore, the functional derivative of $x^\rho$ can be written as:
 $$
-X^\rho = J^{\rho}_{\phantom{\rho} \sigma} \left( \psi^\lambda \right)
+\frac{\delta x^\rho}{\delta \lambda} = J^{\rho}_{\phantom{\rho} \sigma} \left( \psi^\lambda \right)
 $$
 But, a Jacobian linearly parameterized by a vector must be a contraction of the form,
 
 $J^{\rho}_{\phantom{\rho} \sigma} \left( \psi^\lambda \right) = \psi^\lambda B^\rho_{\phantom{\rho} \lambda \sigma}$
 $$
-\therefore X^\rho = \psi^\lambda B^\rho_{\phantom{\rho} \lambda \sigma}
+\therefore \frac{\delta x^\rho}{\delta \lambda} = \psi^\lambda B^\rho_{\phantom{\rho} \lambda \sigma}
 $$
 By the definition of tensors as multilinear maps, $B^\rho_{\phantom{\rho} \lambda \sigma}​$ are the components of a [[bilinear-products|bilinear product]], i.e.,
 
@@ -135,4 +135,3 @@ $$j^\rho_{\phantom{\rho} \sigma} = B^\xi_{\phantom{\xi} \lambda \sigma} \pi^{\rh
 From the [[gamma-matrices#Definition|definition of the gamma matrices]],
 
 $$j^\rho_{\phantom{\rho} \sigma} = \pi^{\rho \phantom{M} N}_{\phantom{\rho} M} \gamma_{\sigma \phantom{\xi} \lambda}^{\phantom{\sigma} \xi} \nabla_\xi \phi^M_{\phantom{M} N} - \gamma_{\sigma \phantom{\rho} \lambda}^{\phantom{\sigma} \rho} \mathcal{L}$$
-
