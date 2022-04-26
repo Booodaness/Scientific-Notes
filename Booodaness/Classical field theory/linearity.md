@@ -97,3 +97,11 @@ Therefore, in the abstract sense, each solution $\phi^M_{\phantom{M} N \left( i 
 $$\phi^M_{\phantom{M} N} = C^{\left( i \right)} \phi^M_{\phantom{M} N \left( i \right)}$$
 
 where $C^{\left( i \right)} = \delta^{\left( i \right)}_{\phantom{\left( i \right)} \left( j \right)} C_{\left( i \right)}$.
+
+The application of the Einstein summation convention here is further justified by the fact that in the context of our derivations, upper and lower $\left( i \right)$ indices have repeatedly appeared along with the summation operation $\sum \limits_{i}$. For example,
+
+$$\nabla_\mu \frac{\partial \mathcal{L}}{\partial \left( \nabla_\mu \phi^M_{\phantom{M} N} \right)} = \frac{\partial \mathcal{L}}{\partial \phi^M_{\phantom{M} N}} + \sum_i \frac{\partial \mathcal{L}}{\partial \left( \nabla_\mu \phi^M_{\phantom{M} N \left( i \right)} \right)} \nabla_\mu \frac{\partial \phi^M_{\phantom{M} N \left( i \right)}}{\partial \phi^M_{\phantom{M} N}}$$
+
+Hence, the summation symbol becomes redundant and we can write:
+
+$$\nabla_\mu \frac{\partial \mathcal{L}}{\partial \left( \nabla_\mu \phi^M_{\phantom{M} N} \right)} = \frac{\partial \mathcal{L}}{\partial \phi^M_{\phantom{M} N}} + \frac{\partial \mathcal{L}}{\partial \left( \nabla_\mu \phi^M_{\phantom{M} N \left( i \right)} \right)} \nabla_\mu \frac{\partial \phi^M_{\phantom{M} N \left( i \right)}}{\partial \phi^M_{\phantom{M} N}}$$
