@@ -1,6 +1,5 @@
-# The postulates of SR
-
-Special relativity (abbreviated as SR), roughly put, is the theory of dynamics that respects the following postulates:
+# Postulates of Special Relativity
+Special relativity (abbreviated as 'SR'), roughly put, is the theory of dynamics that respects the following postulates:
 
 1. The laws of science are invariant in all inertial frames (principle of relativity).
 2. The speed of light is a 'law of science', and is therefore, invariant in all frames.
