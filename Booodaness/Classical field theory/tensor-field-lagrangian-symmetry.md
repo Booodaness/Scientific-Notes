@@ -2,13 +2,13 @@
 #symmetry #energy-momentum-tensor
 
 ## Energy-momentum tensor
-Consider the following [[tensor-fields#Energy-momentum tensor|energy-momentum tensor]] for a scalar field,
+Consider the following [[noether-theorem#Energy-momentum tensor|energy-momentum tensor]] for a tensor field,
 
 $$
 T^{\rho \sigma} = \pi^{\rho \phantom{M} N}_{\phantom{\rho} M} \nabla^\sigma \phi^M_{\phantom{M} N} - \eta^{\rho \sigma} \mathcal{L}
 $$
 
-The above tensor is a [[tensor-fields#Noether's theorem|conserved current]],
+The above tensor is a [[noether-theorem#Derivation|conserved current]],
 
 $$\nabla_\rho T^{\rho \sigma} = 0$$
 
