@@ -2,7 +2,7 @@
 #noether-theorem #symmetries #bilinear-products #algebras
 
 # Derivation
-Let spacetime be parameterized by an arbitrary scalar $\lambda$. Suppose we infinitesimally transform spacetime and consider its variation to first-order,
+Let spacetime be parameterized by an arbitrary scalar $\alpha$. Suppose we infinitesimally transform spacetime and consider its variation to first-order,
 
 $x^\sigma = x^\sigma + \epsilon \frac{\delta x^\sigma}{\delta \lambda}$
 
@@ -90,48 +90,48 @@ $$
 T^{\rho \sigma} = \pi^{\rho \phantom{M} N}_{\phantom{\rho} M} \nabla^\sigma \phi^M_{\phantom{M} N} - \eta^{\rho \sigma} \mathcal{L}
 $$
 
-where $\nabla^\sigma = g^{\sigma \lambda} \nabla_\lambda$ .
+where $\nabla^\sigma = g^{\sigma \alpha} \nabla_\alpha$ .
 
 # Symmetries and algebras
 ### Noether current
-Suppose a transformation of spacetime is represented by a Jacobian $J^{\rho}_{\phantom{\rho} \sigma}$ , parameterized by a vector $\psi^\lambda$ . An infinitesimal transformation can then be constructed as,
+Suppose a transformation of spacetime is represented by a Jacobian $J^{\rho}_{\phantom{\rho} \sigma}$ , parameterized by a vector $\psi^\alpha$ . An infinitesimal transformation can then be constructed as,
 
-$x^\rho \pmb{e}_\rho \to x^\rho \pmb{e}_\rho + J^{\rho}_{\phantom{\rho} \sigma} \left( \epsilon \: \psi^\lambda \right) \pmb{e}_\rho$
+$x^\rho \pmb{e}_\rho \to x^\rho \pmb{e}_\rho + J^{\rho}_{\phantom{\rho} \sigma} \left( \epsilon \: \psi^\alpha \right) \pmb{e}_\rho$
 
-$\implies x^\rho \to x^\rho + J^{\rho}_{\phantom{\rho} \sigma} \left( \epsilon \: \psi^\lambda \right)$
+$\implies x^\rho \to x^\rho + J^{\rho}_{\phantom{\rho} \sigma} \left( \epsilon \: \psi^\alpha \right)$
 
-Assuming $\psi^\lambda$ is constrained to contain the components of $J^{\rho}_{\phantom{\rho} \sigma}$ , we can use the fact that scaling the components $\psi^\lambda$ also scales $J^{\rho}_{\phantom{\rho} \sigma}$ to assert,
+Assuming $\psi^\alpha$ is constrained to contain the components of $J^{\rho}_{\phantom{\rho} \sigma}$ , we can use the fact that scaling the components $\psi^\alpha$ also scales $J^{\rho}_{\phantom{\rho} \sigma}$ to assert,
 
-$x^\rho \to x^\rho + \epsilon \: J^{\rho}_{\phantom{\rho} \sigma} \left( \psi^\lambda \right)$
+$x^\rho \to x^\rho + \epsilon \: J^{\rho}_{\phantom{\rho} \sigma} \left( \psi^\alpha \right)$
 
 Therefore, the functional derivative of $x^\rho$ can be written as:
 $$
-\frac{\delta x^\rho}{\delta \lambda} = J^{\rho}_{\phantom{\rho} \sigma} \left( \psi^\lambda \right)
+\frac{\delta x^\rho}{\delta \lambda} = J^{\rho}_{\phantom{\rho} \sigma} \left( \psi^\alpha \right)
 $$
 But, a Jacobian linearly parameterized by a vector must be a contraction of the form,
 
-$J^{\rho}_{\phantom{\rho} \sigma} \left( \psi^\lambda \right) = \psi^\lambda B^\rho_{\phantom{\rho} \lambda \sigma}$
+$J^{\rho}_{\phantom{\rho} \sigma} \left( \psi^\alpha \right) = \psi^\alpha B^\rho_{\phantom{\rho} \alpha \sigma}$
 $$
-\therefore \frac{\delta x^\rho}{\delta \lambda} = \psi^\lambda B^\rho_{\phantom{\rho} \lambda \sigma}
+\therefore \frac{\delta x^\rho}{\delta \lambda} = \psi^\alpha B^\rho_{\phantom{\rho} \alpha \sigma}
 $$
-By the definition of tensors as multilinear maps, $B^\rho_{\phantom{\rho} \lambda \sigma}​$ are the components of a [[bilinear-products|bilinear product]], i.e.,
+By the definition of tensors as multilinear maps, $B^\rho_{\phantom{\rho} \alpha \sigma}​$ are the components of a [[bilinear-products|bilinear product]], i.e.,
 
-$\pmb{\mathcal{B}} \left( \pmb{e}_\lambda , \pmb{e}_\sigma \right) = B^\rho_{\phantom{\rho} \lambda \sigma} \pmb{e}_\rho$
+$\pmb{\mathcal{B}} \left( \pmb{e}_\alpha , \pmb{e}_\sigma \right) = B^\rho_{\phantom{\rho} \alpha \sigma} \pmb{e}_\rho$
 
 The ordered pair $\left( \pmb{\mathcal{B}}, \pmb{\psi} \right)$ where $\pmb{\psi}$ is a variable parameterizing a vector space, generates an [[algebras-over-fields|algebra]] on the vector space.
 
 We also have the reverse scenario where an algebra over a vector space corresponds to a symmetry, yielding the Noether current:
 
 $$
-j^\rho_{\phantom{\rho} \sigma} = \psi^\lambda \left( B^\xi_{\phantom{\xi} \lambda \sigma} \pi^{\rho \phantom{M} N}_{\phantom{\rho} M} \nabla_\xi \phi^M_{\phantom{M} N} - B^\rho_{\phantom{\rho} \lambda \sigma} \mathcal{L} \right)
+j^\rho_{\phantom{\rho} \sigma} = \psi^\alpha \left( B^\xi_{\phantom{\xi} \alpha \sigma} \pi^{\rho \phantom{M} N}_{\phantom{\rho} M} \nabla_\xi \phi^M_{\phantom{M} N} - B^\rho_{\phantom{\rho} \alpha \sigma} \mathcal{L} \right)
 $$
 
-If the action $S$ is symmetric under $J^{\rho}_{\phantom{\rho} \sigma} \left( \psi^\lambda \right)$ for all $\psi^\lambda \in V$ where $V$ is some vector space, we must have the following:
+If the action $S$ is symmetric under $J^{\rho}_{\phantom{\rho} \sigma} \left( \psi^\alpha \right)$ for all $\psi^\alpha \in V$ where $V$ is some vector space, we must have the following:
 
-$$j^\rho_{\phantom{\rho} \sigma} = B^\xi_{\phantom{\xi} \lambda \sigma} \pi^{\rho \phantom{M} N}_{\phantom{\rho} M} \nabla_\xi \phi^M_{\phantom{M} N} - B^\rho_{\phantom{\rho} \lambda \sigma} \mathcal{L}$$
+$$j^\rho_{\phantom{\rho} \sigma} = B^\xi_{\phantom{\xi} \alpha \sigma} \pi^{\rho \phantom{M} N}_{\phantom{\rho} M} \nabla_\xi \phi^M_{\phantom{M} N} - B^\rho_{\phantom{\rho} \alpha \sigma} \mathcal{L}$$
 
 ### Using gamma matrices
 
 From the [[gamma-matrices#Definition|definition of the gamma matrices]],
 
-$$j^\rho_{\phantom{\rho} \sigma} = \pi^{\rho \phantom{M} N}_{\phantom{\rho} M} \gamma_{\sigma \phantom{\xi} \lambda}^{\phantom{\sigma} \xi} \nabla_\xi \phi^M_{\phantom{M} N} - \gamma_{\sigma \phantom{\rho} \lambda}^{\phantom{\sigma} \rho} \mathcal{L}$$
+$$j^\rho_{\phantom{\rho} \sigma} = \pi^{\rho \phantom{M} N}_{\phantom{\rho} M} \gamma_{\sigma \phantom{\xi} \alpha}^{\phantom{\sigma} \xi} \nabla_\xi \phi^M_{\phantom{M} N} - \gamma_{\sigma \phantom{\rho} \alpha}^{\phantom{\sigma} \rho} \mathcal{L}$$
