@@ -21,9 +21,9 @@ git clone https://github.com/Booodaness/Scientific-Notes
 3. Open `<parent_directory>/Scientific-Notes` as a new Obsidian vault.
 
 ## Pools
-Each collaborator can directly edit content in root directories called pools. There are two kinds of pools  — individual pools, and the common pool. Every contributor maintains one individual pool with the same name as their GitHub username. The common pool is a directory named `!Common` , with fully collaborative notes. Thus, each collaborator can freely edit their own individual pools, and the common pool.
+Each collaborator can directly edit content in root directories called pools. There are two kinds of pools  — individual pools and the common pool. Every author maintains one individual pool with the same name as their GitHub username. The common pool is a directory named `!Common` , with fully collaborative notes.
 
-When contributors want to suggest edits to other authors' pools, they must [fork the project](https://github.com/Booodaness/Scientific-Notes/fork) , modify accordingly and start a pull request. After optional discussion in the request's review page, the changed pool's author (or the project's owner) may merge the pull request (or decline to do so).
+When authors want to suggest edits to other authors' pools, they must [fork the project](https://github.com/Booodaness/Scientific-Notes/fork) , modify accordingly and start a pull request. After optional discussion in the request's review page, the changed pool's author (or the project's owner) may merge the pull request (or decline to do so).
 
 Each pool has the following layout:
 
@@ -84,7 +84,7 @@ Firstly, [fork this repository](https://github.com/Booodaness/Scientific-Notes/f
 3. Start a pull request.
 4. Document your edits in the review page of the pull request.
 
-For both the cases above, your contributions will be considered for merging into the project. If a contributor maintains their notes regularly, they will be invited to become a collaborator, accepting which allows them to directly push their contributions to the project.
+For both the cases above, your contributions will be considered for merging into the project. If an author maintains their notes regularly, they will be invited to become a collaborator, accepting which allows them to directly push their writings to the project.
 
 Last but not the least, happy reading/writing! :)
 
