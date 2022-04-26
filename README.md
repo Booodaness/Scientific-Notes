@@ -84,7 +84,7 @@ Firstly, [fork this repository](https://github.com/Booodaness/Scientific-Notes/f
 3. Start a pull request.
 4. Document your edits in the review page of the pull request.
 
-For both the cases above, your contributions will be considered for merging into the project. If an author maintains their notes regularly, they will be invited to become a collaborator, accepting which allows them to directly push their writings to the project.
+After completing the above steps, your contributions will be considered for merging into the project. If an author maintains their notes regularly, they will be invited to become a collaborator, accepting which allows them to directly push their writings to the project.
 
 Last but not the least, happy reading/writing! :)
 
