@@ -39,6 +39,11 @@ Each pool has the following layout:
     │   ├── Templates     (Templates made with 'Templates' plugin)
     │   └── ...           (Other data collections)
     │
+    ├── !Uncategorized    (Uncategorized notes)
+    │   ├── !to-do        (Kanban)
+    │   ├── article-1     (e.g. 'quantum-mechanics.md')
+    │   └── ...           (Other articles)
+    │
     ├── <Topic 1>         (e.g. 'Field Theory')
     │   ├── !contents     (Contents page linking to articles on Topic 1)
     │   ├── !to-do        (Kanban for Topic 1)
