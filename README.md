@@ -21,7 +21,7 @@ git clone https://github.com/Booodaness/Scientific-Notes
 3. Open `<parent_directory>/Scientific-Notes` as a new Obsidian vault.
 
 ## Pools
-Each collaborator can directly edit content in root directories called pools. There are two kinds of pools  — individual pools and the common pool. Every author maintains an individual pool with the same name as their GitHub username. There is a second individual pool authors can optionally use, `!Private`. As it is included in the `.gitignore` file, all its contents are stored only locally in the respective author's systems. This feature is for keeping private notes, while making them locally linkable to public ones. However, we recommend authors to maintain the public notes as much as possible since it is the primary aim of this project. Lastly, we have the common pool with fully collaborative notes, in the directory `!Common`.
+Each collaborator can directly edit content in root directories called pools. There are two kinds of pools  — individual pools and the common pool. Every author maintains an individual pool with the same name as their GitHub username. There is a second individual pool authors can optionally use, `!Local`. As it is included in the `.gitignore` file, all its contents are stored only locally in the respective author's systems. This feature is for keeping private notes, while making them locally linkable to the public ones. However, we recommend authors to maintain the public notes as much as possible since it is the primary aim of this project. Lastly, we have the common pool with fully collaborative notes, in the directory `!Common`.
 
 When authors want to suggest edits to other authors' pools, they must [fork the project](https://github.com/Booodaness/Scientific-Notes/fork) , modify accordingly and start a pull request. After optional discussion in the request's review page, the changed pool's author (or the project's owner) may merge the pull request (or decline to do so).
 
@@ -65,7 +65,7 @@ The complete repository has the structure:
 │
 ├── !Common    (Common pool)
 │
-├── !Private   (Private individual pool)
+├── !Local     (Local individual pool)
 │
 ├── <Author_1> (Individual pool for Author_1)
 │
