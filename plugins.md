@@ -74,10 +74,14 @@ Excalidraw folder: '<Individual_pool_name>/!Assets/Excalidraw'
 Excalidraw template file: '<Individual_pool_name>/!Assets/Excalidraw/Template.excalidraw'
 Excalidraw Automate script folder: '<Individual_pool_name>/!Assets/Excalidraw/Scripts'
 ```
+Filename
+```
+.excalidraw.md or .md: false
+```
 Embed & Export
 ```
 Display SVG in markdown preview: true
-Embed SVG or PNG as Wiki link: false
+Embed SVG or PNG as Wiki link: true
 Export image with background: false
 ```
 Export settings
