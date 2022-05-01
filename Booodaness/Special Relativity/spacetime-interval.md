@@ -2,7 +2,7 @@
 #spacetime-interval #Minkowski-metric #Lorentz-transformations
 
 ## Null world lines
-Let us work in local coordinates $x^\mu = \left( ct, x^i \right)$ where $c$ is the speed of light in vacuum. Suppose we were to track the motion of a pulse of light, in some inertial frame. By the second [[postulates|postulate]] of SR, this speed would be the same in all inertial frames.
+Let us work in local coordinates $x^\mu = \left( ct, x^i \right)$ where $c$ is the speed of light in vacuum. Suppose we were to track the motion of a pulse of light, in some inertial frame. By the second [[Booodaness/Special Relativity/postulates|postulate]] of SR, this speed would be the same in all inertial frames.
 
 Let the 3-position of a pointlike pulse of light be $x^i$. Then, its speed squared is,
 
@@ -169,7 +169,7 @@ Note that $ds^2$ is negative and $ds^2 = - dL^2$. Therefore, the spacetime inter
 Nevertheless, since we are free to use mathematical quantities in themselves, the spacetime interval between two events is often defined as precisely the proper length between two simultaneous events in a frame travelling along a spacelike world line.
 
 ### No body can travel faster than light
-Since $ds^2$ is invariant, $ds^2 < 0$ must be true along in the spacelike body's frame. However, in that frame, $v=0$ which gives $ds^2 = c^2 dt^2 >0$. The second condition is strong, as it follows from the [[postulates|principle of relativity]] that no matter the speed of a body in different inertial frames (be it lesser than $c$ or greater), in its own frame, there must be no way of telling if the body is moving. Therefore, in the body's frame, if $ds^2 > 0$ for the first case ($v<c$), the same must apply in the latter case ($v>c$). Moreover, this is true for non-uniform motion as it can be broken down into a series of instantaneously uniform motions.
+Since $ds^2$ is invariant, $ds^2 < 0$ must be true along in the spacelike body's frame. However, in that frame, $v=0$ which gives $ds^2 = c^2 dt^2 >0$. The second condition is strong, as it follows from the [[Booodaness/Special Relativity/postulates|principle of relativity]] that no matter the speed of a body in different inertial frames (be it lesser than $c$ or greater), in its own frame, there must be no way of telling if the body is moving. Therefore, in the body's frame, if $ds^2 > 0$ for the first case ($v<c$), the same must apply in the latter case ($v>c$). Moreover, this is true for non-uniform motion as it can be broken down into a series of instantaneously uniform motions.
 
 This leaves us with only one possible resolution for the paradox: the initial assumption that there exists a body with $v>c$ in some frame, is simply false!
 

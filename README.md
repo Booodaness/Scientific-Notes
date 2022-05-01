@@ -1,4 +1,5 @@
 # Scientific Notes
+[![DOI](<https://img.shields.io/badge/DOI-10.7910/DVN/2ENNQK-blue>)](https://www.doi.org/10.7910/DVN/2ENNQK) [![Copyright](https://img.shields.io/badge/copyright-CC%20BY--NC--SA%204.0-important)](https://creativecommons.org/licenses/by-nc-sa/4.0/) ![GitHub commit activity](https://img.shields.io/github/commit-activity/w/Booodaness/Scientific-Notes)
 
 ## About
 ![Graph view](!Common/!Assets/Images/graph.png)
