@@ -20,6 +20,8 @@ git clone https://github.com/Booodaness/Scientific-Notes
 
 3. Open `<parent_directory>/Scientific-Notes` as a new Obsidian vault.
 
+4. Install plugins as described in (PLUGINS.md)[PLUGINS.md].
+
 ## Pools
 Each collaborator can directly edit content in root directories called pools. There are two kinds of pools  — individual pools and the common pool. Every author maintains an individual pool with the same name as their GitHub username. There is a second individual pool authors can optionally use, `!Local`. As it is included in the `.gitignore` file, all its contents are stored only locally in the respective author's systems. This feature is for keeping private notes, while making them locally linkable to the public ones. However, we recommend authors to maintain the public notes as much as possible since it is the primary aim of this project. Lastly, we have the common pool with fully collaborative notes, in the directory `!Common`.
 
