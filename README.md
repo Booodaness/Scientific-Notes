@@ -1,5 +1,5 @@
 # Scientific Notes
-[![Copyright](https://img.shields.io/badge/copyright-CC%20BY--NC--SA%204.0-important)](https://creativecommons.org/licenses/by-nc-sa/4.0/) ![GitHub commit activity](https://img.shields.io/github/commit-activity/w/Booodaness/Scientific-Notes)
+[![Copyright](https://img.shields.io/badge/copyright-CC%20BY--NC--SA%204.0-important)](https://creativecommons.org/licenses/by-nc-sa/4.0/) [![GitHub commit activity](https://img.shields.io/github/commit-activity/w/Booodaness/Scientific-Notes)](https://github.com/Booodaness/Scientific-Notes/commits/master)
 
 ## About
 ![Graph view](!Common/!Assets/Images/graph.png)
