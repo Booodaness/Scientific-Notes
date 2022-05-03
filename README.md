@@ -4,7 +4,7 @@
 ## About
 ![Graph view](!Common/!Assets/Images/graph.png)
 
-This repository is a collection of regularly updated, collaborative, open-source notes on various topics in mathematical physics, physics and mathematics.
+This repository is a collection of collaborative, open-source notes on various topics in mathematical physics, physics and mathematics.
 
 The project has the structure of an [Obsidian](https://obsidian.md/) vault.
 
