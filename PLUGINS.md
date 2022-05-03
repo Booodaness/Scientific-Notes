@@ -41,6 +41,7 @@ Better Command Palette (mutually exclusive with Command palette)
 Better Word Count
 Core Search Assistant
 Custom Frames
+Dangling links
 Discord Rich Presence
 Editor Syntax Highlight
 Extended MathJax
