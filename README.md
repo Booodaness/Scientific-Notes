@@ -1,5 +1,5 @@
 # Scientific Notes
-[![GitHub commit activity](https://img.shields.io/github/commit-activity/w/Booodaness/Scientific-Notes)](https://github.com/Booodaness/Scientific-Notes/commits/master) [![Copyright](https://img.shields.io/badge/copyright-CC%20BY--NC--SA%204.0-important)](https://creativecommons.org/licenses/by-nc-sa/4.0/)
+[![GitHub commit activity](https://img.shields.io/github/commit-activity/w/Booodaness/Scientific-Notes)](https://github.com/Booodaness/Scientific-Notes/commits/master) [![License](https://img.shields.io/badge/license-CC%20BY--NC--SA%204.0-important)](https://creativecommons.org/licenses/by-nc-sa/4.0/)
 
 ## About
 ![Graph view](!Common/!Assets/Images/graph.png)
@@ -9,7 +9,7 @@ This repository is a collection of regularly updated, collaborative, open-source
 The project has the structure of an [Obsidian](https://obsidian.md/) vault.
 
 ## Viewing locally
-1. [Download Obsidian](https://obsidian.md/download). (You could alternatively use Markdown processors such as [StackEdit](https://stackedit.io/) or [Dillinger](https://dillinger.io/), but some features such as wikilinks, extended markdown etc. may be unavailable).
+1. [Download Obsidian](https://obsidian.md/download).
 
 2. Make sure you have [Git](https://git-scm.com/), then open Git bash and clone this repository into your system:
 
