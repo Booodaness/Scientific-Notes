@@ -25,7 +25,7 @@ From the above definition, it is clear that self-relationships $x \: E \: x$ wou
 ![[Drawing 2022-04-29 16.00.25.svg]]
 %%[[Drawing 2022-04-29 16.00.25.md|🖋 Edit in Excalidraw]]%%
 
-### Graphs
+### Definition
 Given a set of nodes $V$ and a set of edges $E$ such that $E \cap I_V = \phi$, a graph $G$ is the ordered pair $G = \left( V, E \right)$. A graph is said to be directed if its edges are directed, and vice-versa if they are undirected.
 
 ## Topological spaces
@@ -77,7 +77,7 @@ $$\exists \: X \subseteq Y \subseteq V \vert N \left( X \right) \subseteq Y$$
 ![[Drawing 2022-04-29 16.43.12.svg]]
 %%[[Drawing 2022-04-29 16.43.12.md|🖋 Edit in Excalidraw]]%%
 
-### Topological spaces
+### Definition
 $V$ is said to have topological structure if it is equipped with a neighbourhood map $N$ obeying the neighbourhood axioms. A topological space constructed from $V$ is in turn, the ordered pair, $\Gamma = \left( V, N \right)$. 
 
 Note that the modern treatment of topological spaces constructs them from a different viewpoint, viz. open or closed sets. However, we will cover such details in notes dedicated to topology.
