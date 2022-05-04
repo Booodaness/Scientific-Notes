@@ -6,8 +6,9 @@ kanban-plugin: basic
 
 ## To do
 
+- [ ] Gauge invariance
 - [ ] Dirac equation
-- [ ] Generators and algebras
+- [ ] Symmetries and algebras
 
 
 ## In progress
