@@ -38,7 +38,6 @@ Each pool has the following layout:
     │   ├── Desmos        (Cached Desmos graphs)
     │   ├── Excalidraw    (Diagrams made with 'Excalidraw' plugin)
     │   ├── Images        (Images used in articles)
-    │   ├── Presentations (Presentations made with 'Advanced Slides' plugin)
     │   ├── Templates     (Templates made with 'Templates' plugin)
     │   └── ...           (Other data collections)
     │
