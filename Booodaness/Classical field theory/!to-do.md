@@ -6,7 +6,7 @@ kanban-plugin: basic
 
 ## To do
 
-- [ ] Gauge invariance
+- [ ] Gauge symmetries
 - [ ] Dirac equation
 - [ ] Symmetries and algebras
 
