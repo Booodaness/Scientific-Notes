@@ -1,4 +1,4 @@
-# Algebras in brief
+# Algebras
 #algebras #bilinear-products
 
 ## J tensor
