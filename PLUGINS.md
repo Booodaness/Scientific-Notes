@@ -32,6 +32,7 @@ Go to `Settings`>`Community plugins`>Disable `Safe mode`. Click `Browse` and ins
 *Kanban
 *Number headings
 *Obsidian Git
+*Obsidian Math+
 *Related Notes Finder
 *Tag Page Preview
 *Tag Wrangler
