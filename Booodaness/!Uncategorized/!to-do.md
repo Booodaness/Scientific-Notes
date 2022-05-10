@@ -7,7 +7,7 @@ kanban-plugin: basic
 ## To do
 
 - [ ] Information theory
-- [ ] Quantum mechanics
+- [ ] Relativistic thermodynamics
 
 
 ## In progress
