@@ -8,7 +8,9 @@ kanban-plugin: basic
 
 - [ ] Gauge invariance
 - [ ] Dirac equation
+- [ ] Perturbation theory
 - [ ] Symmetries and algebras
+- [ ] Conformal symmetry
 
 
 ## In progress
