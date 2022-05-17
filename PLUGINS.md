@@ -1,5 +1,5 @@
 # Plugins
-**Note**: Stars denote plugins crucial for developing Scientific-Notes, while the others simply enhance your writing experience.
+**Note**: Stars denote plugins crucial for reading and developing `Scientific Notes`, while the others simply enhance your writing experience.
 
 ## Core plugins
 Enable the following core plugins in `Settings`>`Core plugins`
@@ -63,8 +63,8 @@ Settings Search
 Table Extended
 ```
 
-## Preferred settings
-To change a plugin's settings, go to `Settings`>`Plugin options`>`<Plugin_name>`
+## Preferred settings for authors
+To change a plugin's settings, go to `Settings`>`Plugin options`>`<Plugin_name>`.
 
 **Desmos**
 ```
