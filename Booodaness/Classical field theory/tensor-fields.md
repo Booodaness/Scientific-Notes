@@ -2,7 +2,7 @@
 #tensors
 
 ## Tuple index notation
-To make the tensor notation a little less messy, let us use the [[tensors#Components|tuple index notation]], where tuples of indices are replaced by their capital letter. For example, $\mu_1 \dots \mu_p$ becomes $M$ and $\nu_1 \dots \nu_q$ becomes $N$ .
+To make the tensor notation a little less messy, let us use the [[tensors#Components|tuple index notation]], where tuples of indices are replaced by their capital letter. For example, $\phi^{\mu_1 \dots \mu_p}_{\phantom{\mu_1 \dots \mu_p} \nu_1 \dots \nu_q}$ is written as $\phi^M_{\phantom{M} N}$.
 
 ## Postulates
 Classical tensor fields are postulated to obey the following principles:
