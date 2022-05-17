@@ -6,7 +6,6 @@ kanban-plugin: basic
 
 ## To do
 
-- [ ] Gauge invariance
 - [ ] Dirac equation
 - [ ] Perturbation theory
 - [ ] Symmetries and algebras
@@ -15,6 +14,7 @@ kanban-plugin: basic
 
 ## In progress
 
+- [ ] Gauge invariance
 - [ ] Klein-Gordon Equation
 
 

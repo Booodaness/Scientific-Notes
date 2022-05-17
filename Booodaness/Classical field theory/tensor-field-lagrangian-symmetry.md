@@ -35,7 +35,7 @@ For this to be true in general, we must have,
 
 $$\pi^{\rho \phantom{M} N}_{\phantom{\rho} M} = \nabla^\rho \phi^{\phantom{M} N}_{M}$$
 
-Recalling the [[tensor-fields#Canonical momentum tensor|definition of the canonical momentum tensor]],
+Recalling the [[principle-of-stationary-action#Canonical momentum tensor|definition of the canonical momentum tensor]],
 
 $\frac{\partial \mathcal{L}}{\partial \left( \nabla_\rho \phi^M_{\phantom{M} N} \right)} = \nabla^\rho \phi^{\phantom{M} N}_{M}$
 
@@ -43,7 +43,7 @@ A little bit of trial and error, and motivation from the scalar field Lagrangian
 
 $$\mathcal{L} = \frac{1}{2} \nabla^\rho \phi^{\phantom{M} N}_{M} \nabla_\rho \phi^M_{\phantom{M} N} - V \left( \phi^M_{\phantom{M} N} \right)$$
 ## Equations of motion
-The tensor field Lagrangian yields the following equations of motion, by substituting for the canonical momentum tensor in the [[tensor-fields#Euler-Lagrange equations|Euler-Lagrange equations]] $\nabla_\rho \pi^{\rho \phantom{M} N}_{\phantom{\rho} M} - \frac{\partial \mathcal{L}}{\partial \phi^M_{\phantom{M} N}} = 0$ ,
+The tensor field Lagrangian yields the following equations of motion, by substituting for the canonical momentum tensor in the [[principle-of-stationary-action#Euler-Lagrange equations|Euler-Lagrange equations]] $\nabla_\rho \pi^{\rho \phantom{M} N}_{\phantom{\rho} M} - \frac{\partial \mathcal{L}}{\partial \phi^M_{\phantom{M} N}} = 0$ ,
 
 $$\nabla_\rho \nabla^\rho \phi^{\phantom{M} N}_{M} + \frac{\partial V}{\partial \phi^M_{\phantom{M} N}} = 0$$
 

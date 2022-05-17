@@ -1,58 +1,14 @@
 # Tensor fields
-#action-principle #energy-momentum-tensor #tensors
+#tensors
 
 ## Tuple index notation
 To make the tensor notation a little less messy, let us use the [[tensors#Components|tuple index notation]], where tuples of indices are replaced by their capital letter. For example, $\mu_1 \dots \mu_p$ becomes $M$ and $\nu_1 \dots \nu_q$ becomes $N$ .
 
-## Euler-Lagrange equations
-Let us work in flat spacetime characterized by the Minkowski metric $\eta_{\alpha \beta}$ . Assume the Lagrangian density $\mathcal{L}$ of a field depends explicitly on only the [[tensors|tensor]] field $\phi^M_{\phantom{M} N}$ and its first covariant derivatives $\nabla_\rho \phi^M_{\phantom{M} N}$ .
+## Postulates
+Classical tensor fields are postulated to obey the following principles:
 
-Now, the action for the field can be written as,
+1. **Locality**: Changes in a tensor field [[spacetime-interval#No body can travel faster than light|cannot propagate faster than light]], in any given reference frame.
+2. **Lorentz invariance**: Tensor fields are [[tensors#Invariance|invariant]] in all reference frames. Thus, [[tensors#Components|components]] of tensor fields [[tensors#Components|transform like tensors]], with the Jacobian representing a [[lorentz-transformations|Lorentz transformation]]. 
+3. **Principle of stationary action**: There are functionals on a given tensor field, such that on-shell evolutions are stationary i.e. varying the field does not vary the action, up to first-order.
+4. **Gauge invariance**: The dynamics of tensor fields are [[gauge-invariance|invariant]] under [[gauge-invariance#gauge-transformations|gauge transformations]].
 
-$$
-S = \int_V d^4 x \: \mathcal{L}
-$$
-By the principle of stationary action, any small variation of the action from an on-shell evolution leaves the action stationary,
-
-$$
-\delta S = \delta \int_V d^4 x \: \mathcal{L} =  \int_V d^4 x \: \delta \mathcal{L} = 0
-$$
-By the chain rule, let us expand $\delta \mathcal{L}$ as,
-
-$\delta \mathcal{L} = \frac{\partial \mathcal{L}}{\partial \phi^M_{\phantom{M} N}} \delta \phi^M_{\phantom{M} N} + \frac{\partial \mathcal{L}}{\partial \left( \nabla_\rho \phi^M_{\phantom{M} N} \right)} \delta \left( \nabla_\rho \phi^M_{\phantom{M} N} \right)$
-
-$= \frac{\partial \mathcal{L}}{\partial \phi^M_{\phantom{M} N}} \delta \phi^M_{\phantom{M} N} + \frac{\partial \mathcal{L}}{\partial \left( \nabla_\rho \phi^M_{\phantom{M} N} \right)} \nabla_\rho \left( \delta \phi^M_{\phantom{M} N} \right)$
-
-According to the principle of stationary action,
-
-$\displaystyle{ \int_V d^4 x \: \delta \mathcal{L} = 0 }$
-
-$\displaystyle{ \int_V d^4 x \: \left( \frac{\partial \mathcal{L}}{\partial \phi^M_{\phantom{M} N}} \delta \phi^M_{\phantom{M} N} + \frac{\partial \mathcal{L}}{\partial \left( \nabla_\rho \phi^M_{\phantom{M} N} \right)} \nabla_\rho \left( \delta \phi^M_{\phantom{M} N} \right) \right) = 0 }$
-
-$\displaystyle{ \int_V d^4 x \: \frac{\partial \mathcal{L}}{\partial \phi^M_{\phantom{M} N}} \delta \phi^M_{\phantom{M} N} + \int_V d^4 x \: \frac{\partial \mathcal{L}}{\partial \left( \nabla_\rho \phi^M_{\phantom{M} N} \right)} \nabla_\rho \left( \delta \phi^M_{\phantom{M} N} \right) = 0 }$
-
-$\displaystyle{ \int_V d^4 x \: \frac{\partial \mathcal{L}}{\partial \phi^M_{\phantom{M} N}} \delta \phi^M_{\phantom{M} N} \\ + \frac{\partial \mathcal{L}}{\partial \left( \nabla_\rho \phi^M_{\phantom{M} N} \right)} \int_V d^4 x \: \nabla_\rho \left( \delta \phi^M_{\phantom{M} N} \right) \\ - \int_V d^4 x \: \left[ \nabla_\rho \frac{\partial \mathcal{L}}{\partial \left( \nabla_\rho \phi^M_{\phantom{M} N} \right)} \right] \left( \int d^4 x \: \nabla_\rho \left( \delta \phi^M_{\phantom{M} N} \right) \right) = 0 }$
-
-By Stokes' theorem, the intermediate term in the above equation is a constant surface term. By setting it to zero,
-
-$\displaystyle{ \int_V d^4 x \: \frac{\partial \mathcal{L}}{\partial \phi^M_{\phantom{M} N}} \delta \phi^M_{\phantom{M} N} - \int_V d^4 x \: \left[ \nabla_\rho \frac{\partial \mathcal{L}}{\partial \left( \nabla_\rho \phi^M_{\phantom{M} N} \right)} \right] \delta \phi^M_{\phantom{M} N} = 0 }$
-
-$\displaystyle{ \int_V d^4 x \: \left\{ \frac{\partial \mathcal{L}}{\partial \phi^M_{\phantom{M} N}} - \left[ \nabla_\rho \frac{\partial \mathcal{L}}{\partial \left( \nabla_\rho \phi^M_{\phantom{M} N} \right)} \right] \delta \phi^M_{\phantom{M} N} \right\} = 0 }$
-
-By the fundamental lemma of the calculus of variations, we are left with the Euler-Lagrange equations,
-$$
-\frac{\partial \mathcal{L}}{\partial \phi^M_{\phantom{M} N}} - \nabla_\rho \frac{\partial \mathcal{L}}{\partial \left( \nabla_\rho \phi^M_{\phantom{M} N} \right)} = 0
-$$
-
-## Canonical momentum tensor
-The canonical momentum tensor for a field $\phi^M_{\phantom{M} N}$ may be defined as,
-
-$$
-\pi^{\rho \phantom{M} N}_{\phantom{\rho} M} = \frac{\partial \mathcal{L}}{\partial \left( \nabla_\rho \phi^M_{\phantom{M} N} \right)}
-$$
-
-The Euler-Lagrange equations thus read:
-
-$$
-\frac{\partial \mathcal{L}}{\partial \phi^M_{\phantom{M} N}} = \nabla_\rho \pi^{\rho \phantom{M} N}_{\phantom{\rho} M}
-$$

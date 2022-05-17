@@ -2,7 +2,7 @@
 #linearity
 
 ## Solutions as coordinates
-Suppose we have a Lagrangian density $\mathcal{L}$ and a set of rank $\left( p, q \right)$ [[tensor-fields|tensor fields]] $\left\{ \phi^M_{\phantom{M} N \left( i \right)} \right\}$ which independently obey the [[tensor-fields#Euler-Lagrange equations|Euler-Lagrange equations]] for the given Lagrangian:
+Suppose we have a Lagrangian density $\mathcal{L}$ and a set of rank $\left( p, q \right)$ [[principle-of-stationary-action|tensor fields]] $\left\{ \phi^M_{\phantom{M} N \left( i \right)} \right\}$ which independently obey the [[principle-of-stationary-action#Euler-Lagrange equations|Euler-Lagrange equations]] for the given Lagrangian:
 
 $$\frac{\partial \mathcal{L}}{\partial \phi^M_{\phantom{M} N \left( i \right)}} = \nabla_\mu \frac{\partial \mathcal{L}}{\partial \left( \nabla_\mu \phi^M_{\phantom{M} N \left( i \right)} \right)}$$
 
@@ -67,7 +67,7 @@ $$\sum_i \frac{\partial \mathcal{L}}{\partial \left( \nabla_\mu \phi^M_{\phantom
 
 Only if the above is true, can we say that $\phi^M_{\phantom{M} N}$ is a valid solution.
 
-In the above constraint, note the appearance of [[tensor-fields#Canonical momentum tensor|canonical 4-momentum]] coordinates $\frac{\partial \mathcal{L}}{\partial \left( \nabla_\mu \phi^M_{\phantom{M} N \left( i \right)} \right)}$. In general, these are not zero. One possibility which ensures the constraint always holds good is:
+In the above constraint, note the appearance of [[principle-of-stationary-action#Canonical momentum tensor|canonical 4-momentum]] coordinates $\frac{\partial \mathcal{L}}{\partial \left( \nabla_\mu \phi^M_{\phantom{M} N \left( i \right)} \right)}$. In general, these are not zero. One possibility which ensures the constraint always holds good is:
 
 $$\nabla_\mu \frac{\partial \phi^M_{\phantom{M} N \left( i \right)}}{\partial \phi^M_{\phantom{M} N}} = 0$$
 
