@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+
+    <title></title>
+    <link rel="stylesheet" href="dist/reveal.css" />
+    <link rel="stylesheet" href="dist/theme/black.css" id="theme" />
+    <link rel="stylesheet" href="plugin/highlight/zenburn.css" />
+	<link rel="stylesheet" href="css/layout.css" />
+	<link rel="stylesheet" href="plugin/customcontrols/style.css">
+
+
+    <script defer src="dist/fontawesome/all.min.js"></script>
+
+	<script type="text/javascript">
+		var forgetPop = true;
+		function onPopState(event) {
+			if(forgetPop){
+				forgetPop = false;
+			} else {
+				parent.postMessage(event.target.location.href, "app://obsidian.md");
+			}
+        }
+		window.onpopstate = onPopState;
+		window.onmessage = event => {
+			if(event.data == "reload"){
+				window.document.location.reload();
+			}
+			forgetPop = true;
+		}
+
+		function fitElements(){
+			const itemsToFit = document.getElementsByClassName('fitText');
+			for (const item in itemsToFit) {
+				if (Object.hasOwnProperty.call(itemsToFit, item)) {
+					var element = itemsToFit[item];
+					fitElement(element,1, 1000);
+					element.classList.remove('fitText');
+				}
+			}
+		}
+
+		function fitElement(element, start, end){
+
+			const size = (end + start) / 2;
+			element.style.fontSize = `${size}px`;
+
+			if(Math.abs(start - end) < 1){
+				return;
+			}
+
+			if(element.scrollHeight > element.offsetHeight){
+				fitElement(element, start, size);
+			} else {
+				fitElement(element, size, end);
+			}		
+		}
+
+
+		document.onreadystatechange = () => {
+			fitElements();
+			if (document.readyState === 'complete') {
+				if (window.location.href.indexOf("?export") != -1){
+					parent.postMessage(event.target.location.href, "app://obsidian.md");
+				}
+				if (window.location.href.indexOf("print-pdf") != -1){
+					let stateCheck = setInterval(() => {
+						clearInterval(stateCheck);
+						window.print();
+					}, 250);
+				}
+			}
+	};
+
+
+        </script>
+  </head>
+  <body>
+    <div class="reveal">
+      <div class="slides"><section  data-markdown><script type="text/template"><p style="line-height: 0" class="reset-paragraph"><img src="https://raw.githubusercontent.com/Booodaness/Scientific-Notes/master/!Common/!Assets/Images/workspace.png" alt="Workspace" ></img></p>
+
+
+Workspace
+</script></section><section  data-markdown><script type="text/template">
+<p style="line-height: 0" class="reset-paragraph"><img src="https://raw.githubusercontent.com/Booodaness/Scientific-Notes/master/!Common/!Assets/Images/hyperlinks.png" alt="Hyperlinks" ></img></p>
+
+
+Hyperlinks
+</script></section><section  data-markdown><script type="text/template">
+<p style="line-height: 0" class="reset-paragraph"><img src="https://raw.githubusercontent.com/Booodaness/Scientific-Notes/master/!Common/!Assets/Images/backlinks.png" alt="Backlinks" ></img></p>
+
+
+Backlinks
+</script></section><section  data-markdown><script type="text/template">
+<p style="line-height: 0" class="reset-paragraph"><img src="https://raw.githubusercontent.com/Booodaness/Scientific-Notes/master/!Common/!Assets/Images/outgoing_links.png" alt="Outgoing links" ></img></p>
+
+
+Outgoing links
+</script></section><section  data-markdown><script type="text/template">
+<p style="line-height: 0" class="reset-paragraph"><img src="https://raw.githubusercontent.com/Booodaness/Scientific-Notes/master/!Common/!Assets/Images/graph_view.png" alt="Graph view" ></img></p>
+
+
+Graph view
+</script></section><section  data-markdown><script type="text/template">
+<p style="line-height: 0" class="reset-paragraph"><img src="https://raw.githubusercontent.com/Booodaness/Scientific-Notes/master/!Common/!Assets/Images/excalidraw.png" alt="Excalidraw" ></img></p>
+
+
+Diagram made with Excalidraw plugin
+</script></section><section  data-markdown><script type="text/template">
+<p style="line-height: 0" class="reset-paragraph"><img src="https://raw.githubusercontent.com/Booodaness/Scientific-Notes/master/!Common/!Assets/Images/git.png" alt="Git integration" ></img></p>
+
+
+Git integration with Obsidian Git plugin
+
+---</script></section></div>
+    </div>
+
+    <script src="dist/reveal.js"></script>
+
+    <script src="plugin/markdown/markdown.js"></script>
+    <script src="plugin/highlight/highlight.js"></script>
+    <script src="plugin/zoom/zoom.js"></script>
+    <script src="plugin/notes/notes.js"></script>
+    <script src="plugin/math/math.js"></script>
+	<script src="plugin/mermaid/mermaid.js"></script>
+	<script src="plugin/customcontrols/plugin.js"></script>
+
+    <script>
+      function extend() {
+        var target = {};
+        for (var i = 0; i < arguments.length; i++) {
+          var source = arguments[i];
+          for (var key in source) {
+            if (source.hasOwnProperty(key)) {
+              target[key] = source[key];
+            }
+          }
+        }
+        return target;
+      }
+
+      // default options to init reveal.js
+      var defaultOptions = {
+        controls: true,
+        progress: true,
+        history: true,
+        center: true,
+        transition: 'default', // none/fade/slide/convex/concave/zoom
+        plugins: [
+          RevealMarkdown,
+          RevealHighlight,
+          RevealZoom,
+          RevealNotes,
+          RevealMath.MathJax3,
+		  RevealMermaid,
+		  RevealCustomControls,
+        ],
+
+		mathjax3: {
+			mathjax: 'plugin/math/mathjax/tex-mml-chtml.js',
+		},
+
+		customcontrols: {
+			controls: [
+			]
+		},
+      };
+
+      // options from URL query string
+      var queryOptions = Reveal().getQueryHash() || {};
+
+      var options = extend(defaultOptions, {"width":960,"height":700,"margin":0.04,"controls":true,"progress":true,"slideNumber":false,"transition":"slide","transitionSpeed":"default"}, queryOptions);
+    </script>
+
+    <script>
+      Reveal.initialize(options);
+    </script>
+  </body>
+</html>
