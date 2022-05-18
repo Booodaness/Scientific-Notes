@@ -37,5 +37,3 @@ Diagram made with Excalidraw plugin
 ![Git integration](https://raw.githubusercontent.com/Booodaness/Scientific-Notes/master/!Common/!Assets/Images/git.png)
 
 Git integration with Obsidian Git plugin
-
----
