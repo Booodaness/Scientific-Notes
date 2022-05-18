@@ -65,6 +65,11 @@ Table Extended
 ## Preferred settings for authors
 To change a plugin's settings, go to `Settings`>`Plugin options`>`<Plugin_name>`.
 
+**Advanced Slides**
+```
+Export Directory: '<Individual_pool_name>/!Assets/Presentations'
+```
+
 **Desmos**
 ```
 Cache Directory: '<Individual_pool_name>/!Assets/Desmos'
