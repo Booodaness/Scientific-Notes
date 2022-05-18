@@ -27,6 +27,7 @@ Workspaces
 Go to `Settings`>`Community plugins`>Disable `Safe mode`. Click `Browse` and install the following plugins. Stars denote plugins crucial for reading and developing `Scientific-Notes`, while the others simply enhance the writing experience.
 
 ```
+*Advanced Slides
 *Desmos
 *Excalidraw
 *Kanban
@@ -35,7 +36,6 @@ Go to `Settings`>`Community plugins`>Disable `Safe mode`. Click `Browse` and ins
 *Related Notes Finder
 *Tag Page Preview
 *Tag Wrangler
-Advanced Slides
 Advanced Tables
 Better Command Palette (mutually exclusive with Command palette)
 Better Word Count
