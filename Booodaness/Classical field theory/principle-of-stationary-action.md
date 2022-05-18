@@ -1,4 +1,5 @@
 # Principle of stationary action
+#euler-lagrange-equations #canonical-momentum-tensor
 
 ## Euler-Lagrange equations
 Let us work in flat spacetime characterized by the Minkowski metric $\eta_{\alpha \beta}$ . Assume the Lagrangian density $\mathcal{L}$ of a field depends explicitly on only the [[tensors|tensor]] field $\phi^M_{\phantom{M} N}$ and its first covariant derivatives $\nabla_\rho \phi^M_{\phantom{M} N}$ .
