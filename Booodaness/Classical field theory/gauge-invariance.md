@@ -22,8 +22,8 @@ By the chain rule, derivatives of the fields transform as,
 $$d \widetilde{\phi}^M_{\phantom{M} N a} = J^{M H b}_{\phantom{M H b} N Z a} d \phi^Z_{\phantom{Z} H b}$$
 
 ## Gauge invariance
-Gauge invariance is the proposition that the equations of motion for a gauge field $\phi^M_{\phantom{M} N}$ must remain invariant under a gauge transformation. However, the Euler-Lagrange equations are not, which will require us to modify the form of the equations of motion and effectively, the Lagrangian.
+Gauge invariance is the proposition that the equations of motion for a gauge field $\phi^{M \phantom{N} a}_{\phantom{M} N}$ must remain invariant under a gauge transformation. However, the Euler-Lagrange equations are not, which will require us to modify the form of the equations of motion and effectively, the Lagrangian.
 
-$\displaystyle{ \nabla_\rho \widetilde{\pi}^{\rho \phantom{M} N}_{\phantom{\rho} M} = \nabla_\rho \left(  \right) }$
+$\displaystyle{ \nabla_\rho \widetilde{\pi}^{\rho \phantom{M} N}_{\phantom{\rho} M \phantom{N} a} = \nabla_\rho \left( \pi^{\rho \phantom{M} N}_{\phantom{\rho} M \phantom{N} a}  \right) }$
 
 
