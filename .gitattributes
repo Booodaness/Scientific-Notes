@@ -1,3 +1,2 @@
-# Include languages of types 'data' and 'prose'
 * linguist-detectable
 *.svg linguist-detectable=false
