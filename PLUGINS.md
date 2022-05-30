@@ -45,6 +45,7 @@ Core Search Assistant
 Custom Frames
 Customizable Sidebar
 Dangling links
+Dictionary
 Discord Rich Presence
 Editor Syntax Highlight
 Extended MathJax
@@ -56,7 +57,6 @@ Latex Suite (mutually exclusive with Quick Latex for Obsidian)
 Media Extended
 Obsidian Tabs
 Pandoc Plugin
-Obsidian42 - Wordnet Dictionary
 Quick Latex for Obsidian (mutually exclusive with Latex Suite)
 Quick Switcher++ (mutually exclusive with Quick switcher)
 Remember cursor position
