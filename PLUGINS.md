@@ -39,6 +39,7 @@ Go to `Settings`>`Community plugins`>Disable `Safe mode`. Click `Browse` and ins
 *Tag Page Preview
 *Tag Wrangler
 Advanced Tables
+Annotator
 Better Command Palette (mutually exclusive with Command palette)
 Better Word Count
 Core Search Assistant
