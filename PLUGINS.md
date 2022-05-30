@@ -40,7 +40,9 @@ Go to `Settings`>`Community plugins`>Disable `Safe mode`. Click `Browse` and ins
 *Tag Wrangler
 Advanced Tables
 Annotator
+Banners
 Better Command Palette (mutually exclusive with Command palette)
+Better PDF Plugin
 Better Word Count
 Core Search Assistant
 Custom Frames
@@ -54,6 +56,8 @@ File Explorer Note Count
 Find and replace in selection
 Focus mode
 Image caption
+Journey
+Jupyter
 Latex Suite (mutually exclusive with Quick Latex for Obsidian)
 Media Extended
 Obsidian Tabs
