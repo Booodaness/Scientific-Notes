@@ -1,5 +1,5 @@
 # Discrete structures
-#graphs #undirected-graphs #foliations #posets #translations
+#graphs #foliations #posets #translations
 
 ## Graphs
 ### Nodes
