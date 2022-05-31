@@ -11,11 +11,13 @@ The project has the structure of an [Obsidian](https://obsidian.md/) vault.
 ## Viewing locally
 1. [Download Obsidian](https://obsidian.md/download).
 
-2. Make sure you have [Git](https://git-scm.com/), then open Git bash and clone this repository into your system:
+2. Make sure you have [Git](https://git-scm.com/). Open Git bash and clone this repository by separately running:
 
 ```
 cd <parent_directory>
+```
 
+```
 git clone https://github.com/Booodaness/Scientific-Notes
 ```
 
