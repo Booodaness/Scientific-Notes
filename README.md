@@ -6,7 +6,7 @@
 
 This repository is a collection of collaborative, open-source notes on various topics in mathematical physics, physics and mathematics. The project has the structure of an [Obsidian](https://obsidian.md/) vault.
 
-For screenshots and resources for contributors, see [screenshots.md](!Common/!Assets/Presentations/screenshots.md) and [RESOURCES.md](RESOURCES.md), respectively.
+For screenshots of the project, see [screenshots.md](!Common/!Assets/Presentations/screenshots.md).
 
 ## Viewing locally
 ### Without Git
@@ -90,6 +90,8 @@ The complete repository has the structure:
 ```
 
 ## Contributing
+(For resources for contributors, see [RESOURCES.md](RESOURCES.md)).
+
 Firstly, [fork this repository](https://github.com/Booodaness/Scientific-Notes/fork) and follow the steps for [viewing locally](#viewing-locally), but for the fork instead of the original repository. Now, for:
 
 ### Adding personal notes
