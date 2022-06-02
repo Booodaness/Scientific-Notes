@@ -9,8 +9,16 @@ This repository is a collection of collaborative, open-source notes on various t
 For screenshots, see [screenshots.md](!Common/!Assets/Presentations/screenshots.md).
 
 ## Viewing locally
+### Without Git
 1. [Download Obsidian](https://obsidian.md/download).
+2. Click the green 'Code' button at the top of this repository's [homepage](https://github.com/Booodaness/Scientific-Notes) and navigate to '[Download ZIP](https://github.com/Booodaness/Scientific-Notes/archive/refs/heads/master.zip)'.
+3. Extract the ZIP.
+4. Rename `Scientific-Notes-master/Scientific-Notes-master` to `Scientific-Notes-master/Scientific-Notes`.
+5. Open `Scientific-Notes-master/Scientific-Notes` as a new Obsidian vault.
+6. Install plugins as described in [PLUGINS.md](PLUGINS.md).
 
+### With Git
+1. [Download Obsidian](https://obsidian.md/download).
 2. Make sure you have [Git](https://git-scm.com/) installed. Open Git bash and clone this repository by separately running:
 
 ```
@@ -22,7 +30,6 @@ git clone https://github.com/Booodaness/Scientific-Notes
 ```
 
 3. Open `<parent_directory>/Scientific-Notes` as a new Obsidian vault.
-
 4. Install plugins as described in [PLUGINS.md](PLUGINS.md).
 
 ## Pools
