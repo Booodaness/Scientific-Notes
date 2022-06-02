@@ -6,7 +6,7 @@
 
 This repository is a collection of collaborative, open-source notes on various topics in mathematical physics, physics and mathematics. The project has the structure of an [Obsidian](https://obsidian.md/) vault.
 
-For resources and screenshots, see [RESOURCES.md](RESOURCES.md) and [SCREENSHOTS.md](!Common/!Assets/Presentations/SCREENSHOTS.md), respectively.
+For resources and screenshots, see [RESOURCES.md](RESOURCES.md) and [screenshots.md](!Common/!Assets/Presentations/screenshots.md), respectively.
 
 ## Viewing locally
 ### Without Git
