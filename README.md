@@ -90,7 +90,7 @@ The complete repository has the structure:
 ```
 
 ## Contributing
-(For resources for contributors, see [RESOURCES.md](RESOURCES.md)).
+(Resources for contributors are listed in [RESOURCES.md](RESOURCES.md)).
 
 Firstly, [fork this repository](https://github.com/Booodaness/Scientific-Notes/fork) and follow the steps for [viewing locally](#viewing-locally), but for the fork instead of the original repository. Now, for:
 
