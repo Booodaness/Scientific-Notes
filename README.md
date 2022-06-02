@@ -14,7 +14,7 @@ For screenshots of the project, see [screenshots.md](!Common/!Assets/Presentatio
 2. Click the green 'Code' button at the top of this repository's [homepage](https://github.com/Booodaness/Scientific-Notes) and navigate to '[Download ZIP](https://github.com/Booodaness/Scientific-Notes/archive/refs/heads/master.zip)'.
 3. Extract the ZIP.
 4. Rename `Scientific-Notes-master/Scientific-Notes-master` to `Scientific-Notes-master/Scientific-Notes`.
-5. Open `Scientific-Notes-master/Scientific-Notes` as a new Obsidian vault.
+5. Open `Scientific-Notes-master/Scientific-Notes` as a new [Obsidian vault](https://help.obsidian.md/Getting+started/Create+a+vault).
 6. Install plugins as described in [PLUGINS.md](PLUGINS.md).
 
 ### With Git
@@ -29,7 +29,7 @@ cd <parent_directory>
 git clone https://github.com/Booodaness/Scientific-Notes
 ```
 
-3. Open `<parent_directory>/Scientific-Notes` as a new Obsidian vault.
+3. Open `<parent_directory>/Scientific-Notes` as a new [Obsidian vault](https://help.obsidian.md/Getting+started/Create+a+vault).
 4. Install plugins as described in [PLUGINS.md](PLUGINS.md).
 
 ## Pools
