@@ -105,3 +105,28 @@ $$\nabla_\mu \frac{\partial \mathcal{L}}{\partial \left( \nabla_\mu \phi^M_{\pha
 Hence, the summation symbol becomes redundant and we can write:
 
 $$\nabla_\mu \frac{\partial \mathcal{L}}{\partial \left( \nabla_\mu \phi^M_{\phantom{M} N} \right)} = \frac{\partial \mathcal{L}}{\partial \phi^M_{\phantom{M} N}} + \frac{\partial \mathcal{L}}{\partial \left( \nabla_\mu \phi^M_{\phantom{M} N \left( i \right)} \right)} \nabla_\mu \frac{\partial \phi^M_{\phantom{M} N \left( i \right)}}{\partial \phi^M_{\phantom{M} N}}$$
+
+## From gauge invariance
+The linearity of solution fields can be derived succinctly using the idea of [[gauge-invariance|gauge invariance]]. Consider a solution set which is transformed differentiably into a new solution set i.e. the original solution set undergoes a [[gauge-invariance#Gauge transformations|gauge transformation]]. If the new solution set obeys the original equations of motion, the gauge has not really changed, thereby requiring [[gauge-invariance#Covariant derivatives|covariant derivatives]] to reduce to geometric covariant derivatives. In other words, the field-theoretic connection coefficients must vanish:
+
+$$G^b_{\phantom{b} \rho a} = 0$$
+
+Thus,
+
+$J^{M H b}_{\phantom{M H} N Z c} \nabla_\rho J^{\phantom{M H a} N Z c}_{M H a} = 0$
+
+which is true for non-trivial [[gauge-invariance#Gauge transformations|J tensors]] only if,
+
+$$\nabla_\rho J^{\phantom{M H b} N Z a}_{M H b} = 0$$
+
+Raising lower indices and vice-versa, and using the definition of the J tensor, we find,
+
+$$\nabla_\rho \frac{\partial \widetilde{\phi}^M_{\phantom{M} N a}}{\partial \phi^Z_{\phantom{M} H b}} = 0$$
+
+This is true in general when the fields $\widetilde{\phi}^M_{\phantom{M} N a}$ are linear combinations of $\phi^Z_{\phantom{M} H b}$,
+
+$$
+\begin{align} \widetilde{\phi}^M_{\phantom{M} N a} & = C^{M H b}_{\phantom{M h b} N Z a} \phi^Z_{\phantom{M} H b} \\ \nabla_\rho C^{M H b}_{\phantom{M h b} N Z a} & = 0 \end{align}
+$$
+
+The above precisely demonstrates the linearity of classical tensor fields.

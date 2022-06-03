@@ -14,7 +14,6 @@ kanban-plugin: basic
 
 ## In progress
 
-- [ ] Gauge invariance
 - [ ] Klein-Gordon Equation
 
 
@@ -24,6 +23,7 @@ kanban-plugin: basic
 - [x] Tensor field theory
 - [x] Tensor field Lagrangian from symmetry considerations
 - [x] Linearity
+- [x] Gauge invariance
 
 
 
