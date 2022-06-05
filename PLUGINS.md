@@ -74,19 +74,19 @@ To change a plugin's settings, go to `Settings`>`Plugin options`>`<Plugin_name>`
 
 **Advanced Slides**
 ```
-Export Directory: '<Individual_pool_name>/!Assets/Presentations'
+Export Directory: '<Personal_pool>/!Assets/Presentations'
 ```
 
 **Desmos**
 ```
-Cache Directory: '<Individual_pool_name>/!Assets/Desmos'
+Cache Directory: '<Personal_pool>/!Assets/Desmos'
 ```
 
 **Excalidraw**
 ```
-Excalidraw folder: '<Individual_pool_name>/!Assets/Excalidraw'
-Excalidraw template file: '<Individual_pool_name>/!Assets/Excalidraw/Template.excalidraw'
-Excalidraw Automate script folder: '<Individual_pool_name>/!Assets/Excalidraw/Scripts'
+Excalidraw folder: '<Personal_pool>/!Assets/Excalidraw'
+Excalidraw template file: '<Individual_pool>/!Assets/Excalidraw/Template.excalidraw'
+Excalidraw Automate script folder: '<Personal_pool>/!Assets/Excalidraw/Scripts'
 ```
 Embed & Export
 ```
@@ -105,7 +105,7 @@ Auto-export PNG: false
 ```
 Prepend / Append new cards: 'Append'
 Note template: '!Common/!Assets/Templates/!to-do'
-Note folder: '<Individual_pool_name>'
+Note folder: '<Personal_pool>'
 ```
 
 **Obsidian Git**
@@ -118,5 +118,5 @@ Pull changes before push: true
 
 **Templates**
 ```
-Template folder location: '<Individual_pool_name>/!Assets/Templates'
+Template folder location: '<Personal_pool>/!Assets/Templates'
 ```
