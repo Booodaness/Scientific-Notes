@@ -6,7 +6,7 @@
 
 `Scientific-Notes` is a collection of collaborative, open-source notes on various topics in mathematical physics, physics and mathematics. The project is aimed to be a knowledge base of ideas in the subjects, accessible to everyone for reference and experimentation. It is not a wiki or encyclopaedia, but a network of individual and shared ideas maintained using [Obsidian](https://obsidian.md/).
 
-Structurally, this repository is an Obsidian [vault](https://help.obsidian.md/How+to/Working+with+multiple+vaults). For screenshots, see [screenshots.md](!Common/!Assets/Presentations/screenshots.md).
+For screenshots, see [screenshots.md](!Common/!Assets/Presentations/screenshots.md).
 
 ## Viewing locally
 Firstly, [download](https://obsidian.md/download) Obsidian unless you have, already. After following the steps below, install Obsidian community plugins as described in [PLUGINS.md](PLUGINS.md).
@@ -15,7 +15,7 @@ Firstly, [download](https://obsidian.md/download) Obsidian unless you have, alre
 1. Click the green 'Code' button at the top of this repository's [homepage](https://github.com/Booodaness/Scientific-Notes) and navigate to '[Download ZIP](https://github.com/Booodaness/Scientific-Notes/archive/refs/heads/master.zip)'.
 2. Extract the ZIP.
 3. Rename `Scientific-Notes-master/Scientific-Notes-master` to `Scientific-Notes-master/Scientific-Notes`.
-4. Open `Scientific-Notes-master/Scientific-Notes` as a new Obsidian vault.
+4. Open `Scientific-Notes-master/Scientific-Notes` as a new Obsidian [vault](https://help.obsidian.md/How+to/Working+with+multiple+vaults).
 
 ### With Git
 1. Make sure you have [Git](https://git-scm.com/) installed on your system. Open Git bash and clone this repository by successively running:
@@ -28,7 +28,7 @@ cd <parent_directory>
 git clone https://github.com/Booodaness/Scientific-Notes
 ```
 
-2. Open `<parent_directory>/Scientific-Notes` as a new Obsidian vault.
+2. Open `<parent_directory>/Scientific-Notes` as a new Obsidian [vault](https://help.obsidian.md/How+to/Working+with+multiple+vaults).
 
 ## Pools
 Each collaborator can directly edit content in root directories called pools. There are two kinds of pools  — personal pools and the common pool. Every author maintains an personal pool with the same name as their GitHub username. There is a second personal pool authors can optionally use, `!Local`. As it is included in the `.gitignore` file, all its contents are stored only locally in the respective author's systems. This feature is for keeping private notes, while making them locally linkable to the public ones. However, we recommend authors to maintain the public notes as much as possible since it is the primary aim of this project. Lastly, we have the common pool with fully collaborative notes, in the directory `!Common`.
