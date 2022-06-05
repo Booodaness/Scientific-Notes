@@ -9,7 +9,7 @@
 - Utilizing the power of [Obsidian](https://obsidian.md/) through native features and plugins
 - Being flexible in terms of writing style, while also,
 - Borrowing wiki-like features (such as [hyperlinks](https://help.obsidian.md/How+to/Internal+link) and [atomic notes](https://neuron.zettel.page/atomic)) for smooth collaboration
-- Containing unique expositions to the explored topics, for better reader benefit
+- Containing varied expositions to the explored topics, for better reader benefit
 
 Structurally, this repository is an Obsidian [vault](https://help.obsidian.md/How+to/Working+with+multiple+vaults). For screenshots, see [screenshots.md](!Common/!Assets/Presentations/screenshots.md).
 
