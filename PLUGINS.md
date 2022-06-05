@@ -88,10 +88,6 @@ Excalidraw folder: '<Individual_pool_name>/!Assets/Excalidraw'
 Excalidraw template file: '<Individual_pool_name>/!Assets/Excalidraw/Template.excalidraw'
 Excalidraw Automate script folder: '<Individual_pool_name>/!Assets/Excalidraw/Scripts'
 ```
-Filename
-```
-.excalidraw.md or .md: false
-```
 Embed & Export
 ```
 Display SVG in markdown preview: true

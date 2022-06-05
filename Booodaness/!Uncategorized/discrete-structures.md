@@ -7,23 +7,23 @@ The most fundamental building block of any space is some object associated with 
 
 Any subset of $V$ is called its region. A subset of a region is called a subregion, etc.
 
-![[Drawing 2022-04-29 15.42.35.svg]]
-%%[[Drawing 2022-04-29 15.42.35.md|🖋 Edit in Excalidraw]]%%
+![[Drawing 2022-04-29 15.42.35.excalidraw.svg]]
+%%[[Drawing 2022-04-29 15.42.35.excalidraw.md|🖋 Edit in Excalidraw]]%%
 
 ### Edges
 #### Directed edges
 Suppose we want to model a pairwise relationship $E$ between the nodes in a set $V$. If $x \: E \: y$, we say $\left( x, y \right)$ is an edge. The binary relationship $E$ is then simply a set of directed edges, $E = \left\{ \left( x, y \right) \vert x, y \in V \right\}$, represented as arrows linking the $x$'s to the $y$'s. 
 
-![[Drawing 2022-04-29 15.51.21.svg]]
-%%[[Drawing 2022-04-29 15.51.21.md|🖋 Edit in Excalidraw]]%%
+![[Drawing 2022-04-29 15.51.21.excalidraw.svg]]
+%%[[Drawing 2022-04-29 15.51.21.excalidraw.md|🖋 Edit in Excalidraw]]%%
 
 #### Undirected edges
 If $E$ is symmetric i.e. $x \: E \: y \implies y \: E \: x \: \forall \: x, y \in V$, we consider their linkage to be undirected, i.e. their edge is the unordered pair $\left\{ x, y \right\}$. Then, the relationship is of the form, $E = \left\{ \left\{ x, y \right\} \vert x, y \in V \right\}$. These are represented as lines connecting the $x$'s and the $y$'s.
 
 From the above definition, it is clear that self-relationships $x \: E \: x$ would be problematic as the corresponding edge $\left\{ x \right\}$ has a different cardinality from other edges (generally $\text{dim} \left( V \times V \right) = 2$). Therefore, we exclude self-relationships from the study of graphs (they are nevertheless considered in the study of richer structures called hypergraphs). In other words, $E \cap I_V = \phi$ where $I : V \to V$ is the identity map on $V$ and $\phi = \left\{ \right\}$.
 
-![[Drawing 2022-04-29 16.00.25.svg]]
-%%[[Drawing 2022-04-29 16.00.25.md|🖋 Edit in Excalidraw]]%%
+![[Drawing 2022-04-29 16.00.25.excalidraw.svg]]
+%%[[Drawing 2022-04-29 16.00.25.excalidraw.md|🖋 Edit in Excalidraw]]%%
 
 ### Graphical structure
 Given a set of nodes $V$ and a set of edges $E$ such that $E \cap I_V = \phi$, a graph $G$ is the ordered pair $G = \left( V, E \right)$. A graph is said to be directed if its edges are directed, and vice-versa if they are undirected.
@@ -41,8 +41,8 @@ The neighbourhood of a region $X \subseteq V$ is defined as the union of neighbo
 
 $$N \left( X \right) = \bigcup_{x \in X} N \left( x \right)$$
 
-![[Drawing 2022-04-29 16.11.00.svg]]
-%%[[Drawing 2022-04-29 16.11.00.md|🖋 Edit in Excalidraw]]%%
+![[Drawing 2022-04-29 16.11.00.excalidraw.svg]]
+%%[[Drawing 2022-04-29 16.11.00.excalidraw.md|🖋 Edit in Excalidraw]]%%
 
 #### Axiomatic definition
 Despite the previous definition of neighbourhood maps in terms of edges, the formal definition of neighbourhood maps is axiomatic. The reason for this is that topological spaces are extremely general and it still makes sense to apply the axioms in situations where graph theory cannot be. 
@@ -53,29 +53,29 @@ In this light, neighbourhood maps are defined to obey the so-called neighbourhoo
 $$X \subseteq N \left( X \right) \: \forall \: X \subseteq V$$
 It follows that every node $x$ is its own neighbour, i.e. $x \in N \left( x \right) \: \forall \: x \in V$.
 
-![[Drawing 2022-04-29 16.16.03.svg]]
-%%[[Drawing 2022-04-29 16.16.03.md|🖋 Edit in Excalidraw]]%%
+![[Drawing 2022-04-29 16.16.03.excalidraw.svg]]
+%%[[Drawing 2022-04-29 16.16.03.excalidraw.md|🖋 Edit in Excalidraw]]%%
 
 2. The neighbourhood of the union of regions is the union of the regions' neighbourhoods,
 
 $$N \left( \bigcup_{i} X_i \right) = \bigcup_i N \left( X_i \right) \: \forall \: \left\{ X_i \vert X_i \subseteq V \right\}$$
 
-![[Drawing 2022-04-29 16.27.47.svg]]
-%%[[Drawing 2022-04-29 16.27.47.md|🖋 Edit in Excalidraw]]%%
+![[Drawing 2022-04-29 16.27.47.excalidraw.svg]]
+%%[[Drawing 2022-04-29 16.27.47.excalidraw.md|🖋 Edit in Excalidraw]]%%
 
 3. The neighbourhood of the intersection of regions is a subregion of the intersection of the regions' neighbourhoods,
 
 $$N \left( \bigcap_{i} X_i \right) \subseteq \bigcap_i N \left( X_i \right) \: \forall \: \left\{ X_i \vert X_i \subseteq V \right\}$$
 
-![[Drawing 2022-04-29 16.27.58.svg]]
-%%[[Drawing 2022-04-29 16.27.58.md|🖋 Edit in Excalidraw]]%%
+![[Drawing 2022-04-29 16.27.58.excalidraw.svg]]
+%%[[Drawing 2022-04-29 16.27.58.excalidraw.md|🖋 Edit in Excalidraw]]%%
 
 4. Every region contains a subset whose neighbourhood is a subregion,
 
 $$\exists \: X \subseteq Y \subseteq V \vert N \left( X \right) \subseteq Y$$
 
-![[Drawing 2022-04-29 16.43.12.svg]]
-%%[[Drawing 2022-04-29 16.43.12.md|🖋 Edit in Excalidraw]]%%
+![[Drawing 2022-04-29 16.43.12.excalidraw.svg]]
+%%[[Drawing 2022-04-29 16.43.12.excalidraw.md|🖋 Edit in Excalidraw]]%%
 
 ### Topological structure
 $V$ is said to have topological structure if it is equipped with a neighbourhood map $N$ obeying the neighbourhood axioms. A topological space constructed from $V$ is in turn, the ordered pair, $\Gamma = \left( V, N \right)$. 
@@ -93,8 +93,8 @@ Some structures can be decomposed into indexed families of mutually exclusive, i
 
 Let us describe this idea mathematically. We want a set of subsets of the nodes, $F = \left\{ V_i \vert V_i \subseteq V \right\}$ (called the slicing) such that this set covers $V$ i.e. $\displaystyle{ V = \bigcup_i V_i }$ and $V_i \equiv V_j \: \forall \: i,j$. Each element of $F$ is called a foliation of $V$ under the isomorphism $\equiv$ .
 
-![[Drawing 2022-04-29 19.53.10.svg]]
-%%[[Drawing 2022-04-29 19.53.10.md|🖋 Edit in Excalidraw]]%%
+![[Drawing 2022-04-29 19.53.10.excalidraw.svg]]
+%%[[Drawing 2022-04-29 19.53.10.excalidraw.md|🖋 Edit in Excalidraw]]%%
 
 ### Partial ordering
 Let us define an antisymmetric binary relation $\preceq$ called inclusive precedence such that,
@@ -110,8 +110,8 @@ Now, we define a symmetric relation called simulteinity (but not necessarily in 
 $$x \models y \iff x \preceq y \: \land \: x \succeq y \implies x, y \in V_i$$
 $$x \not{\models} y \iff x \: \lnot \models y$$
 
-![[Drawing 2022-04-29 20.00.14.svg]]
-%%[[Drawing 2022-04-29 20.00.14.md|🖋 Edit in Excalidraw]]%%
+![[Drawing 2022-04-29 20.00.14.excalidraw.svg]]
+%%[[Drawing 2022-04-29 20.00.14.excalidraw.md|🖋 Edit in Excalidraw]]%%
 
 
 Lastly, we define the exclusive precedence and succession operators,
@@ -121,8 +121,8 @@ $$x \succ y \iff x \succeq y \: \land \: x \: \lnot \models y$$
 
 Antisymmetric relations of the kind we saw have the structure $R \: = \left\{ \left( x, y \right) \vert x \: R \: y \right\}$. A partially ordered set or poset $P$ is a set of nodes $V$ equipped with an antisymmetric (partially ordering) relation $R$, $P = \left( V, R \right)$. The term 'partial' is used to describe the ordering as there still exist subsets of $V$, namely its foliations, whose elements are unordered under $R$.
 
-![[Drawing 2022-04-29 20.07.37.svg]]
-%%[[Drawing 2022-04-29 20.07.37.md|🖋 Edit in Excalidraw]]%%
+![[Drawing 2022-04-29 20.07.37.excalidraw.svg]]
+%%[[Drawing 2022-04-29 20.07.37.excalidraw.md|🖋 Edit in Excalidraw]]%%
 
 ### Past, present and future
 Again, not necessarily in the sense of time, we define the past, present and future of a node $x$ as the regions,
@@ -140,8 +140,8 @@ From now, whenever we say $x^-$, we will mean some $x^- \in \text{past} \left( x
 $$\text{past} \left( x \right) = \text{past} \left( x^0 \right), \dots$$
 $$\text{pres} \left( x \right) = \text{past} \left( x^+ \right) \textbackslash \text{past} \left( x \right) , \dots$$
 
-![[Drawing 2022-04-29 20.39.10.svg]]
-%%[[Drawing 2022-04-29 20.39.10.md|🖋 Edit in Excalidraw]]%%
+![[Drawing 2022-04-29 20.39.10.excalidraw.svg]]
+%%[[Drawing 2022-04-29 20.39.10.excalidraw.md|🖋 Edit in Excalidraw]]%%
 
 We can also define the *immediate* past and future of a node, $\text{past}^-$ and $\text{fut}^+$ as the foliations immediately next to the present of the node, in its past and future respectively.
 
@@ -159,5 +159,5 @@ Suppose there are multiple distinct ways to foliate $V$ i.e. multiple slicings $
 #### Operations
 The composition of two or more translations is known as their addition. The inverse of an immediate translation into the past is the corresponding immediate translation into the future and vice-versa. The inverse of a composition of translations is the composition of the inverses of the translations. Lastly, the addition of the inverse of a translation is also known as its subtraction.
 
-![[Drawing 2022-04-29 20.57.14.svg]]
-%%[[Drawing 2022-04-29 20.57.14.md|🖋 Edit in Excalidraw]]%%
+![[Drawing 2022-04-29 20.57.14.excalidraw.svg]]
+%%[[Drawing 2022-04-29 20.57.14.excalidraw.md|🖋 Edit in Excalidraw]]%%
