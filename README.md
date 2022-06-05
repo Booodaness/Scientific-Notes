@@ -6,10 +6,10 @@
 
 `Scientific-Notes` is a collection of collaborative, open-source notes on various topics in mathematical physics, physics and mathematics. The project is aimed to be a knowledge base of ideas in the subjects, accessible to everyone for reference and experimentation. It is not meant to be a wiki or encyclopaedia, but does try to overcome some of their limitations by:
 
-- Utilizing the power of [Obsidian](https://obsidian.md/) through native features and plugins
-- Being flexible in terms of writing style, while also,
-- Borrowing wiki-like features (such as [hyperlinks](https://help.obsidian.md/How+to/Internal+link) and [atomic notes](https://neuron.zettel.page/atomic)) for expandability
-- Containing varied expositions to the explored topics, for better reader benefit
+- Utilizing the flexibility of [Obsidian](https://obsidian.md/) through native features and plugins
+- Adopting each author's approach, for broader reader and writer audiences
+- Borrowing wiki-like features (such as [hyperlinks](https://help.obsidian.md/How+to/Internal+link) and [atomic notes](https://neuron.zettel.page/atomic)) for expandability, while also,
+- Exploring 'playful' trains of thought common to personal notes
 
 Structurally, this repository is an Obsidian [vault](https://help.obsidian.md/How+to/Working+with+multiple+vaults). For screenshots, see [screenshots.md](!Common/!Assets/Presentations/screenshots.md).
 
