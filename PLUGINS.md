@@ -68,6 +68,7 @@ Quick Switcher++ (mutually exclusive with Quick switcher)
 Remember cursor position
 Settings Search
 Table Extended
+Workspaces Plus
 ```
 
 ## Preferred settings for authors
