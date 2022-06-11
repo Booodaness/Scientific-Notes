@@ -33,11 +33,10 @@ Go to `Settings`>`Community plugins`>Disable `Safe mode`. Click `Browse` and ins
 *Desmos
 *Excalidraw
 *Kanban
-*Number headings
 *Obsidian Git
+*Obsidian42 - BRAT
 *Related Notes Finder
-*Tag Page Preview
-*Tag Wrangler
+*TikZJax (as 'obsidian-tikzjax' via BRAT)
 Advanced Tables
 Annotator
 Banners
@@ -61,6 +60,7 @@ Journey
 Jupyter
 Latex Suite (mutually exclusive with Quick Latex for Obsidian)
 Media Extended
+Number headings
 Obsidian Tabs
 Pandoc Plugin
 Quick Latex for Obsidian (mutually exclusive with Latex Suite)
@@ -68,6 +68,8 @@ Quick Switcher++ (mutually exclusive with Quick switcher)
 Remember cursor position
 Settings Search
 Table Extended
+Tag Page Preview
+Tag Wrangler
 Workspaces Plus
 ```
 
