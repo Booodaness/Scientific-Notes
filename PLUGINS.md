@@ -29,7 +29,6 @@ Go to `Settings`>`Community plugins`>Disable `Safe mode`. Click `Browse` and ins
 ```
 *Admonition
 *Advanced Slides
-*Charts View
 *Desmos
 *Excalidraw
 *Kanban
