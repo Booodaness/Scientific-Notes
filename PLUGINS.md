@@ -44,6 +44,7 @@ Better Command Palette (mutually exclusive with Command palette)
 Better PDF Plugin
 Better Word Count
 Citations
+Convert url to preview
 Core Search Assistant
 Custom Frames
 Customizable Sidebar
