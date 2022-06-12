@@ -55,6 +55,7 @@ Extended MathJax
 File Explorer Note Count
 Find and replace in selection
 Focus mode
+Graph Analysis
 Image caption
 Journey
 Jupyter
