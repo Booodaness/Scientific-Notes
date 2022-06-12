@@ -37,7 +37,7 @@ $\displaystyle{ = \frac{\partial \mathcal{L}}{\partial \widetilde{\phi}^M_{\phan
 
 which do *not* resemble Euler-Lagrange equations. 
 
-### Covariant derivatives
+### Gauge covariant derivatives
 Let us now write the above equations in a new way, while preserving as much of the structure of the Euler-Lagrange equations as possible:
 
 $$D_\rho \widetilde{\pi}^{\rho \phantom{M} N}_{\phantom{\rho} M \phantom{N} a} = \frac{\partial \mathcal{L}}{\partial \widetilde{\phi}^M_{\phantom{M} N a}}$$
@@ -52,7 +52,7 @@ Let us contract the coefficients of the conjugate momenta in the second term as,
 
 $$G^{c}_{\phantom{c} \rho b} = J^{M H c}_{\phantom{M H} N Z a} \nabla_\rho J^{\phantom{M H b} N Z a}_{M H b}$$
 
-The derivative operator represented by $D_\rho$ is the field-theoretic covariant derivative operator. Just like geometric covariant derivatives are invariant under arbitrary coordinate transformations in differential geometry, covariant derivatives are invariant under arbitrary gauge transformations, evident from the gauge-invariant equation of motion $D_\rho \widetilde{\pi}^{\rho \phantom{M} N}_{\phantom{\rho} M \phantom{N} a} = \frac{\partial \mathcal{L}}{\partial \widetilde{\phi}^M_{\phantom{M} N a}}$. Similarly, the coefficients $G^{c}_{\phantom{c} \rho b}$ are the field-theoretic connection coefficients, which act as correction terms to regular geometric covariant derivatives, much as geometric connection coefficients (Christoffel symbols) are corrections terms to partial derivatives.
+The derivative operator represented by $D_\rho$ is the gauge covariant derivative operator. Just like covariant derivatives are invariant under arbitrary coordinate transformations in differential geometry, gauge covariant derivatives are invariant under arbitrary gauge transformations (as well as coordinate transformations), evident from the gauge-invariant equation of motion $D_\rho \widetilde{\pi}^{\rho \phantom{M} N}_{\phantom{\rho} M \phantom{N} a} = \frac{\partial \mathcal{L}}{\partial \widetilde{\phi}^M_{\phantom{M} N a}}$. Similarly, the coefficients $G^{c}_{\phantom{c} \rho b}$ are the gauge connection coefficients, which act as correction terms on covariant derivatives, much as connection coefficients (Christoffel symbols) are corrections terms on partial derivatives.
 
 ### Lagrangian
 We have seen how gauge invariance necessitates the modification of a field's equations of motion, namely by replacing geometric covariant derivatives with (field-theoretic) covariant derivatives. This is effectively the same as modifying the original Lagrangian by making it gauge-invariant in a similar manner. We thus have the new Lagrangian,
