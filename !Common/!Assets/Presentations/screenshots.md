@@ -1,4 +1,4 @@
-![Workspace](!Common/!Assets/Images/workspace.png)
+![Workspace](/!Common/!Assets/Images/workspace.png)
 
 Workspace
 
