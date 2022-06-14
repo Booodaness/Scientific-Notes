@@ -10,7 +10,7 @@ Hyperlinks
 
 ---
 
-![Backlinks](https://raw.githubusercontent.com/Booodaness/Scientific-Notes/master/!Common/!Assets/Images/backlinks.png)
+![Backlinks](!Common/!Assets/Images/backlinks.png)
 
 Backlinks
 
@@ -28,7 +28,7 @@ Graph view
 
 ---
 
-![Excalidraw](https://raw.githubusercontent.com/Booodaness/Scientific-Notes/master/!Common/!Assets/Images/excalidraw.png)
+![Excalidraw](!Common/!Assets/Images/excalidraw.png)
 
 Diagram made with Excalidraw plugin
 
