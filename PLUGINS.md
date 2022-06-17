@@ -7,7 +7,6 @@ Enable the following core plugins in `Settings`>`Core plugins`
 ```
 *File explorer
 *Search
-Quick switcher (mutually exclusive with Quick Switcher++)
 *Graph view
 *Backlinks
 *Outgoing links
@@ -19,8 +18,9 @@ Quick switcher (mutually exclusive with Quick Switcher++)
 *Editor Status
 *Outline
 *Word count
-Workspaces
 *File recovery
+Quick switcher (mutually exclusive with Quick Switcher++)
+Workspaces
 ```
 
 ## Community plugins
