@@ -1,5 +1,5 @@
 # Principle of stationary action
-#euler-lagrange-equations #canonical-momentum-tensor
+#euler-lagrange-equations #conjugate-momentum-tensor
 
 ## Euler-Lagrange equations
 Let us work in flat spacetime characterized by the Minkowski metric $\eta_{\alpha \beta}$ . Assume the Lagrangian density $\mathcal{L}$ of a field depends explicitly on only the [[tensors|tensor]] field $\phi^M_{\phantom{M} N}$ and its first covariant derivatives $\nabla_\rho \phi^M_{\phantom{M} N}$ .
@@ -41,8 +41,8 @@ $$
 \frac{\partial \mathcal{L}}{\partial \phi^M_{\phantom{M} N}} - \nabla_\rho \frac{\partial \mathcal{L}}{\partial \left( \nabla_\rho \phi^M_{\phantom{M} N} \right)} = 0
 $$
 
-## Canonical momentum tensor
-The canonical momentum tensor for a field $\phi^M_{\phantom{M} N}$ may be defined as,
+## Conjugate momentum tensor
+The conjugate momentum tensor for a field $\phi^M_{\phantom{M} N}$ may be defined as,
 
 $$
 \pi^{\rho \phantom{M} N}_{\phantom{\rho} M} = \frac{\partial \mathcal{L}}{\partial \left( \nabla_\rho \phi^M_{\phantom{M} N} \right)}

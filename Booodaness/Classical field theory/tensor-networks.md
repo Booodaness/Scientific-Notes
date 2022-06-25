@@ -23,11 +23,23 @@ A [[gauge-invariance#Gauge fields|gauge field]] $\phi^M_{\phantom{M} N a}$ is a 
 %%[[Drawing 2022-06-25 17.39.08.excalidraw.md|🖋 Edit in Excalidraw]]%%
 
 ### Gauge transformations
-Gauge transformations are represented by Jacobians,
+[[gauge-invariance#Gauge transformations|Gauge transformations]] are represented by Jacobians as,
 
 ![[Drawing 2022-06-25 18.01.02.excalidraw.svg]]
 %%[[Drawing 2022-06-25 18.01.02.excalidraw.md|🖋 Edit in Excalidraw]]%%
 
+The chain rule may now be shown as:
+
+![[Drawing 2022-06-25 21.16.56.excalidraw.svg]]
+%%[[Drawing 2022-06-25 21.16.56.excalidraw.md|🖋 Edit in Excalidraw]]%%
+
+### Conjugate momentum
+The tensor network diagram for [[principle-of-stationary-action#Conjugate momentum tensor|conjugate momentum]] assumes the form:
+
+![[Drawing 2022-06-25 21.29.14.excalidraw.svg]]
+%%[[Drawing 2022-06-25 21.29.14.excalidraw.md|🖋 Edit in Excalidraw]]%%
+
+Conjugate momentum transforms under gauge transformations in the manner,
 
 
 

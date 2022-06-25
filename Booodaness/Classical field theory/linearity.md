@@ -67,7 +67,7 @@ $$\sum_i \frac{\partial \mathcal{L}}{\partial \left( \nabla_\mu \phi^M_{\phantom
 
 Only if the above is true, can we say that $\phi^M_{\phantom{M} N}$ is a valid solution.
 
-In the above constraint, note the appearance of [[principle-of-stationary-action#Canonical momentum tensor|canonical 4-momentum]] coordinates $\frac{\partial \mathcal{L}}{\partial \left( \nabla_\mu \phi^M_{\phantom{M} N \left( i \right)} \right)}$. In general, these are not zero. One possibility which ensures the constraint always holds good is:
+In the above constraint, note the appearance of [[principle-of-stationary-action#Conjugate momentum tensor|conjugate momentum]] coordinates $\frac{\partial \mathcal{L}}{\partial \left( \nabla_\mu \phi^M_{\phantom{M} N \left( i \right)} \right)}$. In general, these are not zero. One possibility which ensures the constraint always holds good is:
 
 $$\nabla_\mu \frac{\partial \phi^M_{\phantom{M} N \left( i \right)}}{\partial \phi^M_{\phantom{M} N}} = 0$$
 
