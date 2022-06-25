@@ -41,6 +41,9 @@ The tensor network diagram for [[principle-of-stationary-action#Conjugate moment
 
 Conjugate momentum transforms under gauge transformations in the manner,
 
+![[Drawing 2022-06-25 23.06.01.excalidraw.svg]]
+%%[[Drawing 2022-06-25 23.06.01.excalidraw.md|🖋 Edit in Excalidraw]]%%
+
 
 
 
