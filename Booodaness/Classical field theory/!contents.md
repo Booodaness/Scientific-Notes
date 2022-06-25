@@ -6,6 +6,8 @@
 5. [[tensor-field-lagrangian-symmetry|Tensor field Lagrangian from symmetry considerations]]
 6. [[linearity|Linearity]]
 7. [[klein-gordon-equation|Klein-Gordon equation]]
+8. [[tensor-networks|Tensor networks]]
+
 
 
 

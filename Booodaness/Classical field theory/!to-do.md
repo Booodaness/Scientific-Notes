@@ -14,6 +14,7 @@ kanban-plugin: basic
 
 ## In progress
 
+- [ ] Tensor networks
 - [ ] Klein-Gordon Equation
 
 
