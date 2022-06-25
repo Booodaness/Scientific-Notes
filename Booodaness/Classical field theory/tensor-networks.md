@@ -22,16 +22,22 @@ A [[gauge-invariance#Gauge fields|gauge field]] $\phi^M_{\phantom{M} N a}$ is a 
 ![[Drawing 2022-06-25 17.39.08.excalidraw.svg]]
 %%[[Drawing 2022-06-25 17.39.08.excalidraw.md|🖋 Edit in Excalidraw]]%%
 
+$\phi^M_{\phantom{M} N a} = \phi^{\mu_1 \dots \mu_p}_{\phantom{\mu_1 \dots \mu_p} \nu_1 \dots \nu_q a}$
+
 ### Gauge transformations
 [[gauge-invariance#Gauge transformations|Gauge transformations]] are represented by Jacobians as,
 
 ![[Drawing 2022-06-25 18.01.02.excalidraw.svg]]
 %%[[Drawing 2022-06-25 18.01.02.excalidraw.md|🖋 Edit in Excalidraw]]%%
 
+$\displaystyle{J^{M H b}_{\phantom{M H b} N Z a} = \frac{\partial \widetilde{\phi}^M_{\phantom{M} N a}}{\partial \phi^Z_{\phantom{M} H b}}}$
+
 The chain rule may now be shown as:
 
 ![[Drawing 2022-06-25 21.16.56.excalidraw.svg]]
 %%[[Drawing 2022-06-25 21.16.56.excalidraw.md|🖋 Edit in Excalidraw]]%%
+
+$\displaystyle{d \widetilde{\phi}^M_{\phantom{M} N a} = J^{M H b}_{\phantom{M H b} N Z a} d \phi^Z_{\phantom{Z} H b}}$
 
 ### Conjugate momentum
 The tensor network diagram for [[principle-of-stationary-action#Conjugate momentum tensor|conjugate momentum]] assumes the form:
@@ -39,10 +45,17 @@ The tensor network diagram for [[principle-of-stationary-action#Conjugate moment
 ![[Drawing 2022-06-25 21.29.14.excalidraw.svg]]
 %%[[Drawing 2022-06-25 21.29.14.excalidraw.md|🖋 Edit in Excalidraw]]%%
 
+$\displaystyle{\pi^{\rho \phantom{M} N a}_{\phantom{\rho} M} = \frac{\partial \mathcal{L}}{\partial \left( \nabla_\rho \phi^M_{\phantom{M} N a} \right)}}$
+
 Conjugate momentum transforms under gauge transformations in the manner,
 
 ![[Drawing 2022-06-25 23.06.01.excalidraw.svg]]
 %%[[Drawing 2022-06-25 23.06.01.excalidraw.md|🖋 Edit in Excalidraw]]%%
+
+$\widetilde{\pi}^{\rho \phantom{M} N a}_{\phantom{\rho} M} = J^{\phantom{M H b} N Z a}_{M H b} \pi^{\rho \phantom{Z} H b}_{\phantom{\rho} Z}$
+
+### Euler-Lagrange equations
+In an 'inertial' gauge, we have,
 
 
 
