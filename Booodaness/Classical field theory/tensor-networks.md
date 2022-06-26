@@ -64,6 +64,11 @@ $\displaystyle{ \nabla_\rho \widetilde{\pi}^{\rho \phantom{M} N a}_{\phantom{\rh
 
 Switching to an arbitrary gauge, we find,
 
+![[Drawing 2022-06-26 11.51.07.excalidraw.svg]]
+%%[[Drawing 2022-06-26 11.51.07.excalidraw.md|🖋 Edit in Excalidraw]]%%
+
+
+
 
 
 
