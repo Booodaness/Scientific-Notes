@@ -62,6 +62,7 @@ Jupyter
 Latex Suite (mutually exclusive with Quick Latex for Obsidian)
 Media Extended
 Number headings
+Obsidian Image Toolkit
 Obsidian Tabs
 Pandoc Plugin
 Quick Latex for Obsidian (mutually exclusive with Latex Suite)
