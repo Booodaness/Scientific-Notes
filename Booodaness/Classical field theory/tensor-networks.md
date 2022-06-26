@@ -57,6 +57,14 @@ $\widetilde{\pi}^{\rho \phantom{M} N a}_{\phantom{\rho} M} = J^{\phantom{M H b} 
 ### Euler-Lagrange equations
 In an 'inertial' gauge, we have,
 
+![[Drawing 2022-06-26 11.44.07.excalidraw.svg]]
+%%[[Drawing 2022-06-26 11.44.07.excalidraw.md|🖋 Edit in Excalidraw]]%%
+
+$\displaystyle{ \nabla_\rho \widetilde{\pi}^{\rho \phantom{M} N a}_{\phantom{\rho} M} = \frac{\partial \mathcal{L}}{\partial \phi^M_{\phantom{M} N a}} }$
+
+Switching to an arbitrary gauge, we find,
+
+
 
 
 
