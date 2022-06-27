@@ -1,5 +1,5 @@
 # Tensor networks
-#tensor-networks #tensors #contractions #graphs #gauge-invariance 
+#tensor-networks #tensors #contractions #graphs #gauge-invariance
 
 ## Motivation
 When we use the traditional index notation for manipulating [[tensors|tensors]], we are essentially keeping track of the following information:
@@ -10,7 +10,7 @@ When we use the traditional index notation for manipulating [[tensors|tensors]],
 The philosophy of tensor networks is to represent the above information, in terms of [[discrete-structures#Graphs|graphical]] objects. Namely,
 
 1. Invariant objects are represented as [[discrete-structures#Nodes|nodes]], labelled by the same letter as the object.
-2. Dummy indices are represented by edges joining pairs of nodes. 
+2. Dummy indices are represented by edges joining pairs of nodes.
 3. Free indices are denoted by labelled edges which are attached to nodes only on one end. They may be upstairs or downstairs, represented positionally with respect to the nodes.
 
 Additionally, we may encode properties of tensors and their indices in the shape and colour of their corresponding nodes and edges, respectively.
@@ -66,14 +66,3 @@ Switching to an arbitrary gauge, we find,
 
 ![[Drawing 2022-06-26 11.51.07.excalidraw.svg]]
 %%[[Drawing 2022-06-26 11.51.07.excalidraw.md|🖋 Edit in Excalidraw]]%%
-
-
-
-
-
-
-
-
-
-
-
