@@ -67,5 +67,16 @@ Switching to an arbitrary gauge, we find,
 ![[Drawing 2022-06-26 11.51.07.excalidraw.svg]]
 %%[[Drawing 2022-06-26 11.51.07.excalidraw.md|🖋 Edit in Excalidraw]]%%
 
+Now,
+
+![[Drawing 2022-06-28 17.41.56.excalidraw.svg]]
+%%[[Drawing 2022-06-28 17.41.56.excalidraw.md|🖋 Edit in Excalidraw]]%%
+
+
+
+
+
+
+
 
 
