@@ -67,10 +67,21 @@ Switching to an arbitrary gauge, we find,
 ![[Drawing 2022-06-26 11.51.07.excalidraw.svg]]
 %%[[Drawing 2022-06-26 11.51.07.excalidraw.md|🖋 Edit in Excalidraw]]%%
 
+$\nabla_\rho \widetilde{\pi}^{\rho \phantom{M} N a}_{\phantom{\rho} M} = \nabla_\rho \left( J_{M H b}^{\phantom{M H b} N Z a} \pi^{\rho \phantom{Z} H b}_{\phantom{\rho} Z} \right)$
+
+$= J_{M H b}^{\phantom{M H b} N Z a} \nabla_\rho \pi^{\rho \phantom{Z} H b}_{\phantom{\rho} Z} + \pi^{\rho \phantom{Z} H b}_{\phantom{\rho} Z} \nabla_\rho J_{M H b}^{\phantom{M H b} N Z a}$
+
 Now,
 
 ![[Drawing 2022-06-28 17.41.56.excalidraw.svg]]
 %%[[Drawing 2022-06-28 17.41.56.excalidraw.md|🖋 Edit in Excalidraw]]%%
+
+$\displaystyle{ \nabla_\rho \widetilde{\pi}^{\rho \phantom{M} N a}_{\phantom{\rho} M} = J^{\phantom{M H b} N Z a}_{M H b} \frac{\partial \mathcal{L}}{\partial \phi^Z_{\phantom{Z} H b}} + \pi^{\rho \phantom{M} N a}_{\phantom{\rho} M} \nabla_\rho J^{\phantom{M H b} N Z a}_{M H b} }$
+
+$\displaystyle{ = \frac{\partial \mathcal{L}}{\partial \widetilde{\phi}^M_{\phantom{M} N a}} + \pi^{\rho \phantom{M} N a}_{\phantom{\rho} M} \nabla_\rho J^{\phantom{M H b} N Z a}_{M H b} }$
+
+
+
 
 
 
