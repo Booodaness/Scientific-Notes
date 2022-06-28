@@ -93,12 +93,8 @@ Therefore, from the previous tensor network diagram,
 ![[Drawing 2022-06-28 19.30.31.excalidraw.svg]]
 %%[[Drawing 2022-06-28 19.30.31.excalidraw.md|🖋 Edit in Excalidraw]]%%
 
-$\displaystyle{ D_\rho \widetilde{\pi}^{\rho \phantom{M} N a}_{\phantom{\rho} M} = \nabla_\rho \widetilde{\pi}^{\rho \phantom{M} N a}_{\phantom{\rho} M} - \pi^{\rho \phantom{M} N a}_{\phantom{\rho} M} \nabla_\rho J^{\phantom{M H b} N Z a}_{M H b} }$
-
-$\displaystyle{ = \nabla_\rho \widetilde{\pi}^{\rho \phantom{M} N a}_{\phantom{\rho} M} - \widetilde{\pi}^{\rho \phantom{M} N c}_{\phantom{\rho} M \phantom{N}} J^{M H c}_{\phantom{M H c} N Z a} \nabla_\rho J^{\phantom{M H b} N Z a}_{M H b} }$
-
 ### Gauge connection coefficients
-From the above tensor network equation, let,
+From the above tensor network diagram, let,
 
 
 
