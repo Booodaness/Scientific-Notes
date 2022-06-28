@@ -80,6 +80,7 @@ $\displaystyle{ \nabla_\rho \widetilde{\pi}^{\rho \phantom{M} N a}_{\phantom{\rh
 
 $\displaystyle{ = \frac{\partial \mathcal{L}}{\partial \widetilde{\phi}^M_{\phantom{M} N a}} + \pi^{\rho \phantom{M} N a}_{\phantom{\rho} M} \nabla_\rho J^{\phantom{M H b} N Z a}_{M H b} }$
 
+### Gauge covariant derivatives
 
 
 
