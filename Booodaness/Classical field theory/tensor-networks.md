@@ -105,7 +105,7 @@ From the above tensor network diagram, let,
 
 $G^{\Theta N a}_{\phantom{\Theta N a} \rho I M c} = J^{H \Theta b}_{\phantom{H \Theta b} Z I c} \nabla_\rho J^{\phantom{M H b} N Z a}_{M H b}$
 
-
+Now, we can represent gauge covariant derivatives as,
 
 
 
