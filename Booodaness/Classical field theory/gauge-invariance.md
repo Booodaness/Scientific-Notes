@@ -44,9 +44,9 @@ $\nabla_\rho \widetilde{\pi}^{\rho \phantom{M} N a}_{\phantom{\rho} M} = \nabla_
 
 $= J_{M H b}^{\phantom{M H b} N Z a} \nabla_\rho \pi^{\rho \phantom{Z} H b}_{\phantom{\rho} Z} + \pi^{\rho \phantom{Z} H b}_{\phantom{\rho} Z} \nabla_\rho J_{M H b}^{\phantom{M H b} N Z a}$
 
-$\displaystyle{ = J^{\phantom{M H b} N Z a}_{M H b} \frac{\partial \mathcal{L}}{\partial \phi^Z_{\phantom{Z} H b}} + \pi^{\rho \phantom{M} N a}_{\phantom{\rho} M} \nabla_\rho J^{\phantom{M H b} N Z a}_{M H b} }$
+$\displaystyle{ = J^{\phantom{M H b} N Z a}_{M H b} \frac{\partial \mathcal{L}}{\partial \phi^Z_{\phantom{Z} H b}} + \pi^{\rho \phantom{Z} H b}_{\phantom{\rho} Z} \nabla_\rho J^{\phantom{M H b} N Z a}_{M H b} }$
 
-$\displaystyle{ = \frac{\partial \mathcal{L}}{\partial \widetilde{\phi}^M_{\phantom{M} N a}} + \pi^{\rho \phantom{M} N a}_{\phantom{\rho} M} \nabla_\rho J^{\phantom{M H b} N Z a}_{M H b} }$
+$\displaystyle{ = \frac{\partial \mathcal{L}}{\partial \widetilde{\phi}^M_{\phantom{M} N a}} + \pi^{\rho \phantom{Z} H b}_{\phantom{\rho} Z} \nabla_\rho J^{\phantom{M H b} N Z a}_{M H b} }$
 
 which do *not* resemble Euler-Lagrange equations. 
 
@@ -57,15 +57,15 @@ $$D_\rho \widetilde{\pi}^{\rho \phantom{M} N a}_{\phantom{\rho} M} = \frac{\part
 
 where,
 
-$\displaystyle{ D_\rho \widetilde{\pi}^{\rho \phantom{M} N a}_{\phantom{\rho} M} = \nabla_\rho \widetilde{\pi}^{\rho \phantom{M} N a}_{\phantom{\rho} M} - \pi^{\rho \phantom{M} N a}_{\phantom{\rho} M} \nabla_\rho J^{\phantom{M H b} N Z a}_{M H b} }$
+$D_\rho \widetilde{\pi}^{\rho \phantom{M} N a}_{\phantom{\rho} M} = \nabla_\rho \widetilde{\pi}^{\rho \phantom{M} N a}_{\phantom{\rho} M} - \pi^{\rho \phantom{Z} H b}_{\phantom{\rho} Z} \nabla_\rho J^{\phantom{M H b} N Z a}_{M H b}$
 
-$\displaystyle{ = \nabla_\rho \widetilde{\pi}^{\rho \phantom{M} N a}_{\phantom{\rho} M} - \widetilde{\pi}^{\rho \phantom{M} N c}_{\phantom{\rho} M \phantom{N}} J^{M H c}_{\phantom{M H c} N Z a} \nabla_\rho J^{\phantom{M H b} N Z a}_{M H b} }$
+$= \nabla_\rho \widetilde{\pi}^{\rho \phantom{M} N a}_{\phantom{\rho} M} - \widetilde{\pi}^{\rho \phantom{\Theta} I c}_{\phantom{\rho} \Theta} J^{H \Theta b}_{\phantom{H \Theta b} Z I c} \nabla_\rho J^{\phantom{M H b} N Z a}_{M H b}$
 
 Let us contract the coefficients of the conjugate momenta in the second term as,
 
-$$G^{c}_{\phantom{c} \rho b} = J^{M H c}_{\phantom{M H c} N Z a} \nabla_\rho J^{\phantom{M H b} N Z a}_{M H b}$$
+$$G^{\Theta N a}_{\phantom{\Theta N a} \rho I M c} = J^{H \Theta b}_{\phantom{H \Theta b} Z I c} \nabla_\rho J^{\phantom{M H b} N Z a}_{M H b}$$
 
-The derivative operator represented by $D_\rho$ is the gauge covariant derivative operator. Just like covariant derivatives are invariant under arbitrary coordinate transformations in differential geometry, gauge covariant derivatives are invariant under arbitrary gauge transformations (as well as coordinate transformations), evident from the gauge-invariant equation of motion $D_\rho \widetilde{\pi}^{\rho \phantom{M} N}_{\phantom{\rho} M \phantom{N} a} = \frac{\partial \mathcal{L}}{\partial \widetilde{\phi}^M_{\phantom{M} N a}}$. Similarly, the coefficients $G^{c}_{\phantom{c} \rho b}$ are the gauge connection coefficients, which act as correction terms on covariant derivatives, much as connection coefficients (Christoffel symbols) are corrections terms on partial derivatives.
+The derivative operator represented by $D_\rho$ is the gauge covariant derivative operator. Just like covariant derivatives are invariant under arbitrary coordinate transformations in differential geometry, gauge covariant derivatives are invariant under arbitrary gauge transformations (as well as coordinate transformations), evident from the gauge-invariant equation of motion $\displaystyle{ D_\rho \widetilde{\pi}^{\rho \phantom{M} N}_{\phantom{\rho} M \phantom{N} a} = \frac{\partial \mathcal{L}}{\partial \widetilde{\phi}^M_{\phantom{M} N a}} }$. Similarly, the coefficients $G^{\Theta N a}_{\phantom{\Theta N a} \rho I M c}$ are the gauge connection coefficients, which act as correction terms on covariant derivatives, much as connection coefficients (Christoffel symbols) are corrections terms on partial derivatives.
 
 ### Lagrangian
 We have seen how gauge invariance necessitates the modification of a field's equations of motion, namely by replacing geometric covariant derivatives with (field-theoretic) covariant derivatives. This is effectively the same as modifying the original Lagrangian by making it gauge-invariant in a similar manner. We thus have the new Lagrangian,
@@ -76,9 +76,9 @@ Since the Lagrangian is gauge-invariant, it is no longer necessary to distinguis
 
 $\displaystyle{ D_\rho \phi^M_{\phantom{M} N} = \left( D_\rho \phi^Z_{\phantom{Z} H a} \right) \frac{\partial \phi^M_{\phantom{M} N}}{\partial \phi^Z_{\phantom{Z} H a}} }$
 
-$\displaystyle{ = \left( \nabla_\rho \phi^Z_{\phantom{Z} H a} - \phi^Z_{\phantom{Z} H b} G^b_{\phantom{b} \rho a} \right) \frac{\partial \phi^M_{\phantom{M} N}}{\partial \phi^Z_{\phantom{Z} H a}} }$
+$\displaystyle{ = \left( \nabla_\rho \phi^Z_{\phantom{Z} H a} - \phi^\Theta_{\phantom{\Theta} I c} G_{\Theta H a \rho}^{\phantom{\Theta H a \rho} I Z c} \right) \frac{\partial \phi^M_{\phantom{M} N}}{\partial \phi^Z_{\phantom{Z} H a}} }$
 
-$\displaystyle{ = \nabla_\rho \phi^M_{\phantom{M} N} - \phi^Z_{\phantom{Z} H b} G^b_{\phantom{b} \rho a} \frac{\partial \phi^M_{\phantom{M} N}}{\partial \phi^Z_{\phantom{Z} H a}} }$
+$\displaystyle{ = \nabla_\rho \phi^Z_{\phantom{Z} H a} \frac{\partial \phi^M_{\phantom{M} N}}{\partial \phi^Z_{\phantom{Z} H a}} - \phi^\Theta_{\phantom{\Theta} I c} G_{\Theta H a \rho}^{\phantom{\Theta H a \rho} I Z c} \frac{\partial \phi^M_{\phantom{M} N}}{\partial \phi^Z_{\phantom{Z} H a}} }$
 
-$$D_\rho \phi^M_{\phantom{M} N} = \nabla_\rho \phi^M_{\phantom{M} N} - \phi^Z_{\phantom{Z} H b} G^b_{\phantom{b} \rho a} \frac{\partial \phi^M_{\phantom{M} N}}{\partial \phi^Z_{\phantom{Z} H a}}$$
+$$D_\rho \phi^M_{\phantom{M} N} = \nabla_\rho \phi^M_{\phantom{M} N} - \phi^\Theta_{\phantom{\Theta} I c} G_{\Theta H a \rho}^{\phantom{\Theta H a \rho} I Z c} \frac{\partial \phi^M_{\phantom{M} N}}{\partial \phi^Z_{\phantom{Z} H a}}$$
 
