@@ -91,7 +91,7 @@ Cache Directory: '<Personal_pool>/!Assets/Desmos'
 **Excalidraw**
 ```
 Excalidraw folder: '<Personal_pool>/!Assets/Excalidraw'
-Excalidraw template file: '<Individual_pool>/!Assets/Excalidraw/Template.excalidraw'
+Excalidraw template file: '<Personal_pool>/!Assets/Excalidraw/Template.excalidraw'
 Excalidraw Automate script folder: '<Personal_pool>/!Assets/Excalidraw/Scripts'
 ```
 Embed & Export
@@ -104,7 +104,7 @@ Export settings
 ```
 Keep the .SVG and/or .PNG filenames in sync with the drawing file: true
 Auto-export SVG: true
-Auto-export PNG: false
+Auto-export PNG: true
 ```
 
 **Kanban**
