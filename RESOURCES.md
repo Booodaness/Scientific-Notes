@@ -1,4 +1,4 @@
-# Resources for contributors
+# Resources for authors
 ## Obsidian
 - Homepage: [https://obsidian.md/](https://obsidian.md/ "https://obsidian.md/") 
 - Download: [https://obsidian.md/download](https://obsidian.md/download "https://obsidian.md/download") 
