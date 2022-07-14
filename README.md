@@ -49,19 +49,19 @@ Each pool has the following layout:
     │   └── ...           (Other data collections)
     │
     ├── _Uncategorized    (Uncategorized notes)
-    │   ├── _to-do        (Kanban)
-    │   ├── article-1     (e.g. 'quantum-mechanics.md')
+    │   ├── _to-do.md     (Kanban)
+    │   ├── article-1.md  (e.g. 'quantum-mechanics.md')
     │   └── ...           (Other articles)
     │
     ├── <Topic 1>         (e.g. 'Field Theory')
-    │   ├── _contents     (Contents page linking to articles on Topic 1)
-    │   ├── _to-do        (Kanban for Topic 1)
-    │   ├── article-1     (e.g. 'principle-of-stationary-action.md')
+    │   ├── _contents.md  (Contents page linking to articles on Topic 1)
+    │   ├── _to-do.md     (Kanban for Topic 1)
+    │   ├── article-1.md  (e.g. 'principle-of-stationary-action.md')
     │   └── ...           (Other articles)
     │
     ├── ...               (Other Topics)
     │
-    └── _to-do            (Kanban for entire pool)
+    └── _to-do.md         (Kanban for entire pool)
 ```
 
 The exclamation marks before folder/file names indicate that they are contextually different from the main content of the folders/files in their parent directory. For example, `<Pool_name>/<Topic_1>` is primarily for articles related to the topic, so extra files such as `_contents` and `_to-do` have the `_` prefix.
