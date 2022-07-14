@@ -2,7 +2,7 @@
 [![GitHub commit activity](https://img.shields.io/github/commit-activity/m/Booodaness/Scientific-Notes)](https://github.com/Booodaness/Scientific-Notes/commits/main) [![License](https://img.shields.io/badge/license-CC%20BY--NC--SA%204.0-important)](https://creativecommons.org/licenses/by-nc-sa/4.0/)
 
 ## About
-![Graph view](graph.png)
+![Graph view](_Common/_Assets/Images/graph.png)
 
 `Scientific-Notes` is a collection of collaborative, open-source notes on various topics in mathematical physics, made using [Obsidian](https://obsidian.md/). The repository is aimed to be a knowledge base of ideas in the subjects, accessible to everyone for reference and experimentation. It is not a Wikipedia, although it does adopt some of its features, such as [hyperlinks](https://help.obsidian.md/How+to/Internal+link) and [atomicity](https://neuron.zettel.page/atomic).
 
