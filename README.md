@@ -1,5 +1,5 @@
 # Scientific Notes
-[![GitHub commit activity](https://img.shields.io/github/commit-activity/m/Booodaness/Scientific-Notes)](https://github.com/Booodaness/Scientific-Notes/commits/master) [![License](https://img.shields.io/badge/license-CC%20BY--NC--SA%204.0-important)](https://creativecommons.org/licenses/by-nc-sa/4.0/)
+[![GitHub commit activity](https://img.shields.io/github/commit-activity/m/Booodaness/Scientific-Notes)](https://github.com/Booodaness/Scientific-Notes/commits/main) [![License](https://img.shields.io/badge/license-CC%20BY--NC--SA%204.0-important)](https://creativecommons.org/licenses/by-nc-sa/4.0/)
 
 ## About
 ![Graph view](!Common/!Assets/Images/graph.png)
@@ -12,10 +12,10 @@ For screenshots of the project, see [screenshots.md](!Common/!Assets/Presentatio
 Firstly, [download](https://obsidian.md/download) Obsidian unless you have, already. After following the steps below, install Obsidian community plugins as described in [PLUGINS.md](PLUGINS.md).
 
 ### Without Git
-1. Click the green 'Code' button at the top of this repository's [homepage](https://github.com/Booodaness/Scientific-Notes) and navigate to '[Download ZIP](https://github.com/Booodaness/Scientific-Notes/archive/refs/heads/master.zip)'.
+1. Click the green 'Code' button at the top of this repository's [homepage](https://github.com/Booodaness/Scientific-Notes) and navigate to '[Download ZIP](https://github.com/Booodaness/Scientific-Notes/archive/refs/heads/main.zip)'.
 2. Extract the ZIP.
-3. Rename `Scientific-Notes-master/Scientific-Notes-master` to `Scientific-Notes-master/Scientific-Notes`.
-4. Open `Scientific-Notes-master/Scientific-Notes` as a new Obsidian [vault](https://help.obsidian.md/How+to/Working+with+multiple+vaults).
+3. Rename `Scientific-Notes-main/Scientific-Notes-main` to `Scientific-Notes-main/Scientific-Notes`.
+4. Open `Scientific-Notes-main/Scientific-Notes` as a new Obsidian [vault](https://help.obsidian.md/How+to/Working+with+multiple+vaults).
 
 ### With Git
 1. Make sure you have [Git](https://git-scm.com/) installed on your system. Open Git bash and clone this repository by successively running:
@@ -39,7 +39,7 @@ Each pool has the following layout:
 
 ```
 .
-└── <Pool_name> 
+└── <Pool_name>
     │
     ├── !Assets           (Non-markdown files)
     │   ├── Desmos        (Cached Desmos graphs)
@@ -106,5 +106,3 @@ Firstly, [fork this repository](https://github.com/Booodaness/Scientific-Notes/f
 After completing the above steps, your contributions will be considered for merging into the project. If an author maintains their notes regularly, they will be invited to become a collaborator, accepting which allows them to directly push their writings to the project.
 
 Last but not the least, happy reading/writing! :)
-
-
