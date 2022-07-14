@@ -20,6 +20,7 @@ Enable the following core plugins in `Settings`>`Core plugins`
 *Word count
 *File recovery
 Quick switcher (mutually exclusive with Quick Switcher++)
+Slides
 Workspaces
 ```
 
