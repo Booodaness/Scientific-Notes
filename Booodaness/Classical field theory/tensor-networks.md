@@ -120,4 +120,3 @@ $D_\rho \widetilde{\pi}^{\rho \phantom{M} N a}_{\phantom{\rho} M} = \nabla_\rho 
 
 
 
-
