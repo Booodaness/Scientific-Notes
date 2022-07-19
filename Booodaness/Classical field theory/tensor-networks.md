@@ -107,6 +107,11 @@ $G^{\Theta N a}_{\phantom{\Theta N a} \rho I M c} = J^{H \Theta b}_{\phantom{H \
 
 Now, we can represent gauge covariant derivatives as,
 
+![[Drawing 2022-07-19 19.03.40.excalidraw.svg]]
+%%[[Drawing 2022-07-19 19.03.40.excalidraw.md|🖋 Edit in Excalidraw]]%%
+
+$D_\rho \widetilde{\pi}^{\rho \phantom{M} N a}_{\phantom{\rho} M} = \nabla_\rho \widetilde{\pi}^{\rho \phantom{M} N a}_{\phantom{\rho} M} - \widetilde{\pi}^{\rho \phantom{\Theta} I c}_{\phantom{\rho} \Theta} G^{\Theta N a}_{\phantom{\Theta N a} \rho I M c}$
+
 
 
 
