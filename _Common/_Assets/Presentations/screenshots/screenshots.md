@@ -1,39 +1,39 @@
-![Workspace](workspace.png)
+![Workspace](_Common/_Assets/Images/workspace.png)
 
 Workspace
 
 ---
 
-![Hyperlinks](hyperlinks.png)
+![Hyperlinks](_Common/_Assets/Images/hyperlinks.png)
 
 Hyperlinks
 
 ---
 
-![Backlinks](backlinks.png)
+![Backlinks](_Common/_Assets/Images/backlinks.png)
 
 Backlinks
 
 ---
 
-![Outgoing links](outgoing_links.png)
+![Outgoing links](_Common/_Assets/Images/outgoing_links.png)
 
 Outgoing links
 
 ---
 
-![Graph view](graph_view.png)
+![Graph view](_Common/_Assets/Images/graph_view.png)
 
 Graph view
 
 ---
 
-![Excalidraw](excalidraw.png)
+![Excalidraw](_Common/_Assets/Images/excalidraw.png)
 
 Diagram made with Excalidraw plugin
 
 ---
 
-![Git integration](git.png)
+![Git integration](_Common/_Assets/Images/git.png)
 
 Git integration with Obsidian Git plugin
