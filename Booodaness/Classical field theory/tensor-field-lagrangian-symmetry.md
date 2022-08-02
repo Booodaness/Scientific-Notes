@@ -48,3 +48,18 @@ The tensor field Lagrangian yields the following equations of motion, by substit
 $$\nabla_\rho \nabla^\rho \phi^{\phantom{M} N}_{M} + \frac{\partial V}{\partial \phi^M_{\phantom{M} N}} = 0$$
 
 This is analogous to the Klein-Gordon equation for a scalar field in a potential.
+
+## Gauge-invariant treatment
+For a [[gauge-invariance|gauge-invariant]] treatment of the above ideas, we replace covariant derivatives with [[gauge-invariance#Gauge covariant derivatives|gauge covariant derivatives]]. We thus have an energy-momentum tensor of the form,
+
+$$T^{\rho \sigma} = \pi^{\rho \phantom{M} N a}_{\phantom{\rho} M} \nabla^\sigma \phi^M_{\phantom{M} N a} - \eta^{\rho \sigma} \mathcal{L}$$
+
+And the condition $T^{\rho \sigma} = T^{\sigma \rho}$ generates the Lagrangian,
+
+$$\mathcal{L} = \frac{1}{2} D^\rho \phi^{\phantom{M} N a}_{M} D_\rho \phi^M_{\phantom{M} N a} - V \left( \phi^M_{\phantom{M} N a} \phi^{\phantom{M} N a}_{M} \right)$$
+
+Notice the argument of the potential $V$, i.e. $\phi^M_{\phantom{M} N a} \phi^{\phantom{M} N a}_{M}$. This is the simplest scalar involving the field $\phi^M_{\phantom{M} N a}$, which is gauge-invariant. This makes it more intuitive to assume $V$ is of the following form in perturbation theory,
+
+$$V \left( \phi^M_{\phantom{M} N a} \phi^{\phantom{M} N a}_{M} \right) = \frac{1}{2} m^2 \phi^M_{\phantom{M} N a} \phi^{\phantom{M} N a}_{M}$$
+
+Thus, gauge invariance is a powerful tool which helps us narrow down to nature's many secrets, using simple symmetry arguments.
