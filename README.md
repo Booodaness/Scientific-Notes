@@ -115,7 +115,4 @@ Firstly, [fork this repository](https://github.com/Booodaness/Scientific-Notes/f
 
 After completing the above steps, your contributions will be considered for merging into the project. If an author maintains their notes regularly, they will be invited to become a collaborator.
 
-### Official Discord
-`Scientific-Notes` is not only a project, but also a community! Feel free to join us for discussing mathematical physics and its note-taking in this project, on our [Discord](https://discord.gg/Hkm8DCHEAy).
-
 Last but not the least, happy reading/writing! :)
