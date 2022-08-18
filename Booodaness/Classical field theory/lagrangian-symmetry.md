@@ -41,7 +41,7 @@ $\frac{\partial \mathcal{L}}{\partial \left( \nabla_\rho \phi^M_{\phantom{M} N} 
 
 A little bit of trial and error, and motivation from the scalar field Lagrangian, shows that the above is possible only if the Lagrangian is of the form,
 
-$$\mathcal{L} = \frac{1}{2} \nabla^\rho \phi^{\phantom{M} N}_{M} \nabla_\rho \phi^M_{\phantom{M} N} - V \left( \phi^M_{\phantom{M} N} \right)$$
+$$\mathcal{L} = \frac{1}{2} \nabla_\rho \phi^{\phantom{M} N}_{M} \nabla^\rho \phi^M_{\phantom{M} N} - V \left( \phi^M_{\phantom{M} N} \right)$$
 ## Equations of motion
 The tensor field Lagrangian yields the following equations of motion, by substituting for the conjugate momentum tensor in the [[principle-of-stationary-action#Euler-Lagrange equations|Euler-Lagrange equations]] $\nabla_\rho \pi^{\rho \phantom{M} N}_{\phantom{\rho} M} - \frac{\partial \mathcal{L}}{\partial \phi^M_{\phantom{M} N}} = 0$ ,
 
@@ -49,17 +49,31 @@ $$\nabla_\rho \nabla^\rho \phi^{\phantom{M} N}_{M} + \frac{\partial V}{\partial 
 
 This is analogous to the Klein-Gordon equation for a scalar field in a potential.
 
-## Gauge-invariant treatment
-For a [[gauge-invariance|gauge-invariant]] treatment of the above ideas, we replace covariant derivatives with [[gauge-invariance#Gauge covariant derivatives|gauge covariant derivatives]]. We thus have an energy-momentum tensor of the form,
+## Gauge invariant treatment
+Let us incorporate [[gauge-invariance|gauge invariance]] into the Klein-Gordon theory and see how it provides deep insights about the field theory (such as the structure of its perturbation theory) for free!
 
-$$T^{\rho \sigma} = \pi^{\rho \phantom{M} N a}_{\phantom{\rho} M} \nabla^\sigma \phi^M_{\phantom{M} N a} - \eta^{\rho \sigma} \mathcal{L}$$
+### Form of Lagrangian
+Consider an indexed family of independent gauge fields, $\left\{ \phi^M_{\phantom{M} N a} \right\}$. 
 
-And the condition $T^{\rho \sigma} = T^{\sigma \rho}$ generates the Lagrangian,
+Now, recall the original Klein-Gordon Lagrangian,
 
-$$\mathcal{L} = \frac{1}{2} D^\rho \phi^{\phantom{M} N a}_{M} D_\rho \phi^M_{\phantom{M} N a} - V \left( \phi^M_{\phantom{M} N a} \phi^{\phantom{M} N a}_{M} \right)$$
+$$\mathcal{L} = \frac{1}{2} \nabla_\rho \phi^{\phantom{M} N}_{M} \nabla^\rho \phi^M_{\phantom{M} N} - V \left( \phi^M_{\phantom{M} N} \right)$$
 
-Notice the argument of the potential $V$, i.e. $\phi^M_{\phantom{M} N a} \phi^{\phantom{M} N a}_{M}$. This is the simplest scalar involving the field $\phi^M_{\phantom{M} N a}$, which is gauge-invariant. This makes it more intuitive to assume $V$ is of the following form in perturbation theory,
+The prescription for gauge invariance is to replace $\phi^M_{\phantom{M} N}$ with $\phi^M_{\phantom{M} N a}$ and $\nabla_\rho \phi^M_{\phantom{M} N a}$ with $D_\rho \phi^M_{\phantom{M} N a}$. Since the Lagrangian has no free indices, all indices in its explicit expression must be dummy indices. This severe restriction, with the fact that our new Lagrangian must reduce to the original one in [[linearity#From gauge invariance|suitable gauges]], motivates us to propose the new Lagrangian,
 
-$$V \left( \phi^M_{\phantom{M} N a} \phi^{\phantom{M} N a}_{M} \right) = \frac{1}{2} m^2 \phi^M_{\phantom{M} N a} \phi^{\phantom{M} N a}_{M}$$
+$$\mathcal{L} = \frac{1}{2} D_\rho \phi^{\phantom{M} N a}_{M} D^\rho \phi^M_{\phantom{M} N a} - V \left( \phi^M_{\phantom{M} N a} \right)$$
 
-Thus, gauge invariance is a powerful tool which helps us narrow down to nature's many secrets, using simple symmetry arguments.
+However, the above is still not quite right; we have a gauge scalar potential $V$ which depends on $\phi^M_{\phantom{M} N a}$ (which, as far as gauge transformations are concerned, does not look like a scalar i.e. it does not resemble a gauge scalar). The simplest gauge scalar we can construct from $\phi^M_{\phantom{M} N a}$, which depends on no other field, is $\phi^{\phantom{M} N a}_{M} \phi^M_{\phantom{M} N a}$. Therefore, we write,
+
+$$\mathcal{L} = \frac{1}{2} D_\rho \phi^{\phantom{M} N a}_{M} D^\rho \phi^M_{\phantom{M} N a} - V \left( \phi^{\phantom{M} N a}_{M} \phi^M_{\phantom{M} N a} \right)$$
+
+### Series expansion
+We may expand the gauge scalar potential in the above Lagrangian as the following (including a mass term):
+
+$$V \left( \phi^{\phantom{M} N a}_{M} \phi^M_{\phantom{M} N a} \right) = \frac{1}{2} m^2 \phi^{\phantom{M} N a}_{M} \phi^M_{\phantom{M} N a} + \sum_{n=2}^\infty \frac{1}{n!} g_{n} \left( \phi^{\phantom{M} N a}_{M} \phi^M_{\phantom{M} N a} \right)^n$$
+
+where $\left\{ g_n \vert n = 1, 2, \dots \right\}$ is a set of coupling constants with the canonical condition $g_1 = \frac{1}{2} m^2$. Thus, the full Lagrangian is of the form,
+
+$$\mathcal{L} = \frac{1}{2} D_\rho \phi^{\phantom{M} N a}_{M} D^\rho \phi^M_{\phantom{M} N a} - \frac{1}{2} m^2 \phi^{\phantom{M} N a}_{M} \phi^M_{\phantom{M} N a} - \sum_{n=2}^\infty \frac{1}{n!} g_{n} \left( \phi^{\phantom{M} N a}_{M} \phi^M_{\phantom{M} N a} \right)^n$$
+
+
