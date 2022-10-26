@@ -47,8 +47,8 @@ $$
 \begin{align}
 b_n & = \sum_{k=1}^n b_k - \sum_{k=1}^{n-1} b_k \\
  & = a_n - a_{n-1} \\
-c = \lim_{n \to \infty} a_n \\
- & = \lim_{n \to \infty} \sum_{k=1}^n b_k
+c & = \lim_{n \to \infty} a_n \\
+ & = \lim_{n \to \infty} \sum_{k=1}^n b_k \\
  & = \sum_{k=1}^\infty b_k
 \end{align}
 $$
