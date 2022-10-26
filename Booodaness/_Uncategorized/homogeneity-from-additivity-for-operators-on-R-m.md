@@ -6,7 +6,7 @@ Consider the 2 well-known properties of a linear operator $T : \mathbb{R}^m \to 
 
 $$
 \begin{align}
-T \left( \sum_a \pmb{u}_a \right) & = \sum_a \pmb{u}_a & \forall \: \pmb{u}_a \in \mathbb{R}^m && \left( 1 \right) \\
+T \left( \sum_a \pmb{u}_a \right) & = \sum_a T \left( \pmb{u}_a \right) & \forall \: \pmb{u}_a \in \mathbb{R}^m && \left( 1 \right) \\
 T \left( c \pmb{u} \right) & = c T \left( \pmb{u} \right) & \forall \: c \in \mathbb{R}, \pmb{u} \in \mathbb{R}^m && \left(2 \right)
 \end{align}
 $$
@@ -26,7 +26,7 @@ $\\$
 
 where $\pmb{0}_k$ is the null vector in $\mathbb{R}^k$. 
 
-Thus, we propose that linearity can be unambiguously defined using the axiomatic system $\left\{ \left( 1 \right), \left( 3 \right) \right\}$ which is simpler than the original system $\left\{ \left( 1 \right), \left( 2 \right) \right\}$. In other words, $\left( 2 \right)$ is equivalent to $\left( 3 \right)$ under $\left( 1 \right)$ while also being more general than $\left( 3 \right)$.
+Thus, we propose that linearity can be unambiguously defined using the axiomatic system $\left\{ \left( 1 \right), \left( 3 \right) \right\}$ which is simpler than the original system $\left\{ \left( 1 \right), \left( 2 \right) \right\}$. In other words, $\left( 2 \right)$ is equivalent to $\left( 3 \right)$ under $\left( 1 \right)$.
 ```
 
 ```ad-abstract
@@ -42,10 +42,14 @@ Suppose we are given any $c \in \mathbb{R}$. The construction of $\mathbb{R}$ fr
 $$\forall \: c \in \mathbb{R} : \exists \: \left\{ a_n :  n \in \mathbb{N} \right\} : c = \lim_{n \to \infty} a_n, a_n \in \mathbb{Q} \: \forall \: n \in \mathbb{N}$$
 
 Now, we can define another sequence of rationals $\displaystyle{ \left\{ b_k : k \in \mathbb{N} \right\} : \sum_{k=1}^n b_k = a_n }$. It follows,
+
 $$
 \begin{align}
 b_n & = \sum_{k=1}^n b_k - \sum_{k=1}^{n-1} b_k \\
- & = a_n - a_{n-1}
+ & = a_n - a_{n-1} \\
+c = \lim_{n \to \infty} a_n \\
+ & = \lim_{n \to \infty} \sum_{k=1}^n b_k
+ & = \sum_{k=1}^\infty b_k
 \end{align}
 $$
 
@@ -55,7 +59,7 @@ $$\implies \forall \: c \in \mathbb{R} : \exists \: \left\{ b_k : k \in \mathbb{
 
 Furthermore, by definition, every rational is some integer divided by some non-zero integer,
 
-$$\forall \: a \in \mathbb{Q} : \exists \: p \in \mathbb{Z}, q \in \mathbb{Z} \backslash \left\{ 0 \right\} : a = \frac{p}{q}$$
+$$\forall \: b \in \mathbb{Q} : \exists \: p \in \mathbb{Z}, q \in \mathbb{Z} \backslash \left\{ 0 \right\} : b = \frac{p}{q}$$
 
 Let us proceed to derive homogeneity from additivity for the special case $c \in \mathbb{Q}$ (however, we will still have $\pmb{u} \in \mathbb{R}^m$). Then, we will apply the result above to extend our observations to $c \in \mathbb{R}$.
 
