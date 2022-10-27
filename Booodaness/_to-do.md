@@ -14,6 +14,7 @@ kanban-plugin: basic
 
 ## In progress
 
+- [ ] Phase space analysis of harmonic oscillators
 
 
 ## Done
