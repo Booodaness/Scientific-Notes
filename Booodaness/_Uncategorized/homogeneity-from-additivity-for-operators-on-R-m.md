@@ -14,19 +14,9 @@ $$
 ```ad-question
 title: Proposition
 
-Property $\left( 2 \right)$ (homogeneity) can be derived from property $\left( 1 \right)$ (additivity) using the underlying structure of $\mathbb{R}$ if we introduce a weaker version of $\left( 2 \right)$ with $c=0$,
+Property $\left( 2 \right)$ (homogeneity) can be derived from property $\left( 1 \right)$ (additivity) using the underlying structure of $\mathbb{R}$.
 
-$\\$
-$$
-\begin{align}
-T \left( \pmb{0}_m \right) = \pmb{0}_n && \left( 3 \right)
-\end{align}
-$$
-$\\$
-
-where $\pmb{0}_k$ is the null vector in $\mathbb{R}^k$. 
-
-Thus, we propose that linearity can be unambiguously defined using the axiomatic system $\left\{ \left( 1 \right), \left( 3 \right) \right\}$ which is simpler than the original system $\left\{ \left( 1 \right), \left( 2 \right) \right\}$. In other words, $\left( 2 \right)$ is equivalent to $\left( 3 \right)$ under $\left( 1 \right)$.
+Thus, we propose that linearity can be unambiguously defined using axiom $\left( 1 \right)$ only, at least up to $\mathbb{R}^m$.
 ```
 
 ```ad-abstract
@@ -93,15 +83,19 @@ $$
 
 ### For $c=0$
 
-For $c=p=0$, we can use property $\left( 3 \right)$ to get,
+For $c=0$, we have,
 
 $$
 \begin{align}
 T \left( 0 \cdot \pmb{u} \right) & = T \left( \pmb{0}_m \right) \\
- & = \pmb{0}_n \\
- & = 0 \cdot T \left( \pmb{u} \right) & \square
+ & = T \left( \pmb{0}_m + \pmb{0}_m \right) \\
+ & = T \left( \pmb{0}_m \right) + T \left( \pmb{0}_m \right) \\
+T \left( \pmb{0}_m \right) & = T \left( \pmb{0}_m \right) + T \left( \pmb{0}_m \right) \\
+ \implies T \left( \pmb{0}_m \right) & = \pmb{0}_n
 \end{align}
 $$
+
+where $\pmb{0}_k$ is the null vector in $\mathbb{R}^k$.
 
 ### For $c \in \mathbb{Z}^-$
 
@@ -131,7 +125,7 @@ Combining the different scenarios above, we have indeed found,
 
 $$
 \begin{align}
-\forall \: c \in \mathbb{Z} : \left( 1 \right), \left( 3 \right) \implies \left( 2 \right) && \left( * \right)
+\forall \: c \in \mathbb{Z} : \left( 1 \right) \implies \left( 2 \right) && \left( * \right)
 \end{align}
 $$
 
@@ -153,7 +147,7 @@ Thus,
 
 $$
 \begin{align}
-\forall \: c = \frac{1}{q} : q \in \mathbb{Z} \backslash \left\{ 0 \right\} : \left( 1 \right), \left( 3 \right) \implies \left( 2 \right) && \left( \dagger \right)
+\forall \: c = \frac{1}{q} : q \in \mathbb{Z} \backslash \left\{ 0 \right\} : \left( 1 \right) \implies \left( 2 \right) && \left( \dagger \right)
 \end{align}
 $$
 
@@ -173,7 +167,7 @@ $$
 
 $$
 \begin{align}
-\forall \: c \in \mathbb{Q} : \left( 1 \right), \left( 3 \right) \implies \left( 2 \right) && \left( \sim \right)
+\forall \: c \in \mathbb{Q} : \left( 1 \right) \implies \left( 2 \right) && \left( \sim \right)
 \end{align}
 $$
 
@@ -197,15 +191,13 @@ T \left( c \pmb{u} \right) & = \sum_{k=1}^\infty T \left( b_k \pmb{u} \right) \\
 \end{align}
 $$
 
-$$\forall \: c \in \mathbb{R} : \left( 1 \right), \left( 3 \right) \implies \left( 2 \right)$$
+$$\forall \: c \in \mathbb{R} : \left( 1 \right) \implies \left( 2 \right)$$
 
 ## Summary
 
-To summarize the above approach, we derived the homogeneity of operators on vector spaces built on the base field $\mathbb{R}$, from simpler given statements, namely their additivity and mapping of null vectors to null vectors. We realized this by using the construction of $\mathbb{R}$ from $\mathbb{Q}$ which is in turn constructed from $\mathbb{Z}$. 
+To summarize the above approach, homogeneity of operators on vector spaces built on the base field $\mathbb{R}$, comes for free from their additivity. We realized this by using the construction of $\mathbb{R}$ from $\mathbb{Q}$ which is in turn constructed from $\mathbb{Z}$. 
 
-The advantage of expressing reals in terms of integers is that integers can fundamentally be used for counting, which is implicitly applied in property $\left( 1 \right)$, additivity. Thus, this bridge from $\left( 1 \right)$ to $\left( 2 \right)$ allows us to logically proceed in the same direction, using only a second axiom in addition to $\left( 1 \right)$, i.e. $\left( 3 \right)$. 
-
-Moreover, $\left( 3 \right)$ is a special case of $\left( 2 \right)$, which is neat as it means that the axiomatic system $\left\{ \left( 1 \right), \left( 3 \right) \right\}$ is informationally more compact than $\left\{ \left( 1 \right), \left( 2 \right) \right\}$ despite both leading to equivalent formalisms.
+The advantage of expressing reals in terms of integers is that integers can fundamentally be used for counting, which is implicitly applied in property $\left( 1 \right)$, additivity. Thus, this bridge from $\left( 1 \right)$ to $\left( 2 \right)$ allows us to logically proceed in the same direction.
 
 
 

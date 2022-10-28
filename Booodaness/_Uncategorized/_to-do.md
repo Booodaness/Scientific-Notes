@@ -18,6 +18,7 @@ kanban-plugin: basic
 
 **Complete**
 - [x] Discrete structures
+- [x] Homogeneity from additivity
 
 
 
