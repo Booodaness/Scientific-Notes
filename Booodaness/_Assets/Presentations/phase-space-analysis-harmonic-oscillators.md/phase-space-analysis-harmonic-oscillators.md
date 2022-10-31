@@ -234,7 +234,7 @@ note:
 
 --
 
-## Method of deceomposition
+## Method of decomposition
 
 --
 
