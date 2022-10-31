@@ -162,15 +162,13 @@ Suppose we know the equation of motion for any given system. How can we use it t
 
 --
 
-+ Measure the state of the system at some known time $\tau$. This comprises its instantaneous position $x \left( \tau \right)$ and velocity $v \left( \tau \right)$.
-+ Find the position at the instant 'immediately' after, $x \left( \tau + dt \right) = x \left( \tau \right) + v \left( \tau \right) dt$. We know $v \left( \tau \right)$ from the above.
-+ Find the velocity at the instant 'immediately' after, $v \left( \tau + dt \right) = v \left( \tau \right) + a \left( \tau \right) dt$. We know $a \left( \tau \right)$ from the system's equation of motion, $\displaystyle{a \left( \tau \right) = \frac{F \left( x \left( \tau \right), \tau \right)}{m}}$.
-+ Repeat the above until we reach the desired time $t$.
+![[predict-states-procedure.png]]
 
 --
 
 What's really going on in the above recipe is that we're simply integrating acceleration (known from the equation of motion) twice over time to get position, using a known position and velocity at some time:
-$$x \left( t \right) = x \left( \tau \right) + \underset{x \left( t \right) - x \left( \tau \right)}{\underbracket{v \left( \tau \right) \cdot \left( t - \tau \right) + \int_\tau^t \int_\tau^t a \left( t \right) dt \: dt}}$$
+
+![[position-integrate-acceleration-twice.png]]
 
 --
 
