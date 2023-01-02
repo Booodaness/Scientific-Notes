@@ -6,6 +6,7 @@ kanban-plugin: basic
 
 ## To do
 
+- [ ] Canvas
 - [ ] Statistics and abstract algebra
 - [ ] Lattice mechanics
 - [ ] Classical lattice field theory
