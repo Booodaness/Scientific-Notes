@@ -62,6 +62,7 @@ Journey
 Jupyter
 Latex Suite (mutually exclusive with Quick Latex for Obsidian)
 Media Extended
+Notion-Like Tables
 Number headings
 Obsidian Image Toolkit
 Obsidian Tabs
