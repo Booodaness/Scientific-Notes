@@ -30,6 +30,7 @@ Go to `Settings`>`Community plugins`>Disable `Safe mode`. Click `Browse` and ins
 ```
 *Admonition
 *Advanced Slides
+*Dataview
 *Desmos
 *Excalidraw
 *Kanban
@@ -61,6 +62,7 @@ Image caption
 Journey
 Jupyter
 Latex Suite (mutually exclusive with Quick Latex for Obsidian)
+Mathpad
 Media Extended
 Notion-Like Tables
 Number headings
