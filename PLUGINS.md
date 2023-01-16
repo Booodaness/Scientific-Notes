@@ -68,6 +68,7 @@ Notion-Like Tables
 Number headings
 Obsidian Image Toolkit
 Obsidian Tabs
+Omnisearch
 Pandoc Plugin
 Quick Latex for Obsidian (mutually exclusive with Latex Suite)
 Quick Switcher++ (mutually exclusive with Quick switcher)
@@ -76,6 +77,7 @@ Settings Search
 Table Extended
 Tag Page Preview
 Tag Wrangler
+Text Extractor
 Workspaces Plus
 ```
 
